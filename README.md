@@ -3,7 +3,7 @@
 
 # contributor-role-ontology
 
-This ontology is an OWL representation of the [http://dictionary.casrai.org/Contributor_Roles](CASRAI Contributor Roles Taxonomy (CRediT)).  The ontology currently contains the thirteen concepts defined in the taxonomy.
+This ontology is an OWL representation of the [CASRAI Contributor Roles Taxonomy (CRediT)](http://dictionary.casrai.org/Contributor_Roles).  The ontology currently contains the thirteen concepts defined in the taxonomy.
 
 
 
