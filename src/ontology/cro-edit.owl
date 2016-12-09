@@ -1,3 +1,5 @@
+Prefix(:=<http://purl.obolibrary.org/obo/cro.owl#>)
+Prefix(obo:=<http://purl.obolibrary.org/obo/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -6,8 +8,173 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/cro.owl>
+Import(<http://purl.obolibrary.org/obo/iao/2015-02-23/ontology-metadata.owl>)
 Annotation(rdfs:comment "Contributor Role Ontology")
 
-Declaration(Class(<http://purl.obolibrary.org/obo/CRO_00000000>))
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_00000000> "cro"@en)
+Declaration(Class(obo:CRO_00000000))
+Declaration(Class(obo:CRO_0000001))
+Declaration(Class(obo:CRO_0000002))
+Declaration(Class(obo:CRO_0000003))
+Declaration(Class(obo:CRO_0000004))
+Declaration(Class(obo:CRO_0000005))
+Declaration(Class(obo:CRO_0000006))
+Declaration(Class(obo:CRO_0000007))
+Declaration(Class(obo:CRO_0000008))
+Declaration(Class(obo:CRO_0000009))
+Declaration(Class(obo:CRO_0000010))
+Declaration(Class(obo:CRO_0000011))
+Declaration(Class(obo:CRO_0000012))
+Declaration(Class(obo:CRO_0000013))
+Declaration(Class(obo:CRO_0000014))
+
+
+############################
+#   Classes
+############################
+
+# Class: obo:CRO_00000000 (contributor role)
+
+AnnotationAssertion(obo:IAO_0000111 obo:CRO_00000000 "contributor role")
+AnnotationAssertion(obo:IAO_0000114 obo:CRO_00000000 "http://purl.obolibrary.org/obo/IAO_0000120")
+AnnotationAssertion(obo:IAO_0000115 obo:CRO_00000000 "A high-level classification of the diverse roles performed in the work leading to a published research output in the sciences. Its purpose to provide transparency in contributions to scholarly published work, to enable improved systems of attribution, credit, and accountability.")
+AnnotationAssertion(obo:IAO_0000117 obo:CRO_00000000 "PERSON: Marijane White")
+AnnotationAssertion(obo:IAO_0000119 obo:CRO_00000000 "http://dictionary.casrai.org/Contributor_Roles")
+AnnotationAssertion(rdfs:label obo:CRO_00000000 "contributor role"@en)
+
+# Class: obo:CRO_0000001 (conceptualization role)
+
+AnnotationAssertion(obo:IAO_0000111 obo:CRO_0000001 "conceptualization role")
+AnnotationAssertion(obo:IAO_0000114 obo:CRO_0000001 "http://purl.obolibrary.org/obo/IAO_0000120")
+AnnotationAssertion(obo:IAO_0000115 obo:CRO_0000001 "Ideas; formulation or evolution of overarching research goals and aims.")
+AnnotationAssertion(obo:IAO_0000117 obo:CRO_0000001 "PERSON: Marijane White")
+AnnotationAssertion(obo:IAO_0000119 obo:CRO_0000001 "http://dictionary.casrai.org/Contributor_Roles/Conceptualization")
+AnnotationAssertion(rdfs:label obo:CRO_0000001 "conceptualization role"@en)
+SubClassOf(obo:CRO_0000001 obo:CRO_00000000)
+
+# Class: obo:CRO_0000002 (data curation role)
+
+AnnotationAssertion(obo:IAO_0000111 obo:CRO_0000002 "data curation role")
+AnnotationAssertion(obo:IAO_0000114 obo:CRO_0000002 "http://purl.obolibrary.org/obo/IAO_0000120")
+AnnotationAssertion(obo:IAO_0000115 obo:CRO_0000002 "Management activities to annotate (produce metadata), scrub data and maintain research data (including software code, where it is necessary for interpreting the data itself) for initial use and later re-use.")
+AnnotationAssertion(obo:IAO_0000117 obo:CRO_0000002 "PERSON: Marijane White")
+AnnotationAssertion(obo:IAO_0000119 obo:CRO_0000002 "http://dictionary.casrai.org/Contributor_Roles/Data_curation")
+AnnotationAssertion(rdfs:label obo:CRO_0000002 "data curation role"@en)
+SubClassOf(obo:CRO_0000002 obo:CRO_00000000)
+
+# Class: obo:CRO_0000003 (formal analysis role)
+
+AnnotationAssertion(obo:IAO_0000111 obo:CRO_0000003 "formal analysis role")
+AnnotationAssertion(obo:IAO_0000114 obo:CRO_0000003 "http://purl.obolibrary.org/obo/IAO_0000120")
+AnnotationAssertion(obo:IAO_0000115 obo:CRO_0000003 "Application of statistical, mathematical, computational, or other formal techniques to analyse or synthesize study data.")
+AnnotationAssertion(obo:IAO_0000117 obo:CRO_0000003 "PERSON: Marijane White")
+AnnotationAssertion(obo:IAO_0000119 obo:CRO_0000003 "http://dictionary.casrai.org/Contributor_Roles/Formal_analysis")
+AnnotationAssertion(rdfs:label obo:CRO_0000003 "formal analysis role"@en)
+SubClassOf(obo:CRO_0000003 obo:CRO_00000000)
+
+# Class: obo:CRO_0000004 (funding acquisition role)
+
+AnnotationAssertion(obo:IAO_0000111 obo:CRO_0000004 "funding acquisition role")
+AnnotationAssertion(obo:IAO_0000114 obo:CRO_0000004 "http://purl.obolibrary.org/obo/IAO_0000120")
+AnnotationAssertion(obo:IAO_0000115 obo:CRO_0000004 "Acquisition of the financial support for the project leading to this publication.")
+AnnotationAssertion(obo:IAO_0000117 obo:CRO_0000004 "PERSON: Marijane White")
+AnnotationAssertion(obo:IAO_0000119 obo:CRO_0000004 "http://dictionary.casrai.org/Contributor_Roles/Funding_acquisition")
+AnnotationAssertion(rdfs:label obo:CRO_0000004 "funding acquisition role"@en)
+SubClassOf(obo:CRO_0000004 obo:CRO_00000000)
+
+# Class: obo:CRO_0000005 (investigation role)
+
+AnnotationAssertion(obo:IAO_0000111 obo:CRO_0000005 "investigation role")
+AnnotationAssertion(obo:IAO_0000114 obo:CRO_0000005 "http://purl.obolibrary.org/obo/IAO_0000120")
+AnnotationAssertion(obo:IAO_0000115 obo:CRO_0000005 "Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection.")
+AnnotationAssertion(obo:IAO_0000117 obo:CRO_0000005 "PERSON: Marijane White")
+AnnotationAssertion(obo:IAO_0000119 obo:CRO_0000005 "http://dictionary.casrai.org/Contributor_Roles/Investigation")
+AnnotationAssertion(rdfs:label obo:CRO_0000005 "investigation role"@en)
+SubClassOf(obo:CRO_0000005 obo:CRO_00000000)
+
+# Class: obo:CRO_0000006 (methodology role)
+
+AnnotationAssertion(obo:IAO_0000111 obo:CRO_0000006 "methodology role")
+AnnotationAssertion(obo:IAO_0000114 obo:CRO_0000006 "http://purl.obolibrary.org/obo/IAO_0000120")
+AnnotationAssertion(obo:IAO_0000115 obo:CRO_0000006 "Development or design of methodology; creation of models.")
+AnnotationAssertion(obo:IAO_0000117 obo:CRO_0000006 "PERSON: Marijane White")
+AnnotationAssertion(obo:IAO_0000119 obo:CRO_0000006 "http://dictionary.casrai.org/Contributor_Roles/Methodology")
+AnnotationAssertion(rdfs:label obo:CRO_0000006 "methodology role"@en)
+SubClassOf(obo:CRO_0000006 obo:CRO_00000000)
+
+# Class: obo:CRO_0000007 (project administration role)
+
+AnnotationAssertion(obo:IAO_0000115 obo:CRO_0000007 "Management and coordination responsibility for the research activity planning and execution.")
+AnnotationAssertion(obo:IAO_0000119 obo:CRO_0000007 "http://dictionary.casrai.org/Contributor_Roles/Project_administration")
+AnnotationAssertion(obo:IAO_0000119 obo:CRO_0000007 "project administration role")
+AnnotationAssertion(rdfs:label obo:CRO_0000007 "project administration role"@en)
+SubClassOf(obo:CRO_0000007 obo:CRO_00000000)
+
+# Class: obo:CRO_0000008 (resources role)
+
+AnnotationAssertion(obo:IAO_0000111 obo:CRO_0000008 "resources role")
+AnnotationAssertion(obo:IAO_0000114 obo:CRO_0000008 "http://dictionary.casrai.org/Contributor_Roles/Resources")
+AnnotationAssertion(obo:IAO_0000115 obo:CRO_0000008 "Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools.")
+AnnotationAssertion(obo:IAO_0000117 obo:CRO_0000008 "PERSON: Marijane White")
+AnnotationAssertion(rdfs:label obo:CRO_0000008 "resources role"@en)
+SubClassOf(obo:CRO_0000008 obo:CRO_00000000)
+
+# Class: obo:CRO_0000009 (software role)
+
+AnnotationAssertion(obo:IAO_0000111 obo:CRO_0000009 "software role")
+AnnotationAssertion(obo:IAO_0000115 obo:CRO_0000009 "Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components.")
+AnnotationAssertion(obo:IAO_0000117 obo:CRO_0000009 "PERSON:Marijane White")
+AnnotationAssertion(obo:IAO_0000119 obo:CRO_0000009 "http://dictionary.casrai.org/Contributor_Roles/Software")
+AnnotationAssertion(rdfs:label obo:CRO_0000009 "software role"@en)
+SubClassOf(obo:CRO_0000009 obo:CRO_00000000)
+
+# Class: obo:CRO_0000010 (supervision role)
+
+AnnotationAssertion(obo:IAO_0000111 obo:CRO_0000010 "supervision role")
+AnnotationAssertion(obo:IAO_0000114 obo:CRO_0000010 "http://purl.obolibrary.org/obo/IAO_0000120")
+AnnotationAssertion(obo:IAO_0000115 obo:CRO_0000010 "Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team.")
+AnnotationAssertion(obo:IAO_0000119 obo:CRO_0000010 "http://dictionary.casrai.org/Contributor_Roles/Supervision")
+AnnotationAssertion(rdfs:label obo:CRO_0000010 "supervision role"@en)
+SubClassOf(obo:CRO_0000010 obo:CRO_00000000)
+
+# Class: obo:CRO_0000011 (validation role)
+
+AnnotationAssertion(obo:IAO_0000111 obo:CRO_0000011 "validation role")
+AnnotationAssertion(obo:IAO_0000114 obo:CRO_0000011 "http://purl.obolibrary.org/obo/IAO_0000120")
+AnnotationAssertion(obo:IAO_0000115 obo:CRO_0000011 "Verification, whether as a part of the activity or separate, of the overall replication/reproducibility of results/experiments and other research outputs.")
+AnnotationAssertion(obo:IAO_0000117 obo:CRO_0000011 "PERSON: Marijane White")
+AnnotationAssertion(obo:IAO_0000119 obo:CRO_0000011 "http://dictionary.casrai.org/Contributor_Roles/Validation")
+AnnotationAssertion(rdfs:label obo:CRO_0000011 "validation role"@en)
+SubClassOf(obo:CRO_0000011 obo:CRO_00000000)
+
+# Class: obo:CRO_0000012 (visualization role)
+
+AnnotationAssertion(obo:IAO_0000111 obo:CRO_0000012 "visualization role")
+AnnotationAssertion(obo:IAO_0000114 obo:CRO_0000012 "http://purl.obolibrary.org/obo/IAO_0000120")
+AnnotationAssertion(obo:IAO_0000115 obo:CRO_0000012 "Preparation, creation and/or presentation of the published work, specifically visualization/data presentation.")
+AnnotationAssertion(obo:IAO_0000117 obo:CRO_0000012 "PERSON: Marijane White")
+AnnotationAssertion(obo:IAO_0000119 obo:CRO_0000012 "http://dictionary.casrai.org/Contributor_Roles/Visualization")
+AnnotationAssertion(rdfs:label obo:CRO_0000012 "visualization role"@en)
+SubClassOf(obo:CRO_0000012 obo:CRO_00000000)
+
+# Class: obo:CRO_0000013 (writing original draft role)
+
+AnnotationAssertion(obo:IAO_0000111 obo:CRO_0000013 "writing original draft role")
+AnnotationAssertion(obo:IAO_0000114 obo:CRO_0000013 "http://purl.obolibrary.org/obo/IAO_0000123")
+AnnotationAssertion(obo:IAO_0000115 obo:CRO_0000013 "Preparation, creation and/or presentation of the published work, specifically writing the initial draft (including substantive translation).")
+AnnotationAssertion(obo:IAO_0000117 obo:CRO_0000013 "PERSON: Marijane White")
+AnnotationAssertion(obo:IAO_0000119 obo:CRO_0000013 "http://dictionary.casrai.org/Contributor_Roles/Writing_%E2%80%93_original_draft")
+AnnotationAssertion(rdfs:label obo:CRO_0000013 "writing original draft role"@en)
+SubClassOf(obo:CRO_0000013 obo:CRO_00000000)
+
+# Class: obo:CRO_0000014 (writing review and editing role)
+
+AnnotationAssertion(obo:IAO_0000111 obo:CRO_0000014 "writing review and editing role")
+AnnotationAssertion(obo:IAO_0000114 obo:CRO_0000014 "http://purl.obolibrary.org/obo/IAO_0000123")
+AnnotationAssertion(obo:IAO_0000115 obo:CRO_0000014 "Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision – including pre- or post-publication stages.")
+AnnotationAssertion(obo:IAO_0000117 obo:CRO_0000014 "PERSON: Marijane White")
+AnnotationAssertion(obo:IAO_0000119 obo:CRO_0000014 "http://dictionary.casrai.org/Contributor_Roles/Writing_%E2%80%93_review_%26_editing")
+AnnotationAssertion(rdfs:label obo:CRO_0000014 "writing review and editing role"@en)
+SubClassOf(obo:CRO_0000014 obo:CRO_00000000)
+
+
 )
