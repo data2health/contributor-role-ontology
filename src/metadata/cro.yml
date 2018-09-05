@@ -4,8 +4,8 @@ idspace: CRO
 base_url: /obo/cro
 
 products:
-- cro.owl: https://raw.githubusercontent.com/openrif/master/cro.owl
-- cro.obo: https://raw.githubusercontent.com/openrif/master/cro.obo
+- cro.owl: https://raw.githubusercontent.com/data2health/contributor-role-ontology/master/cro.owl
+- cro.obo: https://raw.githubusercontent.com/data2health/contributor-role-ontology/master/cro.obo
 
 term_browser: ontobee
 example_terms:
@@ -14,14 +14,14 @@ example_terms:
 entries:
 
 - prefix: /releases/
-  replacement: https://raw.githubusercontent.com/openrif/cro/v
+  replacement: https://raw.githubusercontent.com/data2health/contributor-role-ontology/v
 
 - prefix: /tracker/
-  replacement: https://github.com/openrif/cro/issues
+  replacement: https://github.com/data2health/contributor-role-ontology/issues
 
 - prefix: /about/
   replacement: http://www.ontobee.org/ontology/CRO?iri=http://purl.obolibrary.org/obo/
 
 ## generic fall-through, serve direct from github by default
 - prefix: /
-  replacement: https://raw.githubusercontent.com/openrif/cro/master/
+  replacement: https://raw.githubusercontent.com/data2health/contributor-role-ontology/master/
