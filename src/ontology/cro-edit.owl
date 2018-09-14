@@ -32,6 +32,53 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000017>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000018>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000019>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000025>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000035>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000037>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000038>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000039>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000041>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000042>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000043>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000044>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000045>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000046>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000048>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000049>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000050>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000051>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000052>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000053>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000054>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000055>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000056>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000057>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000058>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000059>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000060>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000061>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000062>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000063>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000064>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000065>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000066>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000067>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/creator>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/date>))
 
@@ -172,6 +219,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000016> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000017> (funding acquisition role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000017> "http://dictionary.casrai.org/Contributor_Roles/Funding_acquisition")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000017> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000017> "2018-09-14T19:55:54Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000017> "funding acquisition role")
@@ -197,6 +245,371 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000020> "2018-09-14T19:56:34Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000020> "intellectual property advisor role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000020> <http://purl.obolibrary.org/obo/CRO_00000000>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000021> (methodology role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000021> "Development or design of methodology; creation of models.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000021> "http://dictionary.casrai.org/Contributor_Roles/Methodology")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000021> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000021> "2018-09-14T20:04:19Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000021> "methodology role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000021> <http://purl.obolibrary.org/obo/CRO_00000000>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000022> (policy development role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000022> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000022> "2018-09-14T20:04:29Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000022> "policy development role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000022> <http://purl.obolibrary.org/obo/CRO_00000000>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000023> (preservation role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000023> "Coordination of the deposit of the manuscript, data, and any secondary materials to appropriate repositories; ensure that outputs comply with OA mandates.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000023> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000023> "2018-09-14T20:04:39Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000023> "preservation role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000023> <http://purl.obolibrary.org/obo/CRO_00000000>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000024> (project management role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000024> "Management and coordination responsibility for the research activity planning and execution.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000024> "Project Administrator Role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000024> "http://dictionary.casrai.org/Contributor_Roles/Project_administration")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000024> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000024> "2018-09-14T20:04:49Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000024> "project management role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000024> <http://purl.obolibrary.org/obo/CRO_00000000>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000025> (regulatory administration role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000025> "Manage regulatory and compliance issues for the research project.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000025> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000025> "2018-09-14T20:05:56Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000025> "regulatory administration role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000025> <http://purl.obolibrary.org/obo/CRO_00000000>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000026> (research instrumentation role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000026> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000026> "2018-09-14T20:06:00Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000026> "research instrumentation role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000026> <http://purl.obolibrary.org/obo/CRO_00000000>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000027> (resource provider role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000027> "Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000027> "http://dictionary.casrai.org/Contributor_Roles/Resources")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000027> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000027> "2018-09-14T20:06:06Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000027> "resource provider role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000027> <http://purl.obolibrary.org/obo/CRO_00000000>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000028> (software developer role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000028> "Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000028> "http://dictionary.casrai.org/Contributor_Roles/Software")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000028> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000028> "2018-09-14T20:06:12Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000028> "software developer role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000028> <http://purl.obolibrary.org/obo/CRO_00000000>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000029> (study investigation role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000029> "Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000029> "http://dictionary.casrai.org/Contributor_Roles/Investigation")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000029> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000029> "2018-09-14T20:06:17Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000029> "study investigation role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000029> <http://purl.obolibrary.org/obo/CRO_00000000>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000030> (supervision role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000030> "Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000030> "http://dictionary.casrai.org/Contributor_Roles/Supervision")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000030> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000030> "2018-09-14T20:06:22Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000030> "supervision role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000030> <http://purl.obolibrary.org/obo/CRO_00000000>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000031> (team management role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000031> "Coordination of diverse team members, often across different disciplines and locations.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000031> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000031> "2018-09-14T20:06:26Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000031> "team management role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000031> <http://purl.obolibrary.org/obo/CRO_00000000>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000032> (validation role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000032> "Verification, whether as a part of the activity or separate, of the overall replication/reproducibility of results/experiments and other research outputs.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000032> "http://dictionary.casrai.org/Contributor_Roles/Validation")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000032> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000032> "2018-09-14T20:06:30Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000032> "validation role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000032> <http://purl.obolibrary.org/obo/CRO_00000000>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000033> (data aggregation role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000033> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000033> "2018-09-14T20:11:23Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000033> "data aggregation role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000033> <http://purl.obolibrary.org/obo/CRO_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000034> (data analysis role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000034> "Preparation, creation and/or presentation of the published work, specifically visualization/data presentation.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000034> "http://dictionary.casrai.org/Contributor_Roles/Formal_analysis")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000034> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000034> "2018-09-14T20:11:31Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000034> "data analysis role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000034> <http://purl.obolibrary.org/obo/CRO_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000035> (statistical data analysis role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000035> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000035> "2018-09-14T20:11:35Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000035> "statistical data analysis role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000035> <http://purl.obolibrary.org/obo/CRO_0000034>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000036> (data collection role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000036> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000036> "2018-09-14T20:11:40Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000036> "data collection role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000036> <http://purl.obolibrary.org/obo/CRO_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000037> (data curation role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000037> "Management activities to annotate (produce metadata), scrub data and maintain research data (including software code, where it is necessary for interpreting the data itself) for initial use and later re-use.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000037> "http://dictionary.casrai.org/Contributor_Roles/Data_curation")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000037> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000037> "2018-09-14T20:11:44Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000037> "data curation role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000037> <http://purl.obolibrary.org/obo/CRO_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000038> (metadata application role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000038> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000038> "2018-09-14T20:11:50Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000038> "metadata application role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000038> <http://purl.obolibrary.org/obo/CRO_0000037>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000039> (data entry role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000039> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000039> "2018-09-14T20:11:54Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000039> "data entry role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000039> <http://purl.obolibrary.org/obo/CRO_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000040> (data integration role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000040> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000040> "2018-09-14T20:12:00Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000040> "data integration role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000040> <http://purl.obolibrary.org/obo/CRO_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000041> (data modeling role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000041> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000041> "2018-09-14T20:12:07Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000041> "data modeling role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000041> <http://purl.obolibrary.org/obo/CRO_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000042> (data quality assurance role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000042> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000042> "2018-09-14T20:12:14Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000042> "data quality assurance role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000042> <http://purl.obolibrary.org/obo/CRO_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000043> (data standards developer role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000043> "Development of ontology, terminology, code lists, etc.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000043> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000043> "2018-09-14T20:12:25Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000043> "data standards developer role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000043> <http://purl.obolibrary.org/obo/CRO_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000044> (data visualization role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000044> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000044> "2018-09-14T20:12:30Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000044> "data visualization role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000044> <http://purl.obolibrary.org/obo/CRO_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000045> (educational material development role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000045> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000045> "2018-09-14T20:15:18Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000045> "educational material development role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000045> <http://purl.obolibrary.org/obo/CRO_0000016>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000046> (educational program development role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000046> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000046> "2018-09-14T20:15:23Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000046> "educational program development role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000046> <http://purl.obolibrary.org/obo/CRO_0000016>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000047> (teaching role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/CRO_0000047> "This may be equivalent to vivo:Teacher Role.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000047> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000047> "2018-09-14T20:15:29Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000047> "teaching role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000047> <http://purl.obolibrary.org/obo/CRO_0000016>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000048> (hardware systems role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000048> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000048> "2018-09-14T20:17:16Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000048> "hardware systems role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000048> <http://purl.obolibrary.org/obo/CRO_0000018>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000049> (software systems role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000049> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000049> "2018-09-14T20:17:20Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000049> "software systems role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000049> <http://purl.obolibrary.org/obo/CRO_0000018>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000050> (database administrator role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000050> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000050> "2018-09-14T20:17:25Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000050> "database administrator role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000050> <http://purl.obolibrary.org/obo/CRO_0000049>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000051> (system administrator role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000051> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000051> "2018-09-14T20:17:32Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000051> "system administrator role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000051> <http://purl.obolibrary.org/obo/CRO_0000049>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000052> (guideline development role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000052> "Best Practices Role")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000052> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000052> "2018-09-14T20:19:52Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000052> "guideline development role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000052> <http://purl.obolibrary.org/obo/CRO_0000021>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000053> (protocol creation role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000053> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000053> "2018-09-14T20:19:56Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000053> "protocol creation role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000053> <http://purl.obolibrary.org/obo/CRO_0000021>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000054> (standard operating procedure development role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000054> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000054> "2018-09-14T20:20:02Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000054> "standard operating procedure development role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000054> <http://purl.obolibrary.org/obo/CRO_0000021>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000055> (study design role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000055> "Detailed design of study components including data collection, analysis, and dissemination.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000055> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000055> "2018-09-14T20:20:06Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000055> "study design role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000055> <http://purl.obolibrary.org/obo/CRO_0000021>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000056> (technique development role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000056> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000056> "2018-09-14T20:20:11Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000056> "technique development role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000056> <http://purl.obolibrary.org/obo/CRO_0000021>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000057> (device development role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000057> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000057> "2018-09-14T20:23:39Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000057> "device development role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000057> <http://purl.obolibrary.org/obo/CRO_0000025>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000058> (equipment technician role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000058> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000058> "2018-09-14T20:23:44Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000058> "equipment technician role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000058> <http://purl.obolibrary.org/obo/CRO_0000025>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000059> (survey and questionnaire role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000059> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000059> "2018-09-14T20:23:49Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000059> "survey and questionnaire role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000059> <http://purl.obolibrary.org/obo/CRO_0000025>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000060> (code review role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000060> "Examination of software code to identify build-breaking changes prior to acceptance into a codebase.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000060> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000060> "2018-09-14T20:25:30Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000060> "code review role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000060> <http://purl.obolibrary.org/obo/CRO_0000028>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000061> (computer programming role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000061> "Requirements analysis, algorithm development, and implementation of software in a computer programming language.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000061> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000061> "2018-09-14T20:25:35Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000061> "computer programming role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000061> <http://purl.obolibrary.org/obo/CRO_0000028>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000062> (software architecture role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000062> "Creation of high-level structures of a software system.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000062> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000062> "2018-09-14T20:25:40Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000062> "software architecture role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000062> <http://purl.obolibrary.org/obo/CRO_0000028>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000063> (software design role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000063> "Creation of low-level software component and algorithm design.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000063> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000063> "2018-09-14T20:25:45Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000063> "software design role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000063> <http://purl.obolibrary.org/obo/CRO_0000028>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000064> (software engineering role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000064> "Systematic application of scientific and technological knowledge, methods, and experience to the design, implementation, testing, and documentation of software.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000064> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000064> "2018-09-14T20:25:49Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000064> "software engineering role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000064> <http://purl.obolibrary.org/obo/CRO_0000028>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000065> (software project management role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000065> "Planning, management, and monitoring of software projects.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000065> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000065> "2018-09-14T20:25:55Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000065> "software project management role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000065> <http://purl.obolibrary.org/obo/CRO_0000028>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000066> (software testing role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000066> "Verification that software meets requirements; validation that software meets users' needs, identification of software bugs, assessment of software performance and usability.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000066> "Software Quality Assurance Role")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000066> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000066> "2018-09-14T20:26:00Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000066> "software testing role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000066> <http://purl.obolibrary.org/obo/CRO_0000028>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000067> (technical writing role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000067> "Creation of software documentation.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000067> "Software Documentation Role")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000067> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000067> "2018-09-14T20:26:05Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000067> "technical writing role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000067> <http://purl.obolibrary.org/obo/CRO_0000028>)
 
 
 )
