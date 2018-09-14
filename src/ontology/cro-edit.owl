@@ -119,7 +119,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000003> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000004> (translator role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000004> "Translating words or text from one language to another.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000004> "Translating words or text from one language to another.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000004> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000004> "2018-09-14T19:49:51Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000004> "translator role")
@@ -140,7 +140,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000006> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000006> "2018-09-14T19:51:01Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000006> "background and literature search role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000006> <http://purl.obolibrary.org/obo/CRO_0000001>)
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000006> <http://purl.obolibrary.org/obo/CRO_00000000>)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000007> (communication role)
 
