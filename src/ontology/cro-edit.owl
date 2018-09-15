@@ -77,6 +77,11 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000062>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000063>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000064>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000065>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000067>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000068>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000069>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000070>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000071>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/creator>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/date>))
 
@@ -531,21 +536,21 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000056> <http://purl.obolibrary.
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000057> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000057> "2018-09-14T20:23:39Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000057> "device development role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000057> <http://purl.obolibrary.org/obo/CRO_0000025>)
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000057> <http://purl.obolibrary.org/obo/CRO_0000026>)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000058> (equipment technician role)
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000058> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000058> "2018-09-14T20:23:44Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000058> "equipment technician role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000058> <http://purl.obolibrary.org/obo/CRO_0000025>)
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000058> <http://purl.obolibrary.org/obo/CRO_0000026>)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000059> (survey and questionnaire role)
 
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000059> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000059> "2018-09-14T20:23:49Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000059> "survey and questionnaire role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000059> <http://purl.obolibrary.org/obo/CRO_0000025>)
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000059> <http://purl.obolibrary.org/obo/CRO_0000026>)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000060> (code review role)
 
@@ -594,6 +599,40 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000065> "2018-09-14T20:25:55Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000065> "software project management role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000065> <http://purl.obolibrary.org/obo/CRO_0000028>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000067> (archivist role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000067> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000067> "2018-09-15T16:25:54Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000067> "archivist role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000067> <http://purl.obolibrary.org/obo/CRO_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000068> (conservator role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000068> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000068> "2018-09-15T16:26:00Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000068> "conservator role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000068> <http://purl.obolibrary.org/obo/CRO_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000069> (digital preservation role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000069> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000069> "2018-09-15T16:26:05Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000069> "digital preservation role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000069> <http://purl.obolibrary.org/obo/CRO_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000070> (relationship)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000070> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000070> "2018-09-15T16:29:29Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000070> "relationship")
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000071> (contributorship)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000071> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000071> "2018-09-15T16:29:43Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000071> "contributorship")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000071> <http://purl.obolibrary.org/obo/CRO_0000070>)
 
 
 )
