@@ -77,7 +77,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000062>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000063>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000064>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000065>))
-Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000066>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/creator>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/date>))
 
@@ -232,12 +231,14 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000018> "information technology systems role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000018> <http://purl.obolibrary.org/obo/CRO_00000000>)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000019> (funding acquisition role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000019> (software testing role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000019> "Verification that software meets requirements; validation that software meets users' needs, identification of software bugs, assessment of software performance and usability.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000019> "Software Quality Assurance Role")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000019> <http://orcid.org/0000-0001-5208-3432>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000019> "2018-09-14T19:56:16Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000019> "funding acquisition role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000019> <http://purl.obolibrary.org/obo/CRO_00000000>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000019> "2018-09-14T20:26:00Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000019> "software testing role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000019> <http://purl.obolibrary.org/obo/CRO_0000028>)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000020> (intellectual property advisor role)
 
@@ -593,15 +594,6 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000065> "2018-09-14T20:25:55Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000065> "software project management role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000065> <http://purl.obolibrary.org/obo/CRO_0000028>)
-
-# Class: <http://purl.obolibrary.org/obo/CRO_0000066> (software testing role)
-
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000066> "Verification that software meets requirements; validation that software meets users' needs, identification of software bugs, assessment of software performance and usability.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000066> "Software Quality Assurance Role")
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000066> <http://orcid.org/0000-0001-5208-3432>)
-AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000066> "2018-09-14T20:26:00Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000066> "software testing role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000066> <http://purl.obolibrary.org/obo/CRO_0000028>)
 
 
 )
