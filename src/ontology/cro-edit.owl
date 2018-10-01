@@ -82,6 +82,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000068>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000069>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000070>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000071>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000072>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000073>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000074>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/creator>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/date>))
 
@@ -373,6 +376,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000034> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000035> (statistical data analysis role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000035> "statistical analysis role")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000035> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000035> "2018-09-14T20:11:35Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000035> "statistical data analysis role")
@@ -634,6 +638,31 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000071> "2018-09-15T16:29:43Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000071> "contributorship")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000071> <http://purl.obolibrary.org/obo/CRO_0000070>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000072> (data transformation role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000072> "Aggregation, integration, manipulation of data.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000072> "data manipulation role")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000072> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000072> "2018-10-01T20:32:37Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000072> "data transformation role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000072> <http://purl.obolibrary.org/obo/CRO_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000073> (standards development role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000073> "standard development role")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000073> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000073> "2018-10-01T20:33:58Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000073> "standards development role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000073> <http://purl.obolibrary.org/obo/CRO_0000021>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000074> (data validation role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000074> "Verification, whether as a part of the activity or separate, of the overall replication/reproducibility of results/experiments and other research outputs.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000074> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000074> "2018-10-01T20:35:43Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000074> "data validation role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000074> <http://purl.obolibrary.org/obo/CRO_0000015>)
 
 
 )
