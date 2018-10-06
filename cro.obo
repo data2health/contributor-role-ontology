@@ -1,0 +1,52 @@
+format-version: 1.2
+data-version: releases/2018-10-06
+remark: Contributor Role Ontology
+import: http://purl.obolibrary.org/obo/cro/imports/bfo_import.owl
+import: http://purl.obolibrary.org/obo/cro/imports/iao_import.owl
+ontology: cro
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CRO_00000000>))\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000001> (entity)\n\nSubClassOf(<http://purl.obolibrary.org/obo/BFO_0000001> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/CRO_00000000> (cro)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CRO_00000000> owl:Thing)\n\n\n)
+
+[Term]
+id: BFO:0000002
+is_a: BFO:0000001
+
+[Term]
+id: BFO:0000020
+is_a: BFO:0000002
+
+[Term]
+id: BFO:0000031
+is_a: BFO:0000002
+
+[Term]
+id: CRO:00000000
+name: cro
+
+[Term]
+id: IAO:0000027
+is_a: IAO:0000030
+
+[Term]
+id: IAO:0000030
+is_a: BFO:0000031
+
+[Term]
+id: IAO:0000078
+is_a: IAO:0000102
+
+[Term]
+id: IAO:0000102
+is_a: IAO:0000027
+
+[Term]
+id: IAO:0000225
+is_a: IAO:0000102
+
+[Term]
+id: IAO:0000409
+is_a: IAO:0000102
+
+[Term]
+id: Subset
+is_a: IAO:0000102
+
