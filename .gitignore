@@ -12,3 +12,5 @@ src/patterns/imports/seed_sorted.txt
 src/ontology/ed_definitions_merged.owl
 src/ontology/patterns 
 
+.DS_Store
+
