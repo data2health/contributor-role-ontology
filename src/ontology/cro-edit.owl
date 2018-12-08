@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/cro.owl>
-Import(<http://purl.obolibrary.org/obo/cro/imports/iao_import.owl>)
 Import(<http://purl.obolibrary.org/obo/cro/imports/bfo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/cro/imports/iao_import.owl>)
 Annotation(rdfs:comment "Contributor Role Ontology")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_00000000>))
