@@ -168,15 +168,15 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CREDIT_00000006> "methodology role")
 SubClassOf(<http://purl.obolibrary.org/obo/CREDIT_00000006> <http://purl.obolibrary.org/obo/CRO_00000000>)
 
-# Class: <http://purl.obolibrary.org/obo/CREDIT_00000007> (project management role)
+# Class: <http://purl.obolibrary.org/obo/CREDIT_00000007> (project administration role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CREDIT_00000007> "Management and coordination responsibility for the research activity planning and execution.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CREDIT_00000007> "project administration role")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CREDIT_00000007> "project administrator role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CREDIT_00000007> "project management role")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CREDIT_00000007> "http://dictionary.casrai.org/Contributor_Roles/Project_administration")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CREDIT_00000007> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CREDIT_00000007> "2018-09-14T20:04:49Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CREDIT_00000007> "project management role")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CREDIT_00000007> "project administration role")
 SubClassOf(<http://purl.obolibrary.org/obo/CREDIT_00000007> <http://purl.obolibrary.org/obo/CRO_00000000>)
 
 # Class: <http://purl.obolibrary.org/obo/CREDIT_00000008> (resource provider role)
