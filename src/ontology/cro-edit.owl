@@ -179,14 +179,14 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CREDIT_00000007> "project administration role")
 SubClassOf(<http://purl.obolibrary.org/obo/CREDIT_00000007> <http://purl.obolibrary.org/obo/CRO_00000000>)
 
-# Class: <http://purl.obolibrary.org/obo/CREDIT_00000008> (resource provider role)
+# Class: <http://purl.obolibrary.org/obo/CREDIT_00000008> (resources role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CREDIT_00000008> "Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CREDIT_00000008> "resources role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CREDIT_00000008> "resource provider role")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CREDIT_00000008> "http://dictionary.casrai.org/Contributor_Roles/Resources")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CREDIT_00000008> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CREDIT_00000008> "2018-09-14T20:06:06Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CREDIT_00000008> "resource provider role")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CREDIT_00000008> "resources role")
 SubClassOf(<http://purl.obolibrary.org/obo/CREDIT_00000008> <http://purl.obolibrary.org/obo/CRO_00000000>)
 
 # Class: <http://purl.obolibrary.org/obo/CREDIT_00000009> (software developer role)
