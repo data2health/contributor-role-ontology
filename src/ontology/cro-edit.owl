@@ -189,14 +189,14 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CREDIT_00000008> "resources role")
 SubClassOf(<http://purl.obolibrary.org/obo/CREDIT_00000008> <http://purl.obolibrary.org/obo/CRO_00000000>)
 
-# Class: <http://purl.obolibrary.org/obo/CREDIT_00000009> (software developer role)
+# Class: <http://purl.obolibrary.org/obo/CREDIT_00000009> (software role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CREDIT_00000009> "Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CREDIT_00000009> "software role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CREDIT_00000009> "software developer role")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CREDIT_00000009> "http://dictionary.casrai.org/Contributor_Roles/Software")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CREDIT_00000009> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CREDIT_00000009> "2018-09-14T20:06:12Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CREDIT_00000009> "software developer role")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CREDIT_00000009> "software role")
 SubClassOf(<http://purl.obolibrary.org/obo/CREDIT_00000009> <http://purl.obolibrary.org/obo/CRO_00000000>)
 
 # Class: <http://purl.obolibrary.org/obo/CREDIT_00000010> (supervision role)
