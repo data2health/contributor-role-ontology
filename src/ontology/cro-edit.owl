@@ -235,15 +235,15 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CREDIT_00000013> "writing original draft role")
 SubClassOf(<http://purl.obolibrary.org/obo/CREDIT_00000013> <http://purl.obolibrary.org/obo/CRO_0000001>)
 
-# Class: <http://purl.obolibrary.org/obo/CREDIT_00000014> (editing and proofreading role)
+# Class: <http://purl.obolibrary.org/obo/CREDIT_00000014> (writing review and editing role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CREDIT_00000014> "Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision – including pre- or post-publication stages.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CREDIT_00000014> "editing and proofreading role")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CREDIT_00000014> "review and editing")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CREDIT_00000014> "writing review and editing role")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CREDIT_00000014> "http://dictionary.casrai.org/Contributor_Roles/Writing_%E2%80%93_review_%26_editing")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CREDIT_00000014> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CREDIT_00000014> "2018-09-14T19:48:16Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CREDIT_00000014> "editing and proofreading role")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CREDIT_00000014> "writing review and editing role")
 SubClassOf(<http://purl.obolibrary.org/obo/CREDIT_00000014> <http://purl.obolibrary.org/obo/CRO_0000001>)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_00000000> (contributor role)
