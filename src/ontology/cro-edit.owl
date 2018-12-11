@@ -147,15 +147,15 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CREDIT_00000004> "funding acquisition role")
 SubClassOf(<http://purl.obolibrary.org/obo/CREDIT_00000004> <http://purl.obolibrary.org/obo/CRO_00000000>)
 
-# Class: <http://purl.obolibrary.org/obo/CREDIT_00000005> (study investigation role)
+# Class: <http://purl.obolibrary.org/obo/CREDIT_00000005> (investigation role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CREDIT_00000005> "Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CREDIT_00000005> "experimentation role")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CREDIT_00000005> "investigation role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CREDIT_00000005> "study investigation role")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CREDIT_00000005> "http://dictionary.casrai.org/Contributor_Roles/Investigation")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CREDIT_00000005> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CREDIT_00000005> "2018-09-14T20:06:17Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CREDIT_00000005> "study investigation role")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CREDIT_00000005> "investigation role")
 SubClassOf(<http://purl.obolibrary.org/obo/CREDIT_00000005> <http://purl.obolibrary.org/obo/CRO_00000000>)
 
 # Class: <http://purl.obolibrary.org/obo/CREDIT_00000006> (methodology role)
