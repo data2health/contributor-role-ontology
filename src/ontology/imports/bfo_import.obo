@@ -15,3 +15,56 @@ property_value: IAO:0000116 "Entity doesn't have a closure axiom because the sub
 property_value: IAO:0000600 "An entity is anything that exists or has existed or will exist. (axiom label in BFO2 Reference: [001-001])" xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/001-001"}
 property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
 
+[Term]
+id: BFO:0000002
+name: continuant
+is_a: BFO:0000001 ! entity
+property_value: BFO:0000179 "continuant" xsd:string
+property_value: BFO:0000180 "Continuant" xsd:string
+property_value: IAO:0000116 "BFO 2 Reference: Continuant entities are entities which can be sliced to yield parts only along the spatial dimension, yielding for example the parts of your table which we call its legs, its top, its nails. ‘My desk stretches from the window to the door. It has spatial parts, and can be sliced (in space) in two. With respect to time, however, a thing is a continuant.’ [60, p. 240" xsd:string
+property_value: IAO:0000116 "Continuant doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. For example, in an expansion involving bringing in some of Ceuster's other portions of reality, questions are raised as to whether universals are continuants" xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/0000007"}
+property_value: IAO:0000600 "A continuant is an entity that persists, endures, or continues to exist through time while maintaining its identity. (axiom label in BFO2 Reference: [008-002])" xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/008-002"}
+property_value: IAO:0000601 "if b is a continuant and if, for some t, c has_continuant_part b at t, then c is a continuant. (axiom label in BFO2 Reference: [126-001])" xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/126-001"}
+property_value: IAO:0000601 "if b is a continuant and if, for some t, cis continuant_part of b at t, then c is a continuant. (axiom label in BFO2 Reference: [009-002])" xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/009-002"}
+property_value: IAO:0000601 "if b is a material entity, then there is some temporal interval (referred to below as a one-dimensional temporal region) during which b exists. (axiom label in BFO2 Reference: [011-002])" xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/011-002"}
+property_value: IAO:0000602 "(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] " xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/009-002"}
+property_value: IAO:0000602 "(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] " xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/126-001"}
+property_value: IAO:0000602 "(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] " xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/008-002"}
+property_value: IAO:0000602 "(forall (x) (if (Material Entity x) (exists (t) (and (TemporalRegion t) (existsAt x t))))) // axiom label in BFO2 CLIF: [011-002] " xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/011-002"}
+property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
+
+[Term]
+id: BFO:0000020
+name: specifically dependent continuant
+def: "b is a specifically dependent continuant = Def. b is a continuant & there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])" [] {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/050-003"}
+is_a: BFO:0000002 ! continuant
+property_value: BFO:0000179 "sdc" xsd:string
+property_value: BFO:0000180 "SpecificallyDependentContinuant" xsd:string
+property_value: IAO:0000112 "of one-sided specifically dependent continuants: the mass of this tomato" xsd:string
+property_value: IAO:0000112 "of relational dependent continuants (multiple bearers): John’s love for Mary, the ownership relation between John and this statue, the relation of authority between John and his subordinates." xsd:string
+property_value: IAO:0000112 "Reciprocal specifically dependent continuants: the function of this key to open this lock and the mutually dependent disposition of this lock: to be opened by this key" xsd:string
+property_value: IAO:0000112 "the disposition of this fish to decay" xsd:string
+property_value: IAO:0000112 "the function of this heart: to pump blood" xsd:string
+property_value: IAO:0000112 "the mutual dependence of proton donors and acceptors in chemical reactions [79" xsd:string
+property_value: IAO:0000112 "the mutual dependence of the role predator and the role prey as played by two organisms in a given interaction" xsd:string
+property_value: IAO:0000112 "the pink color of a medium rare piece of grilled filet mignon at its center" xsd:string
+property_value: IAO:0000112 "the role of being a doctor" xsd:string
+property_value: IAO:0000112 "the shape of this hole." xsd:string
+property_value: IAO:0000112 "the smell of this portion of mozzarella" xsd:string
+property_value: IAO:0000116 "Specifically dependent continuant doesn't have a closure axiom because the subclasses don't necessarily exhaust all possibilites. We're not sure what else will develop here, but for example there are questions such as what are promises, obligation, etc." xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/0000005", comment="per discussion with Barry Smith"}
+property_value: IAO:0000602 "(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] " xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/050-003"}
+property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
+
+[Term]
+id: BFO:0000031
+name: generically dependent continuant
+def: "b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])" [] {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/074-001"}
+is_a: BFO:0000002 ! continuant
+property_value: BFO:0000179 "gdc" xsd:string
+property_value: BFO:0000180 "GenericallyDependentContinuant" xsd:string
+property_value: IAO:0000112 "The entries in your database are patterns instantiated as quality instances in your hard drive. The database itself is an aggregate of such patterns. When you create the database you create a particular instance of the generically dependent continuant type database. Each entry in the database is an instance of the generically dependent continuant type IAO: information content entity." xsd:string
+property_value: IAO:0000112 "the pdf file on your laptop, the pdf file that is a copy thereof on my laptop" xsd:string
+property_value: IAO:0000112 "the sequence of this protein molecule; the sequence that is a copy thereof in that protein molecule." xsd:string
+property_value: IAO:0000602 "(iff (GenericallyDependentContinuant a) (and (Continuant a) (exists (b t) (genericallyDependsOnAt a b t)))) // axiom label in BFO2 CLIF: [074-001] " xsd:string {http://purl.obolibrary.org/obo/IAO_0010000="http://purl.obolibrary.org/obo/bfo/axiom/074-001"}
+property_value: isDefinedBy http://purl.obolibrary.org/obo/bfo.owl
+
