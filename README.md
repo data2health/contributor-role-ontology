@@ -28,7 +28,7 @@ Editors of this ontology should use the edit version, [src/ontology/cro-edit.owl
 - [Giving credit where credit is due](https://www.altmetric.com/blog/giving-credit-where-credit-is-due/). Euan Addie. Blog post, Altmetric, 10 November 2017.
 - [Credit where credit is due:acknowledging all types of contributions](https://oaspa.org/wp-content/uploads/2016/10/haendel_COASP_2016_final.pdf), Melissa Haendel, Presentation at COASP 2016. 
 - [Attribution of Work in the Scholarly Ecosystem](https://figshare.com/articles/Attribution_of_Work_in_the_Scholarly_Ecosystem/3175198). Gutzman, K; Konkiel, S; White, M; Brush, M; Ilik, V; Conlon, M; Haendel, M; Holmes, K; FORCE11 Attribution Working Group; Open VIVO Working Group. Poster at Force2016.
-- [Measuring Success Through Improved Attribution](https://www.slideshare.net/kristiholmes/measuring-success-through-improved-attribution). Haendel, M; Konkiel, S; Gutzman, K, and Holmes, K; Presentation oat VIVO 2015.
+- [Measuring Success Through Improved Attribution](https://www.slideshare.net/kristiholmes/measuring-success-through-improved-attribution). Haendel, M; Konkiel, S; Gutzman, K, and Holmes, K; Presentation at VIVO 2015.
 - [On the nature of credit](https://www.slideshare.net/CASRAI/contribution-roles-42704805). Melissa Haendel, Presentation at Project Credit Workshop, 2014.
 
 ## Contact
