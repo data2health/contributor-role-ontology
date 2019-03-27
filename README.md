@@ -21,7 +21,11 @@ Editors of this ontology should use the edit version, [src/ontology/cro-edit.owl
 
 ## Relevant publications and scholarly products
 
+- [OpenVIVO: Transparency in Scholarship](https://www.frontiersin.org/articles/10.3389/frma.2017.00012/full). Violeta Ilik,  Michael Conlon,  Graham Triggs,  Marijane White,  Muhammad Javed,  Matthew Brush,  Karen Gutzman,  Shahim Essaid,  Paul Friedman,  Simon Porter,  Martin Szomszor,  Melissa Anne Haendel,  David Eichmann and Kristi L. Holmes. Front. Res. Metr. Anal., 01 March 2018 | https://doi.org/10.3389/frma.2017.00012
+- [Giving credit where it is due: how to make more meaningful connections between people, their roles, their work and impacts](https://www.youtube.com/watch?v=HImkSbC81Ng). Kristi Holmes. Video, Force2018.
 - [Credit where credit is due:acknowledging all types of contributions](https://oaspa.org/wp-content/uploads/2016/10/haendel_COASP_2016_final.pdf), Melissa Haendel, Presentation at COASP 2016. 
+- [Attribution of Work in the Scholarly Ecosystem](https://figshare.com/articles/Attribution_of_Work_in_the_Scholarly_Ecosystem/3175198). Gutzman, K; Konkiel, S; White, M; Brush, M; Ilik, V; Conlon, M; Haendel, M; Holmes, K; FORCE11 Attribution Working Group; Open VIVO Working Group. Poster at Force2016.
+- [Measuring Success Through Improved Attribution](https://www.slideshare.net/kristiholmes/measuring-success-through-improved-attribution). Haendel, M; Konkiel, S; Gutzman, K, and Holmes, K; Presentation oat VIVO 2015.
 
 ## Contact
 
