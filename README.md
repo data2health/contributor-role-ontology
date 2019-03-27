@@ -22,6 +22,7 @@ Editors of this ontology should use the edit version, [src/ontology/cro-edit.owl
 ## Relevant publications and scholarly products
 
 - [People + Technology + Data + Credit: Developing a sustainable community-driven approach to attribution](https://digitalhub.northwestern.edu/files/09baabdb-e5ad-477b-abfc-f6cf70f19df0). Kristi Holmes, Marijane White, Nicole Vasilevsky, Karen Gutzman, David Eichmann, Matthew Brush, Annie Wescott, Patty Smith, Sara Gonzales and Melissa Haendel. Poster at Pidapalooza 2019.
+- [Making it count: a computational approach to attribution](https://zenodo.org/record/1312652#.XJvXfhNKjAI). Kristi Holmes, Karen Gutzman, Patricia Smith, David Eichmann, & Melissa Haendel. Zenodo. http://doi.org/10.5281/zenodo.1312652
 - [OpenVIVO: Transparency in Scholarship](https://www.frontiersin.org/articles/10.3389/frma.2017.00012/full). Violeta Ilik,  Michael Conlon,  Graham Triggs,  Marijane White,  Muhammad Javed,  Matthew Brush,  Karen Gutzman,  Shahim Essaid,  Paul Friedman,  Simon Porter,  Martin Szomszor,  Melissa Anne Haendel,  David Eichmann and Kristi L. Holmes. Front. Res. Metr. Anal., 01 March 2018 | https://doi.org/10.3389/frma.2017.00012
 - [Giving credit where it is due: how to make more meaningful connections between people, their roles, their work and impacts](https://www.youtube.com/watch?v=HImkSbC81Ng). Kristi Holmes. Video, Force2018.
 - [Giving credit where credit is due](https://www.altmetric.com/blog/giving-credit-where-credit-is-due/). Euan Addie. Blog post, Altmetric, 10 November 2017.
