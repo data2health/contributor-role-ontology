@@ -3,7 +3,7 @@
 
 # contributor-role-ontology
 
-This ontology is an extension of the [CASRAI Contributor Roles Taxonomy (CRediT)](http://dictionary.casrai.org/Contributor_Roles).
+This ontology is an extension of the [CASRAI Contributor Roles Taxonomy (CRediT)](http://dictionary.casrai.org/Contributor_Roles) and replaces the former [Contribtuion Ontology](https://github.com/openrif/contribution-ontology).
 
 ## Versions
 
