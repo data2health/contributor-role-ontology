@@ -21,7 +21,7 @@ Editors of this ontology should use the edit version, [src/ontology/cro-edit.owl
 
 ## Relevant publications and scholarly products
 
-- Credit where credit is due:acknowledging all types of contributions, Melissa Haendel, COASP 2016. [Presentation](https://oaspa.org/wp-content/uploads/2016/10/haendel_COASP_2016_final.pdf)
+- [Credit where credit is due:acknowledging all types of contributions](https://oaspa.org/wp-content/uploads/2016/10/haendel_COASP_2016_final.pdf), Melissa Haendel, Presentation at COASP 2016. 
 
 ## Contact
 
