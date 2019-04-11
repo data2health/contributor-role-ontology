@@ -10,7 +10,7 @@ Prefix(credit:=<http://purl.org/credit/ontology#>)
 Ontology(<http://purl.obolibrary.org/obo/cro.owl>
 Import(<http://purl.obolibrary.org/obo/cro/imports/bfo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/cro/imports/iao_import.owl>)
-Import(<http://purl.org/credit/releases/2019-04-09/credit.owl>)
+Import(<http://purl.org/credit/releases/2019-04-11/credit.owl>)
 Annotation(rdfs:comment "Contributor Role Ontology")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000000>))
@@ -89,6 +89,13 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000087>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000088>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000089>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000090>))
+Declaration(Class(credit:CREDIT_00000000))
+Declaration(Class(credit:CREDIT_00000001))
+Declaration(Class(credit:CREDIT_00000002))
+Declaration(Class(credit:CREDIT_00000003))
+Declaration(Class(credit:CREDIT_00000005))
+Declaration(Class(credit:CREDIT_00000006))
+Declaration(Class(credit:CREDIT_00000009))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/creator>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/date>))
 
@@ -97,7 +104,7 @@ Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/date>))
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000000> (<http://purl.obolibrary.org/obo/CRO_0000000>)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000000> (contributor role)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000000> "contributor role"@en)
 EquivalentClasses(<http://purl.obolibrary.org/obo/CRO_0000000> credit:CREDIT_00000000)
