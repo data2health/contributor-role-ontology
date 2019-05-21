@@ -35,6 +35,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000023>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000025>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000026>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000027>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000028>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000031>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000033>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000035>))
@@ -273,6 +274,13 @@ AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#has
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000027> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000027> "curator role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000027> credit:CREDIT_00000000)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000028> (collection role)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "https://orcid.org/0000-0002-2908-3327") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000028> "Activities to obtain physical objects for research purposes or to add to a collection.")
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000028> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000028> "collection role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000028> credit:CREDIT_00000000)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000031> (team management role)
 
