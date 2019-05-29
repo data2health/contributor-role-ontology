@@ -98,8 +98,17 @@ Declaration(Class(credit:CREDIT_00000003))
 Declaration(Class(credit:CREDIT_00000005))
 Declaration(Class(credit:CREDIT_00000006))
 Declaration(Class(credit:CREDIT_00000009))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000234>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/creator>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/date>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/IAO_0000234> (ontology term requester)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0000234> "ontology term requester")
+
 
 
 ############################
