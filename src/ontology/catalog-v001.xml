@@ -3,11 +3,11 @@
     <uri id="Imports Wizard Entry" name="http://purl.org/credit/releases/2019-04-11/credit.owl" uri="http://purl.org/credit/ontology"/>
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/credit/releases/2019-04-09/credit.owl" uri="http://purl.org/credit/ontology"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1554851907631" name="http://purl.obolibrary.org/obo/bfo.owl" uri="mirror/bfo.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1554851907631" name="duplicate:http://purl.obolibrary.org/obo/cro.owl" uri="cro.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1554851907631" name="duplicate:http://purl.obolibrary.org/obo/cro.owl" uri="ed_definitions_merged.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1554851907631" name="http://purl.obolibrary.org/obo/cro/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1554851907631" name="http://purl.obolibrary.org/obo/cro/imports/iao_import.owl" uri="imports/iao_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1554851907631" name="http://purl.obolibrary.org/obo/iao.owl" uri="mirror/iao.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1558477450983" name="http://purl.obolibrary.org/obo/bfo.owl" uri="mirror/bfo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1558477450983" name="duplicate:http://purl.obolibrary.org/obo/cro.owl" uri="cro.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1558477450983" name="duplicate:http://purl.obolibrary.org/obo/cro.owl" uri="ed_definitions_merged.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1558477450983" name="http://purl.obolibrary.org/obo/cro/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1558477450983" name="http://purl.obolibrary.org/obo/cro/imports/iao_import.owl" uri="imports/iao_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1558477450983" name="http://purl.obolibrary.org/obo/iao.owl" uri="mirror/iao.owl"/>
     </group>
 </catalog>
