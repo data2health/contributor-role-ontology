@@ -420,6 +420,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000050> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000051> (system administrator role)
 
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.wikidata.org/wiki/Q327353") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000051> "A software systems role that involves maintenance and operation of a computer system and/or network.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000051> "sysadmin role")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000051> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000051> "2018-09-14T20:17:32Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000051> "system administrator role")
@@ -612,10 +614,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000076> credit:CREDIT_00000000)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000077> (systems administration role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/CRO_0000077> <http://purl.obolibrary.org/obo/CRO_0000051>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000077> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000077> "2018-10-01T20:44:21Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000077> "systems administration role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000077> <http://purl.obolibrary.org/obo/CRO_0000076>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/CRO_0000077> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000078> (infrastructure role)
 
@@ -633,7 +636,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000079> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000080> (program administration role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000080> "Management and coordination responsibility for the research activity planning and execution.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000080> "An infrastructure role that is accountable for management and coordination of a program, to help achieve the program goals.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000080> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000080> "2018-10-01T20:48:37Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000080> "program administration role")
