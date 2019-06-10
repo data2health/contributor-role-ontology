@@ -122,8 +122,9 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/CRO_0000000> credit:CREDIT_000
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000001> (author role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000001> "Contributions to the published research object.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000001> "Creation and/or presentation of a published research object, such as books, journal articles, and other publications like technical documentation, web sites, code, ontologies, or data models.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000001> "writer role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000001> "https://orcid.org/0000-0002-1048-5019")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000001> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000001> "2018-09-14T19:47:01Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000001> "author role")
