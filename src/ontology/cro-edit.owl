@@ -703,10 +703,11 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000087> credit:CREDIT_00000005)
 # Class: <http://purl.obolibrary.org/obo/CRO_0000088> (original draft preparation role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000088> "Creation and/or presentation of the published work, specifically writing the initial draft (including substantive translation).")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/CRO_0000088> credit:CREDIT_00000013)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000088> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000088> "2018-10-01T21:03:36Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000088> "original draft preparation role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000088> <http://purl.obolibrary.org/obo/CRO_0000001>)
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/CRO_0000088> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000089> (lay synthesis of research output role)
 
