@@ -532,6 +532,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000065> credit:CREDIT_00000009)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000067> (archivist role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000067> "A professional who assesses, collects, organizes, preserves, maintains control over, and provides access to information determined to have long-term value.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000067> "https://www.wikidata.org/wiki/Q635734")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000067> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000067> "2018-09-15T16:25:54Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000067> "archivist role")
@@ -599,7 +601,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000075> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000076> (IT hardware systems design and implementation role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000076> "A role that includes the design and implementation of the physical components of a computer system,")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000076> "information technology hardware systems design and implementation role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000076> "https://www.wikidata.org/wiki/Q3966")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000076> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000076> "2018-10-01T20:43:37Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000076> "IT hardware systems design and implementation role")
@@ -651,6 +655,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000082> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000083> (community engagement role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000083> "A communication role which involves the dynamic relational process that facilitates communication, interaction, involvement, and exchange between an organization and a community for a range of social and organizational outcomes.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000083> "Johnston, K. A. (2018). Toward a theory of social engagement. In K. A. Johnston & M. Taylor (Eds.), The Handbook of Communication Engagement (pp. 19-32). Hoboken, NJ: Wiley.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000083> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000083> "2018-10-01T20:55:22Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000083> "community engagement role")
