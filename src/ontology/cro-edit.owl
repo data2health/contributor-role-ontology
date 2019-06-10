@@ -172,6 +172,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000007> credit:CREDIT_00000000)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000008> (website development role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000008> "Creation or refinement of a website, a set of related web pages served from a single web domain.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000008> "https://www.wikidata.org/wiki/Q35127")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000008> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000008> "2018-09-14T19:51:53Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000008> "website development role")
@@ -461,6 +463,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000055> credit:CREDIT_00000006)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000056> (technique development role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000056> "A methodology role that involves the creation or refinement of a manner or method by which an activity is performed.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000056> "https://www.wikidata.org/wiki/Q2695280")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000056> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000056> "2018-09-14T20:20:11Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000056> "technique development role")
@@ -713,6 +717,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000089> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000090> (website maintenance role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000090> "A method or steps that maintain, update content, clean up, or repair a website.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000090> "https://www.wikidata.org/wiki/Q17634596")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000090> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000090> "2018-10-01T21:13:13Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000090> "website maintenance role")
