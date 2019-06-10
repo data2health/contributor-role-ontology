@@ -361,7 +361,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000041> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000042> (data quality assurance role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000042> "A procedure intended to verify the efficiency and reliability of data.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000042> "Data Scrubbing Role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000042> "https://www.techopedia.com/definition/14653/data-quality")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000042> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000042> "2018-09-14T20:12:14Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000042> "data quality assurance role")
@@ -415,7 +417,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000049> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000050> (database administrator role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000050> "A role usually within the Information Technology department, charged with the creation, maintenance, backups, querying, tuning, user rights assignment and security of an organization's databases.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000050> "database administration role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000050> "https://www.techopedia.com/definition/1187/database-administrator-dba")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000050> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000050> "2018-09-14T20:17:25Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000050> "database administrator role")
@@ -468,7 +472,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000056> credit:CREDIT_00000006)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000057> (device development role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000057> "A role charged with conceptualization, design, development and marketing of complex equipment.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000057> "instrument development role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000057> "https://searchcio.techtarget.com/definition/product-development-or-new-product-development-NPD")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000057> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000057> "2018-09-14T20:23:39Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000057> "device development role")
@@ -558,6 +564,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000068> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000069> (digital preservation role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000069> "A role that includes the formal endeavor to ensure that digital information of continuing value remains accessible, trustworthy, and usable.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000069> "https://www.wikidata.org/wiki/Q632897")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000069> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000069> "2018-09-15T16:26:05Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000069> "digital preservation role")
