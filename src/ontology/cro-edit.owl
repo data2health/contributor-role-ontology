@@ -187,6 +187,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000010> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000011> (documentation role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000011> "A communication role in which one records the details of an event, a process, a workflow, etc.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000011> "https://dictionary.cambridge.org/us/dictionary/english/document")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000011> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000011> "2018-09-14T19:52:17Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000011> "documentation role")
