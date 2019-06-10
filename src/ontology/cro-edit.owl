@@ -651,6 +651,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000082> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000083> (community engagement role)
 
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Johnston, K. A. (2018). Toward a theory of social engagement. In K. A. Johnston & M. Taylor (Eds.), The Handbook of Communication Engagement (pp. 19-32). Hoboken, NJ: Wiley.") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000083> "A communication role which involves the dynamic relational process that facilitates communication, interaction, involvement, and exchange between an organization and a community for a range of social and organizational outcomes.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000083> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000083> "2018-10-01T20:55:22Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000083> "community engagement role")
