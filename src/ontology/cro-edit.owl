@@ -682,7 +682,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000080> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000081> (research coordination role)
 
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://learn.nursing.jhu.edu/face-to-face/courses/research-coordinator/index.html") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000081> "The organization of the different elements need to implement a research study.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://learn.nursing.jhu.edu/face-to-face/courses/research-coordinator/index.html") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000081> "The organization of the different elements needed to implement a research study.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000081> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000081> "2018-10-01T20:49:10Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000081> "research coordination role")
