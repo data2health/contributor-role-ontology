@@ -184,6 +184,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000008> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000009> (networking facilitation role)
 
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "(2009) The functions and roles of network facilitators. In: Franz HW., Sarcina R. (eds) Building Leadership in Project and Network Management. Springer, Berlin, Heidelberg") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000009> "A communication role that encompasses facilitate co-operation between people or organizations.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000009> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000009> "2018-09-14T19:52:02Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000009> "networking facilitation role")
@@ -267,6 +268,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000020> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000022> (policy development role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000022> "Policy development generally involves research, analysis, consultation and synthesis of information to produce recommendations for action by an individual or an organization. It should also involve an evaluation of options against a set of criteria used to assess each option.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000022> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000022> "2018-09-14T20:04:29Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000022> "policy development role")
@@ -346,6 +348,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000036> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000038> (metadata application role)
 
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://whatis.techtarget.com/definition/metadata-management") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000038> "The annotation of data with descriptive information that describes the data (metadata), with the goal of making the data more usuable or reusable for future use.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000038> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000038> "2018-09-14T20:11:50Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000038> "metadata application role")
@@ -726,6 +729,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000083> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000084> (outreach materials development role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000084> "A communication role that involves development or production of materials, such as brochures, websites, flyers, presentations, etc., for the purposes of promotion of a entity, like a project, group or organization.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000084> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000084> "2018-10-01T20:56:18Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000084> "outreach materials development role")
