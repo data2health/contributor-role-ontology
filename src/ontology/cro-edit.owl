@@ -130,9 +130,8 @@ EquivalentClasses(<http://purl.obolibrary.org/obo/CRO_0000000> credit:CREDIT_000
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000001> (author role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000001> "Creation and/or presentation of a published research object, such as books, journal articles, and other publications like technical documentation, web sites, code, ontologies, or data models.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://orcid.org/0000-0002-1048-5019") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000001> "Creation and/or presentation of a published research object, such as books, journal articles, and other publications like technical documentation, web sites, code, ontologies, or data models.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000001> "writer role")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000001> "https://orcid.org/0000-0002-1048-5019")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000001> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000001> "2018-09-14T19:47:01Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000001> "author role")
@@ -140,8 +139,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000001> credit:CREDIT_00000000)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000003> (figure development role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000003> "Preparation, creation and/or presentation of figures for a manuscript, presentation or other use.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000003> "http://dictionary.casrai.org/Contributor_Roles/Visualization")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "http://dictionary.casrai.org/Contributor_Roles/Visualization") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000003> "Preparation, creation and/or presentation of figures for a manuscript, presentation or other use.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000003> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000003> "2018-09-14T19:49:22Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000003> "figure development role")
@@ -175,8 +173,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000007> credit:CREDIT_00000000)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000008> (website development role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000008> "Creation or refinement of a website, a set of related web pages served from a single web domain.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000008> "https://www.wikidata.org/wiki/Q35127")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.wikidata.org/wiki/Q35127") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000008> "Creation or refinement of a website, a set of related web pages served from a single web domain.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000008> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000008> "2018-09-14T19:51:53Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000008> "website development role")
@@ -192,8 +189,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000009> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000010> (marketing role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000010> "A communication role that involves the activity, set of institutions, and processes for creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society at large.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000010> "https://www.ama.org/the-definition-of-marketing/")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.ama.org/the-definition-of-marketing/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000010> "A communication role that involves the activity, set of institutions, and processes for creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society at large.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000010> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000010> "2018-09-14T19:52:12Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000010> "marketing role")
@@ -201,8 +197,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000010> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000011> (documentation role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000011> "A communication role in which one records the details of an event, a process, a workflow, etc.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000011> "https://dictionary.cambridge.org/us/dictionary/english/document")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://dictionary.cambridge.org/us/dictionary/english/document") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000011> "A communication role in which one records the details of an event, a process, a workflow, etc.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000011> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000011> "2018-09-14T19:52:17Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000011> "documentation role")
@@ -720,8 +715,7 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/CRO_0000082> 
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000083> (community engagement role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000083> "A communication role which involves the dynamic relational process that facilitates communication, interaction, involvement, and exchange between an organization and a community for a range of social and organizational outcomes.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000083> "Johnston, K. A. (2018). Toward a theory of social engagement. In K. A. Johnston & M. Taylor (Eds.), The Handbook of Communication Engagement (pp. 19-32). Hoboken, NJ: Wiley.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Johnston, K. A. (2018). Toward a theory of social engagement. In K. A. Johnston & M. Taylor (Eds.), The Handbook of Communication Engagement (pp. 19-32). Hoboken, NJ: Wiley.") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000083> "A communication role which involves the dynamic relational process that facilitates communication, interaction, involvement, and exchange between an organization and a community for a range of social and organizational outcomes.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000083> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000083> "2018-10-01T20:55:22Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000083> "community engagement role")
@@ -737,8 +731,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000084> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000085> (participant recruitment role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000085> "Role that involves identifying eligible participants, explaining the study to potential participants, recruiting an adequate sample based on study goals and design, obtaining informed consent/maintaining ethical standards, and retaining participants until study completion.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000085> "https://healthit.ahrq.gov/ahrq-funded-projects/emerging-lessons/participant-recruitment-research")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://healthit.ahrq.gov/ahrq-funded-projects/emerging-lessons/participant-recruitment-research") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000085> "Role that involves identifying eligible participants, explaining the study to potential participants, recruiting an adequate sample based on study goals and design, obtaining informed consent/maintaining ethical standards, and retaining participants until study completion.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000085> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000085> "2018-10-01T20:57:17Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000085> "participant recruitment role")
@@ -779,8 +772,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000089> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000090> (website maintenance role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000090> "A method or steps that maintain, update content, clean up, or repair a website.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000090> "https://www.wikidata.org/wiki/Q17634596")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.wikidata.org/wiki/Q17634596") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000090> "A method or steps that maintain, update content, clean up, or repair a website.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000090> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000090> "2018-10-01T21:13:13Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000090> "website maintenance role")
@@ -788,8 +780,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000090> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000091> (technical writing role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000091> "A documentation role that involves preparation of instruction manuals, journal articles, and other supporting documents to communicate complex and technical information more easily.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000091> "https://www.truity.com/career-profile/technical-writer")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.truity.com/career-profile/technical-writer") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000091> "A documentation role that involves preparation of instruction manuals, journal articles, and other supporting documents to communicate complex and technical information more easily.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CRO_0000091> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000091> "technical writing role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000091> <http://purl.obolibrary.org/obo/CRO_0000011>)
