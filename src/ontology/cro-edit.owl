@@ -383,7 +383,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000042> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000043> (data standards developer role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000043> "Development of ontology, terminology, code lists, etc.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.usgs.gov/products/data-and-tools/data-management/data-standards") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000043> "The process of creating data standards, which are the rules by which data are described and recorded in order to share, exchange, and understand data. Examples include development of an ontology, terminology, code lists, etc.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000043> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000043> "2018-09-14T20:12:25Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000043> "data standards developer role")
@@ -612,14 +612,13 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000072> "data transformation role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000072> <http://purl.obolibrary.org/obo/CRO_0000015>)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000073> (data standards development role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000073> (standards development role)
 
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.usgs.gov/products/data-and-tools/data-management/data-standards") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000073> "The process of creating data standards, which are the rules by which data are described and recorded in order to share, exchange, and understand data.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Technical_standard") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000073> "The process of creating standards, which aare an established norm or requirement in regard to technical systems. It is usually a formal document that establishes uniform engineering or technical criteria, methods, processes, and practices.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000073> "standard development role")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000073> "standards development role")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000073> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000073> "2018-10-01T20:33:58Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000073> "data standards development role")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000073> "standards development role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000073> credit:CREDIT_00000000)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000074> (data validation role)
