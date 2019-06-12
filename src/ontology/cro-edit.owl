@@ -778,4 +778,5 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <h
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000091> "technical writing role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000091> <http://purl.obolibrary.org/obo/CRO_0000011>)
 
+)
 
