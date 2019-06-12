@@ -286,6 +286,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000025> credit:CREDIT_00000000)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000026> (research instrumentation role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000026> "A person that is responsible for usage of research instrumentation, such as equipment or devices used for research, or research instruments like a survey or questionnaire.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000026> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000026> "2018-09-14T20:06:00Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000026> "research instrumentation role")
@@ -503,6 +504,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000057> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000058> (equipment technician role)
 
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Biomedical_equipment_technician") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000058> "A person that is responsible for operating equipment or instrumentation and/or that ensures equipment is well-maintained, properly configured, and safely functional.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000058> "instrument technician role")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000058> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000058> "2018-09-14T20:23:44Z"^^xsd:dateTime)
