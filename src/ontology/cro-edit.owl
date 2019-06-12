@@ -91,6 +91,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000087>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000088>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000089>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000090>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000092>))
 Declaration(Class(credit:CREDIT_00000000))
 Declaration(Class(credit:CREDIT_00000001))
 Declaration(Class(credit:CREDIT_00000002))
@@ -102,6 +103,7 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000234>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0100001>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/creator>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/date>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#created_by>))
 ############################
 #   Annotation Properties
 ############################
@@ -527,7 +529,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000060> credit:CREDIT_00000009)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000061> (computer programming role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000061> "Requirements analysis, algorithm development, and implementation of software in a computer programming language.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000061> "Algorithm development and implementation of software in a computer programming language.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000061> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000061> "2018-09-14T20:25:35Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000061> "computer programming role")
@@ -758,6 +760,15 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000090> <http://purl.obolibrary.
 # Class: credit:CREDIT_00000001 (conceptualization role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> credit:CREDIT_00000001 "research conceptualization role")
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000092> (requirements analysis role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000092> "The tasks that go into determining the needs or conditions to meet for a new or altered software product or project, taking account of the possibly conflicting requirements of the various stakeholders, analyzing, documenting, validating and managing software or system requirements.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000092> "Kotonya, G. and Sommerville, I. 1998. Requirements Engineering: Processes and Techniques Chichester, UK: John Wiley and Sons.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CRO_0000092> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000092> "requirements analysis role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000092> credit:CREDIT_00000009)
+
 
 
 )
