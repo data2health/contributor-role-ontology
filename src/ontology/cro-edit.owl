@@ -641,7 +641,7 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/CRO_0000075> 
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000076> (IT hardware systems design and implementation role)
 
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.wikidata.org/wiki/Q3966") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000076> "A role that includes the design and implementation of the physical components of a computer system,")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.wikidata.org/wiki/Q3966") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000076> "A role that includes the design and implementation of the physical components of a computer system.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000076> "information technology hardware systems design and implementation role")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000076> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000076> "2018-10-01T20:43:37Z"^^xsd:dateTime)
