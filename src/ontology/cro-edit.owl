@@ -779,5 +779,3 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000091> "tec
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000091> <http://purl.obolibrary.org/obo/CRO_0000011>)
 >>>>>>> issue-22
 
-
-)
