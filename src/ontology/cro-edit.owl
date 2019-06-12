@@ -93,7 +93,6 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000089>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000090>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000091>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000092>))
-
 Declaration(Class(credit:CREDIT_00000000))
 Declaration(Class(credit:CREDIT_00000001))
 Declaration(Class(credit:CREDIT_00000002))
@@ -106,7 +105,6 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0100001>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/creator>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/date>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#created_by>))
-
 ############################
 #   Annotation Properties
 ############################
@@ -227,6 +225,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000014> credit:CREDIT_00000009)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000015> (data role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000015> "A role that encompasses effective and efficient operation and usage of data, including, but not limited to management, handling, or manipulation.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000015> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000015> "2018-09-14T19:55:34Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000015> "data role")
@@ -783,9 +782,13 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000090> "website maintenance role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000090> <http://purl.obolibrary.org/obo/CRO_0000007>)
 
-# Class: credit:CREDIT_00000001 (conceptualization role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000091> (technical writing role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> credit:CREDIT_00000001 "research conceptualization role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000091> "A documentation role that involves preparation of instruction manuals, journal articles, and other supporting documents to communicate complex and technical information more easily.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000091> "https://www.truity.com/career-profile/technical-writer")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CRO_0000091> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000091> "technical writing role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000091> <http://purl.obolibrary.org/obo/CRO_0000011>)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000092> (requirements analysis role)
 
@@ -795,13 +798,9 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <h
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000092> "requirements analysis role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000092> credit:CREDIT_00000009)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000091> (technical writing role)
+# Class: credit:CREDIT_00000001 (conceptualization role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000091> "A documentation role that involves preparation of instruction manuals, journal articles, and other supporting documents to communicate complex and technical information more easily.")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000091> "https://www.truity.com/career-profile/technical-writer")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CRO_0000091> <http://orcid.org/0000-0001-5208-3432>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000091> "technical writing role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000091> <http://purl.obolibrary.org/obo/CRO_0000011>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> credit:CREDIT_00000001 "research conceptualization role")
+
 
 )
-
