@@ -327,12 +327,13 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000033> "data aggregation role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000033> <http://purl.obolibrary.org/obo/CRO_0000015>)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000035> (statistical data analysis role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000035> (statistical analysis role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000035> "statistical analysis role")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Statistics") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000035> "Statistical aspects of research, including data collection, organization, analysis, interpretation and presentation of data from surveys and experiments")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000035> "statistical data analysis role")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000035> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000035> "2018-09-14T20:11:35Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000035> "statistical data analysis role")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000035> "statistical analysis role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000035> credit:CREDIT_00000003)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000036> (data collection role)
@@ -632,12 +633,14 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000072> "data transformation role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000072> <http://purl.obolibrary.org/obo/CRO_0000015>)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000073> (standards development role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000073> (data standards development role)
 
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.usgs.gov/products/data-and-tools/data-management/data-standards") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000073> "The process of creating data standards, which are the rules by which data are described and recorded in order to share, exchange, and understand data.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000073> "standard development role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000073> "standards development role")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000073> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000073> "2018-10-01T20:33:58Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000073> "standards development role")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000073> "data standards development role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000073> credit:CREDIT_00000000)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000074> (data validation role)
@@ -684,11 +687,12 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000078> "infrastructure role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000078> credit:CREDIT_00000000)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000079> (program evaluation role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000079> (evaluation role)
 
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Program_evaluation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000079> "Evaluation is a systematic method for collecting, analyzing, and using information to answer questions about projects, policies and programs, particularly about their effectiveness and efficiency.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000079> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000079> "2018-10-01T20:48:24Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000079> "program evaluation role")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000079> "evaluation role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000079> <http://purl.obolibrary.org/obo/CRO_0000078>)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000080> (program administration role)
@@ -701,6 +705,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000080> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000081> (research coordination role)
 
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://learn.nursing.jhu.edu/face-to-face/courses/research-coordinator/index.html") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000081> "The organization of the different elements need to implement a research study.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000081> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000081> "2018-10-01T20:49:10Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000081> "research coordination role")
@@ -751,6 +756,7 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/CRO_0000086> 
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000087> (research technician role)
 
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Technician") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000087> "One who is proficient in the relevant skill and technique, with a relatively practical understanding of the theoretical principles.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000087> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000087> "2018-10-01T20:58:59Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000087> "research technician role")
