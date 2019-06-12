@@ -202,6 +202,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000010> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000011> (documentation role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000011> "A communication role in which one records the details of an event, a process, a workflow, etc.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000011> "https://dictionary.cambridge.org/us/dictionary/english/document")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000011> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000011> "2018-09-14T19:52:17Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000011> "documentation role")
@@ -336,6 +338,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000035> credit:CREDIT_00000003)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000036> (data collection role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000036> "The process of gathering and measuring data, information or any variables of interest in a standardized and established manner that enables the collector to answer or test hypothesis and evaluate outcomes of the particular collection.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000036> "https://www.techopedia.com/definition/30318/data-collection")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000036> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000036> "2018-09-14T20:11:40Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000036> "data collection role")
@@ -350,6 +354,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000038> credit:CREDIT_00000002)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000039> (data entry role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000039> "The process of inputting data into a computerized form.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000039> "https://www.dictionary.com/browse/data-entry")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000039> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000039> "2018-09-14T20:11:54Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000039> "data entry role")
@@ -357,6 +363,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000039> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000040> (data integration role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000040> "The process of combining data from different sources to provide a standardized or unified view.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000040> "https://www.wikidata.org/wiki/Q386824")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000040> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000040> "2018-09-14T20:12:00Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000040> "data integration role")
@@ -364,6 +372,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000040> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000041> (data modeling role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000041> "The process of creating a data model for an information system by applying certain formal techniques.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000041> "https://www.wikidata.org/wiki/Q367664")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000041> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000041> "2018-09-14T20:12:07Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000041> "data modeling role")
@@ -371,7 +381,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000041> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000042> (data quality assurance role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000042> "A procedure intended to verify the efficiency and reliability of data.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000042> "Data Scrubbing Role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000042> "https://www.techopedia.com/definition/14653/data-quality")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000042> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000042> "2018-09-14T20:12:14Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000042> "data quality assurance role")
@@ -433,7 +445,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000049> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000050> (database administrator role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000050> "A role usually within the Information Technology department, charged with the creation, maintenance, backups, querying, tuning, user rights assignment and security of an organization's databases.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000050> "database administration role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000050> "https://www.techopedia.com/definition/1187/database-administrator-dba")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000050> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000050> "2018-09-14T20:17:25Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000050> "database administrator role")
@@ -496,7 +510,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000056> credit:CREDIT_00000006)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000057> (device development role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000057> "A role charged with conceptualization, design, development and marketing of complex equipment.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000057> "instrument development role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000057> "https://searchcio.techtarget.com/definition/product-development-or-new-product-development-NPD")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000057> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000057> "2018-09-14T20:23:39Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000057> "device development role")
@@ -570,6 +586,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000065> credit:CREDIT_00000009)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000067> (archivist role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000067> "A professional who assesses, collects, organizes, preserves, maintains control over, and provides access to information determined to have long-term value.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000067> "https://www.wikidata.org/wiki/Q635734")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000067> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000067> "2018-09-15T16:25:54Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000067> "archivist role")
@@ -577,6 +595,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000067> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000068> (conservator role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000068> "A person responsible for the preservation of artistic and cultural artifacts.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000068> "https://www.wikidata.org/wiki/Q446966")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000068> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000068> "2018-09-15T16:26:00Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000068> "conservator role")
@@ -584,6 +604,8 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000068> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000069> (digital preservation role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000069> "A role that includes the formal endeavor to ensure that digital information of continuing value remains accessible, trustworthy, and usable.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000069> "https://www.wikidata.org/wiki/Q632897")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000069> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000069> "2018-09-15T16:26:05Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000069> "digital preservation role")
@@ -638,7 +660,9 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/CRO_0000075> 
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000076> (IT hardware systems design and implementation role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000076> "A role that includes the design and implementation of the physical components of a computer system,")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000076> "information technology hardware systems design and implementation role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000076> "https://www.wikidata.org/wiki/Q3966")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000076> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000076> "2018-10-01T20:43:37Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000076> "IT hardware systems design and implementation role")
@@ -694,7 +718,8 @@ AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/CRO_0000082> 
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000083> (community engagement role)
 
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Johnston, K. A. (2018). Toward a theory of social engagement. In K. A. Johnston & M. Taylor (Eds.), The Handbook of Communication Engagement (pp. 19-32). Hoboken, NJ: Wiley.") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000083> "A communication role which involves the dynamic relational process that facilitates communication, interaction, involvement, and exchange between an organization and a community for a range of social and organizational outcomes.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000083> "A communication role which involves the dynamic relational process that facilitates communication, interaction, involvement, and exchange between an organization and a community for a range of social and organizational outcomes.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000083> "Johnston, K. A. (2018). Toward a theory of social engagement. In K. A. Johnston & M. Taylor (Eds.), The Handbook of Communication Engagement (pp. 19-32). Hoboken, NJ: Wiley.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000083> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000083> "2018-10-01T20:55:22Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000083> "community engagement role")
