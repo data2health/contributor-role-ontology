@@ -284,12 +284,12 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000025> "regulatory administration role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000025> credit:CREDIT_00000000)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000026> (research instrumentation role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000026> (instrumentation role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000026> "A person that is responsible for usage of research instrumentation, such as equipment or devices used for research, or research instruments like a survey or questionnaire.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000026> "A person that is responsible for usage of instrumentation, such as equipment or devices, or instruments like a survey or questionnaire.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000026> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000026> "2018-09-14T20:06:00Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000026> "research instrumentation role")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000026> "instrumentation role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000026> credit:CREDIT_00000000)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000027> (curator role)
@@ -681,12 +681,12 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000080> "program administration role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000080> <http://purl.obolibrary.org/obo/CRO_0000078>)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000081> (research coordination role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000081> (coordination role)
 
-AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://learn.nursing.jhu.edu/face-to-face/courses/research-coordinator/index.html") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000081> "The organization of the different elements needed to implement a research study.")
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://learn.nursing.jhu.edu/face-to-face/courses/research-coordinator/index.html") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000081> "The organization of the different elements needed to implement a study.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000081> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000081> "2018-10-01T20:49:10Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000081> "research coordination role")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000081> "coordination role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000081> <http://purl.obolibrary.org/obo/CRO_0000078>)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000082> (supervisory role)
@@ -731,12 +731,12 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000086> "research conceptualization role")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/CRO_0000086> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000087> (research technician role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000087> (technician role)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Technician") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000087> "One who is proficient in the relevant skill and technique, with a relatively practical understanding of the theoretical principles.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000087> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000087> "2018-10-01T20:58:59Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000087> "research technician role")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000087> "technician role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000087> credit:CREDIT_00000005)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000088> (original draft preparation role)
