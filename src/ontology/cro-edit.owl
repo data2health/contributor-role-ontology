@@ -205,6 +205,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000011> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000012> (graphic design role)
 
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.merriam-webster.com/dictionary/graphic%20design") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000012> "A communication role that utilizes the art or profession of using design elements (such as typography and images) to convey information, create visualizations, or create an effect.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000012> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000012> "2018-09-14T19:52:27Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000012> "graphic design role")
