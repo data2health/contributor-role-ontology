@@ -411,6 +411,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000046> <http://purl.obolibrary.
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.wikidata.org/wiki/Q8434") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000047> "An educational role in which knowledge and skills is transferred through teaching.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/CRO_0000047> "This may be equivalent to vivo:Teacher Role.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000047> "educational training role")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000047> "instruction role")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000047> "teaching role")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000047> <http://orcid.org/0000-0001-5208-3432>)
@@ -447,6 +448,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000050> <http://purl.obolibrary.
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.wikidata.org/wiki/Q327353") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000051> "A software systems role that involves maintenance and operation of a computer system and/or network.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000051> "sysadmin role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000051> "systems administration role")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000051> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000051> "2018-09-14T20:17:32Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000051> "system administrator role")
@@ -784,4 +786,6 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000092> credit:CREDIT_00000009)
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> credit:CREDIT_00000001 "research conceptualization role")
 
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> credit:CREDIT_00000010 "supervisory role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> credit:CREDIT_00000013 "original draft preparation role")
 )
