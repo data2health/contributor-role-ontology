@@ -1,0 +1,172 @@
+# The modeled scenario is taken from a diagram presented in multiple CRO-related talks, and described in detail in the document here:  https://docs.google.com/document/d/1EjStFKBz4bhzeXWmQhSJd2hYpENZKu5Fq3fldXOgCJY/edit#heading=h.e9cfrjpsy4r1
+# This data example presents an Entity-Centric Structure that organizes contributions around Entities, to show all contributions made by different agents.
+
+
+# Contributions to the publication pmid:12345 (7 total)
+- id: pmid:123456
+  type: cro:Publication # a subtype of Entity
+  label: "Haendel, Holmes, White, et al. 2015"
+  description: "A paper about some stuff we did with mice"
+  dateCreated: "2015-01-14"
+  qualifiedContribution: [
+    - id: ex:contribution001
+      type: cro:Contribution  
+      label: "Karen's Paper Contribution 1"
+      hadAgent: 
+        - id: ex:Agent001
+          type: cro:Agent
+          label: Karen
+      realized: credit:0000013  # writing original draft role
+      endDate: "2014-12-01T06:10:00"
+      occurredAt: "97210"
+      wasSpecifiedBy: "JBMS author guidelines, v1.2"
+      performedFor: "NCATS Translator Consortium"
+
+    - id: ex:contribution002
+      type: cro:Contribution  
+      label: "Karen's Paper Contribution 2"
+      hadAgent: 
+        - id: ex:Agent001
+          type: cro:Agent
+          label: Karen
+      realized: credit:0000012  # visualization role
+      endDate: "2014-12-01T06:10:00"
+      occurredAt: "97210"
+      performedFor: "NCATS Translator Consortium"
+ 
+    - id: ex:contribution003
+      type: cro:Contribution  
+      label: "Karen's Paper Contribution 3"
+      hadAgent: 
+        - id: ex:Agent001
+          type: cro:Agent
+          label: Karen
+      realized: credit:0000005  # investigation role
+      endDate: "2014-04-01T06:10:00"
+      occurredAt: "97210"
+      
+    - id: ex:contribution004
+      type: cro:Contribution  
+      label: "Karen's Paper Contribution 4"
+      hadAgent: 
+        - id: ex:Agent001
+          type: cro:Agent
+          label: Karen
+      realized: credit:0000002  # curation role
+      endDate: "2014-04-01T06:10:00"
+      occurredAt: "97210"
+
+    - id: ex:contribution005
+      type: cro:Contribution  
+      label: "Karen's Paper Contribution 5"
+      hadAgent: 
+        - id: ex:Agent001
+          type: cro:Agent
+          label: Karen
+      realized: credit:0000003  # formal analysis role
+      endDate: "2014-04-01T06:10:00"
+      occurredAt: "97210"
+            
+    - id: ex:contribution006
+      type: cro:Contribution  
+      label: "Stacey's Paper Contribution 1"
+      hadAgent: 
+        - id: ex:Agent002
+          type: cro:Agent
+          label: Stacey
+      realized: credit:0000008  # resource provider role
+      endDate: "2012-04-01T06:10:00"
+      occurredAt: "27599"
+      wasSpecifiedBy: "NIH Transgenics Transfer Protocol v3.5" # Note here we reference a protocol related to *provision/transfer* of a resource, not *creation* of a resource
+  
+    - id: ex:contribution007
+      type: cro:Contribution  
+      label: "Kristi's Paper Contribution 1"
+      hadAgent: 
+        - id: ex:Agent003
+          type: cro:Agent
+          label: Kristi
+      realized: credit:0000008  # resource provider role
+      endDate: "2013-04-01T06:10:00"
+      occurredAt: "60208"
+      wasSpecifiedBy: "NIH Transgenics Transfer Protocol v3.5"
+      mediatingEntity: ex:mouse1   ## exploratory attribute, used when the Agent's contribution to the primary Entity (here, the publication) was indirect, and mediated through their contribution to some upstream Entity that 'influenced' the creation of the primary Entity.
+    ]
+
+# Contributions to the upstream dataset3 (3 total)         
+ - id: ex:dataset3
+  type: cro:dataset # a subtype of Entity
+  label: "shh phenotype dataset 2"
+  dateCreated: "2014-04-01"
+  qualifiedContributions:  [    
+    - id: ex:contribution010
+      type: cro:Contribution  
+      label: "Karen's Dataset Contribution 1"
+      hadAgent: 
+        - id: ex:Agent001
+          type: cro:Agent
+          label: Karen
+      realized: credit:0000005  # investigation role
+      endDate: "2014-04-01T06:10:00"
+      occurredAt: "97210"
+
+    - id: ex:contribution011
+      type: cro:Contribution  
+      label: "Karen's Dataset Contribution 2"
+      hadAgent: 
+        - id: ex:Agent001
+          type: cro:Agent
+          label: Karen
+      realized: credit:0000002  # curation role
+      endDate: "2014-04-01T06:10:00"
+      occurredAt: "97210"
+
+    - id: ex:contribution012
+      type: cro:Contribution  
+      label: "Karen's Dataset Contribution 3"
+      hadAgent: 
+        - id: ex:Agent001
+          type: cro:Agent
+          label: Karen
+      realized: credit:0000003  # formal analysis role
+      endDate: "2014-04-01T06:10:00"
+      occurredAt: "97210"
+    ]
+  
+# Contributions to the upstream mouse1 (1 total)
+- id: ex:mouse1
+  type: cro:transgenic organism # a subtype of Entity
+  label: "shha<tq252/ts252> WTSI mouse"
+  dateCreated: "2012-04-10"
+  qualifiedContributions: 
+    - id: ex:contribution008
+      type: cro:Contribution  
+      label: "Stacey's Mouse Contribution"
+      hadAgent: 
+        - id: ex:Agent002
+          type: cro:Agent
+          label: Stacey
+      realized: XX:XXXXXXX  # creator role (no appropriate role currently in CRO)
+      endDate: "2012-04-01T06:10:00"
+      occurredAt: "27599"
+      wasSpecifiedBy: "UNC Animal Facilities Trangenics Protocol V2.6"
+      
+# Contributions to the upstream mouse2 (1 total)
+- id: ex:mouse2
+  type: cro:transgenic organism # a subtype of Entity
+  label: "shhb<ts156/ts156> KOMP mouse"
+  dateCreated: "2013-04-01"
+  qualifiedContributions: 
+    - id: ex:contribution009
+      type: cro:Contribution  
+      label: "Kristi's Mouse Contribution"
+      hadAgent: 
+        - id: ex:Agent003
+          type: cro:Agent
+          label: Kristi
+      realized: XX:XXXXXXX  # creator role (no appropriate role currently in CRO)
+      endDate: "2013-04-01T06:10:00"
+      occurredAt: "27599"
+      wasSpecifiedBy: "Northwestern Medical Center Animal Facilities Trangenics Protocol V2.6"
+
+      
