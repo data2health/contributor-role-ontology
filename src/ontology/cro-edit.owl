@@ -783,5 +783,9 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000092> credit:CREDIT_00000009)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> credit:CREDIT_00000001 "research conceptualization role")
 
+# Class: credit:CREDIT_00000002 (data curation role)
+
+SubClassOf(credit:CREDIT_00000002 <http://purl.obolibrary.org/obo/CRO_0000015>)
+
 
 )
