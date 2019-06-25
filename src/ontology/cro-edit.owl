@@ -563,12 +563,12 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000064> "software engineering role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000064> credit:CREDIT_00000009)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000065> (software project management role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000065> (project management role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000065> "Planning, management, and monitoring of software projects.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000065> "Planning, management, and monitoring of projects.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000065> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000065> "2018-09-14T20:25:55Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000065> "software project management role")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000065> "project management role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000065> <http://purl.obolibrary.org/obo/CRO_0000078>)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000067> (archivist role)
@@ -791,9 +791,9 @@ SubClassOf(credit:CREDIT_00000002 <http://purl.obolibrary.org/obo/CRO_0000015>)
 
 # Class: credit:CREDIT_00000013 (writing original draft role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> credit:CREDIT_00000013 "original draft preparation role")
 SubClassOf(credit:CREDIT_00000013 <http://purl.obolibrary.org/obo/CRO_0000001>)
 
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> credit:CREDIT_00000010 "supervisory role")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> credit:CREDIT_00000013 "original draft preparation role")
 )
