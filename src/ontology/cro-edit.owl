@@ -434,6 +434,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000049> "2018-09-14T20:17:20Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000049> "software systems role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000049> <http://purl.obolibrary.org/obo/CRO_0000018>)
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000049> credit:CREDIT_00000009)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000050> (database administrator role)
 
