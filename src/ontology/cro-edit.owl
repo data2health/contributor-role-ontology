@@ -390,6 +390,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000043> "2018-09-14T20:12:25Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000043> "data standards developer role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000043> <http://purl.obolibrary.org/obo/CRO_0000015>)
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000043> <http://purl.obolibrary.org/obo/CRO_0000073>)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000045> (educational material development role)
 
@@ -434,6 +435,7 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.oboli
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000049> "2018-09-14T20:17:20Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000049> "software systems role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000049> <http://purl.obolibrary.org/obo/CRO_0000018>)
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000049> credit:CREDIT_00000009)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000050> (database administrator role)
 
@@ -478,6 +480,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "htt
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000054> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000054> "2018-09-14T20:20:02Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000054> "standard operating procedure development role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000054> <http://purl.obolibrary.org/obo/CRO_0000073>)
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000054> credit:CREDIT_00000006)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000055> (study design role)
@@ -795,5 +798,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> credit:CREDIT_0
 SubClassOf(credit:CREDIT_00000013 <http://purl.obolibrary.org/obo/CRO_0000001>)
 
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> credit:CREDIT_00000008 "resource provision role")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> credit:CREDIT_00000010 "supervisory role")
 )
