@@ -3,7 +3,7 @@
 ## Resources
 
 #### Publications:
-- OpenVIVO: Transparency in Scholarship. Violeta Ilik, Michael Conlon, Graham Triggs, Marijane White, Muhammad Javed, Matthew - Brush, Karen Gutzman, Shahim Essaid, Paul Friedman, Simon Porter, Martin Szomszor, Melissa Anne Haendel, David Eichmann and Kristi L. Holmes. Front. Res. Metr. Anal., 01 March 2018 | https://doi.org/10.3389/frma.2017.00012 
+- [OpenVIVO: Transparency in Scholarship.](https://www.frontiersin.org/articles/10.3389/frma.2017.00012/full) Violeta Ilik, Michael Conlon, Graham Triggs, Marijane White, Muhammad Javed, Matthew Brush, Karen Gutzman, Shahim Essaid, Paul Friedman, Simon Porter, Martin Szomszor, Melissa Anne Haendel, David Eichmann and Kristi L. Holmes. Front. Res. Metr. Anal., 01 March 2018, https://doi.org/10.3389/frma.2017.00012 
 
 #### Presentations:
 - Giving credit where it is due: how to make more meaningful connections between people, their roles, their work and impacts. Kristi Holmes. Video, Force2018.
