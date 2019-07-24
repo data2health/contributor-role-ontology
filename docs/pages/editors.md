@@ -3,7 +3,7 @@
 
 ## Editors Guide
 
-CRO is edited in Protege and via GitHub Pull Requests.
+CRO is edited in Protege and via GitHub Pull Requests.  
 Download Protege: [https://protege.stanford.edu/](https://protege.stanford.edu/)
 
 _The editors guide is under development_
