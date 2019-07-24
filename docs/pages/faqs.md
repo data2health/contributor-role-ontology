@@ -6,7 +6,7 @@
 The CRO replaces the former Contribution Ontology.
 
 ### How often is CRO released?
-CRO is released on an ad hoc basis. See the latest release here [https://github.com/data2health/contributor-role-ontology/releases](https://github.com/data2health/contributor-role-ontology/releases).
+CRO is released on an ad hoc basis. See the latest release [here](https://github.com/data2health/contributor-role-ontology/releases).
 
 ### Am I allowed to change the content in CRO?
 CRO is a community-driven project and we welcome your feedback and suggested changes. We request that all proposed changed be suggested on GitHub issue tracker, so they can be seen and discussed by the CRO community. Note, you will need sign up for a free GitHub account, if you do not already have one.
