@@ -1,9 +1,9 @@
 - [About](pages/about.md)
 - [Users](pages/users.md)
 - [Contributors](pages/contributors.md)
-- [Editors](pages/editors.md]
-- [Resources](pages/resources.md]
-- [FAQs](pages/faqs.md]
+- [Editors](pages/editors.md)
+- [Resources](pages/resources.md)
+- [FAQs](pages/faqs.md)
 
 ## Stable release versions
 The latest version of the ontology is available at: [http://purl.obolibrary.org/obo/cro.owl](http://purl.obolibrary.org/obo/cro.owl)  
