@@ -13,7 +13,9 @@ BioPortal: [https://bioportal.bioontology.org/ontologies/CRO](https://bioportal.
 OBO Foundry: [http://obofoundry.org/ontology/cro.html](http://obofoundry.org/ontology/cro.html)  
 Ontology Lookup Service: [https://www.ebi.ac.uk/ols/ontologies/cro](https://www.ebi.ac.uk/ols/ontologies/cro)  
 Ontobee: [http://www.ontobee.org/ontology/CRO](http://www.ontobee.org/ontology/CRO)  
-Report issues/bugs/new term requests, changes, etc.:
+
+
+### Report issues/bugs/new term requests, changes, etc.:
 [https://github.com/data2health/contributor-role-ontology/issues](https://github.com/data2health/contributor-role-ontology/issues)  
 
 ### Who uses CRO:
