@@ -21,6 +21,6 @@ Name | Affiliation | GitHub
 [Melissa Haendel](https://www.ohsu.edu/people/melissa-haendel/AFE044BDE8046E5D6FBDA51F448BDE2A) | Oregon Health & Science University | [mellybelly](https://github.com/mellybelly) 
 [Kristi Holmes](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=29964) | Northwestern University | [kristiholmes](https://github.com/kristiholmes) 
 [Anne Thessan](https://tislab.org/athessen.html) | Oregon State University | [diatomsRcool](https://github.com/diatomsRcool) 
-[Lisa O'Keefe](https://www.linkedin.com/in/lisaokeefe/) | Northwestern University | [handle](https://github.com/) 
+[Lisa O'Keefe](https://www.linkedin.com/in/lisaokeefe/) | Northwestern University | [LisaOKeefe1 ](https://github.com/LisaOKeefe1 ) 
 
 ##### Back to [home](https://data2health.github.io/contributor-role-ontology/)
