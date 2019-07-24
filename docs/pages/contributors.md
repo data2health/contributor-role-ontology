@@ -14,6 +14,9 @@ Name | Affiliation | GitHub
 Marijane White | Oregon Health & Science University | [marijane](https://github.com/marijane)
 
 ### Contributors
+
+Name | Affiliation | GitHub
+--- | --- | ---
 [Matthew Brush]() | Oregon Health & Science University | [handle](https://github.com/) 
 [Kristi Homes]() | Northwestern University | [kristiholmes](https://github.com/kristihomes) 
 [Anne Thessan]() | Oregon State University | [diatomsRcool](https://github.com/diatomsRcool) 
