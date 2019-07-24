@@ -14,4 +14,4 @@ The CRO GitHub repository is [here](https://github.com/data2health/contributor-r
 [CC-BY](https://creativecommons.org/licenses/by/2.0/)
 
 #### Contact
-Contact us via the #Attribution channel on [CD2H Slack](https://cd2h.slack.com/?redir=%2Fmessages). This channel will be used to chat about the project, answer questions, be a community spot. We'll also share relevant files, presentations, announcements for feedback and networking.
+Contact us via the [#Attribution channel](https://cd2h.slack.com/messages/CE75A2EF3) on [CD2H Slack](https://cd2h.slack.com/?redir=%2Fmessages). This channel will be used to chat about the project, answer questions, be a community spot. We'll also share relevant files, presentations, announcements for feedback and networking.
