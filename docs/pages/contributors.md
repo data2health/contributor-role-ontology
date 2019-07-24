@@ -17,7 +17,7 @@ Name | Affiliation | GitHub
 
 Name | Affiliation | GitHub
 --- | --- | ---
-[Matthew Brush](https://www.ohsu.edu/people/matthew-brush/AFE03ED3F99667D53E7B5151AC2B075C) | Oregon Health & Science University | [handle](https://github.com/) 
+[Matthew Brush](https://www.ohsu.edu/people/matthew-brush/AFE03ED3F99667D53E7B5151AC2B075C) | Oregon Health & Science University | [mbrush](https://github.com/mbrush) 
 [Melissa Haendel](https://www.ohsu.edu/people/melissa-haendel/AFE044BDE8046E5D6FBDA51F448BDE2A) | Oregon Health & Science University | [mellybelly](https://github.com/mellybelly) 
 [Kristi Holmes](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=29964) | Northwestern University | [kristiholmes](https://github.com/kristiholmes) 
 [Anne Thessan](https://tislab.org/athessen.html) | Oregon State University | [diatomsRcool](https://github.com/diatomsRcool) 
