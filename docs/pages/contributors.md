@@ -22,4 +22,4 @@ Name | Affiliation | GitHub
 [Anne Thessan]() | Oregon State University | [diatomsRcool](https://github.com/diatomsRcool) 
 [Lisa O'Keefe]() | Northwestern University | [handle](https://github.com/) 
 
-#### Back to [home](https://data2health.github.io/contributor-role-ontology/)
+##### Back to [home](https://data2health.github.io/contributor-role-ontology/)
