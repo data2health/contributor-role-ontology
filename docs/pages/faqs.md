@@ -15,7 +15,7 @@ CRO is a community-driven project and we welcome your feedback and suggested cha
 We welcome the participation of interested colleagues. We anticipate that the structure of CRO will continue to be refined. Please see the contributors page for more information.
 
 ### How is CRO related to CD2H?
-The CRO is funded by the NIH Center for Data to Health, and is part of the Architecting Attribution project [https://github.com/data2health/architecting_attribution](https://github.com/data2health/architecting_attribution), led by Kristi Holmes of Northwestern University and Dave Eichmann of University of Iowa.
+The CRO is funded by the NIH Center for Data to Health, and is part of the [Architecting Attribution project](https://github.com/data2health/architecting_attribution), led by Kristi Holmes of Northwestern University and Dave Eichmann of University of Iowa.
 
 ### How do I cite CRO?
 Please cite: Marijane White, Nicole Vasilevsky, Melissa Haendel, [https://zenodo.org/record/2593739#.XTZWoZNKgl4](https://zenodo.org/record/2593739#.XTZWoZNKgl4)
