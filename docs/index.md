@@ -7,7 +7,7 @@ The latest version of the ontology is available at: [http://purl.obolibrary.org/
 The CRO GitHub repository is [here](https://github.com/data2health/contributor-role-ontology#relevant-publications-and-scholarly-products)
 
 ## Contribute
-The best way to contribute to the CRO is by addressing tickets or reporting issues on the [GitHub tracker](https://github.com/data2health/contributor-role-ontology/issues). See more info on our [contributors page](pages/contribuotrs.md).
+The best way to contribute to the CRO is by addressing tickets or reporting issues on the [GitHub tracker](https://github.com/data2health/contributor-role-ontology/issues). See more info on our [contributors page](pages/contributors.md).
 
 ## License
 [CC-BY](https://creativecommons.org/licenses/by/2.0/)
