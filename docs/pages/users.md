@@ -21,4 +21,4 @@ Ontobee: [http://www.ontobee.org/ontology/CRO](http://www.ontobee.org/ontology/C
 ### Who uses CRO:
 The CRO is intended for use in research information systems, or use by individuals when describing their work and contributions. It is designed for crediting persons or organizations. 
 
-#### Back to [home](https://data2health.github.io/contributor-role-ontology/)
+##### Back to [home](https://data2health.github.io/contributor-role-ontology/)
