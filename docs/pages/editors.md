@@ -5,13 +5,8 @@
 
 _The editors guide is under development_
 
-CRO is edited in Protege and via GitHub Pull Requests.
-- Download Protege: [https://protege.stanford.edu/](https://protege.stanford.edu/)  
-- A Protege tutorial is available [here](https://ontology101tutorial.readthedocs.io/en/latest/)  
-- Additional resources on ontology development are available [here](https://tislab.org/ontologyResources.html)
-
 ### CRO Editors Guide
-
+CRO is edited in Protege and via GitHub Pull Requests.
 - [How to make a good term request](editorsguide/howtomakeatermrequest.md)
 - [Setting up Protege](editorsguide/settingup.md)
 - Pre-edit checkliist
@@ -19,6 +14,13 @@ CRO is edited in Protege and via GitHub Pull Requests.
 - [Editing the ontology in Protege](editorsguide/CROeditorsguide.md)
 - Obsoleting
 - MIREOTing
+
+### Additional Resources
+
+
+- Download Protege: [https://protege.stanford.edu/](https://protege.stanford.edu/)  
+- A Protege tutorial is available [here](https://ontology101tutorial.readthedocs.io/en/latest/)  
+- Additional resources on ontology development are available [here](https://tislab.org/ontologyResources.html)
 
 _This editors guide was adoped from the [Human Phenotype Ontology](https://github.com/obophenotype/human-phenotype-ontology/wiki)._
 
