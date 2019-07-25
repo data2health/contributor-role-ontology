@@ -3,12 +3,12 @@
 
 ## Editors Guide
 
+_The editors guide is under development_
+
 CRO is edited in Protege and via GitHub Pull Requests.
 - Download Protege: [https://protege.stanford.edu/](https://protege.stanford.edu/)  
 - A Protege tutorial is available [here](https://ontology101tutorial.readthedocs.io/en/latest/)  
 - Additional resources on ontology development are available [here](https://tislab.org/ontologyResources.html)
-
-_The editors guide is under development_
 
 - [How to make a good term request](editorsguide/howtomakeatermrequest.md)
 - CRO Editors Guide
