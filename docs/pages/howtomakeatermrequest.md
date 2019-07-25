@@ -7,12 +7,6 @@ First, please look at the current CRO and check whether the term is already ther
 - Ontology Lookup Service: [https://www.ebi.ac.uk/ols/ontologies/cro](https://www.ebi.ac.uk/ols/ontologies/cro)  
 - Ontobee: [http://www.ontobee.org/ontology/CRO](http://www.ontobee.org/ontology/CRO)  
 
-
-# Is the term you are looking for a synonym of an existing term?
-If you do not immediately find the term you are looking for, please look for synonyms. One way of doing this with one of the online browsers listed above is to go to a likely parent of the term and peruse all of the children to spot a likely synonym. 
-
-If you find such a term, then make a term request SYNONYM Request: Please add "_My synonym_" to existing CRO term "_Term_"
-
 # Bundled terms
 If you find a description in a publication such as "Sparse eyebrows and eyelashes", note that the description is refering to two separate phenotypic features. The HPO would encode this using two different terms, _Sparse eyebrows_ and _Sparse eyelashes_. The idea is that one HPO term should refer to an "atomic" phenotypic abnormality rather than to a collection of abnormalities observed in an individual patient. Please "debundle" the description and proceed as described above.
 
