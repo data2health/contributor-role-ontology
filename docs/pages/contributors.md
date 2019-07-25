@@ -25,9 +25,10 @@ Name | Affiliation | GitHub
 [Karen Gutzman](https://galter.northwestern.edu/About%20Us/karen-gutzman) | Northwestern University | [kglibrarian](https://github.com/kglibrarian) 
 [Melissa Haendel](https://www.ohsu.edu/people/melissa-haendel/AFE044BDE8046E5D6FBDA51F448BDE2A) | Oregon Health & Science University | [mellybelly](https://github.com/mellybelly) 
 [Kristi Holmes](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=29964) | Northwestern University | [kristiholmes](https://github.com/kristiholmes)  
-[Violeta Ilik](Columbia University) | Columbia University |
+[Violeta Ilik](https://vioil.github.io/) | Columbia University | [vioil](https://github.com/vioil) 
 [Dean Krafft](http://www.cs.cornell.edu/dean/) | Cornell University (retired) | 
-[Patti Smith]() | Northwestern University | 
+[Patty Smith]() | Northwestern University | 
+[Graham Triggs](http://openvivo.org/display/orcid0000-0001-8530-8917) | TIB: Hannover | [grahamtriggs](https://github.com/grahamtriggs)
 [Nicole Vasilevsky](https://www.ohsu.edu/people/nicole-vasilevsky/AFE02EDDEA27ECE3D94EFA42F7295044) | Oregon Health & Science University | [nicolevasilevsky](https://github.com/nicolevasilevsky)
 [Marijane White](https://www.ohsu.edu/people/marijane-white/37DF727DF6BE5A2DC7E2A37F35E3FD44) | Oregon Health & Science University | [marijane](https://github.com/marijane)
 
