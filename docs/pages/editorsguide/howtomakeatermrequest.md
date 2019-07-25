@@ -3,7 +3,7 @@
 The following is intended to serve as a guide for anyone who would like to contribute to the CRO project by making new term requests.
 
 ## Does the term you are looking for already exist?
-First, please look at the current CRO and check whether the term is already there. There are several online browsers that you can use, and it is also possible to use [Protege](http://protege.stanford.edu/).
+First, please look at the current CRO and check whether the term is already there. There are several online browsers that you can use, and it is also possible to view the ontology in [Protege](http://protege.stanford.edu/).
 - BioPortal: [https://bioportal.bioontology.org/ontologies/CRO](https://bioportal.bioontology.org/ontologies/CRO)  
 - OBO Foundry: [http://obofoundry.org/ontology/cro.html](http://obofoundry.org/ontology/cro.html)  
 - Ontology Lookup Service: [https://www.ebi.ac.uk/ols/ontologies/cro](https://www.ebi.ac.uk/ols/ontologies/cro)  
