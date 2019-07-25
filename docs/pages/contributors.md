@@ -22,6 +22,7 @@ Name | Affiliation | GitHub
 Name | Affiliation | GitHub
 --- | --- | ---
 [Michael Conlon](http://openvivo.org/display/orcid0000-0002-1304-8447) | University of Floria | [mconlon17](https://github.com/mconlon17)
+[David Eichmann](https://www.slis.uiowa.edu/research-profiles/eichmann-david) | University of Iowa | [eichmann](https://github.com/eichmann)
 [Shahim Essaid](https://ohsu.pure.elsevier.com/en/persons/shahim-essaid) | Oregon Health & Science University | [ShahimEssaid](https://github.com/ShahimEssaid)
 [Paul Friedman](http://openvivo.org/display/orcid0000-0001-8523-3687) |Northwestern University |
 [Karen Gutzman](https://galter.northwestern.edu/About%20Us/karen-gutzman) | Northwestern University | [kglibrarian](https://github.com/kglibrarian) 
