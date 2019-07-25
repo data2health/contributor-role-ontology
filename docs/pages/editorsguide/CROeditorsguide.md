@@ -1,7 +1,5 @@
 # Editors' Guide for CRO developers
 
-## GETTING STARTED
-
 ### Creating a new branch
 
 Edits to the CRO should be done on a branch via a Pull Request. For guidance on creating a branch and creating a pull request, go [here](https://data2health.github.io/contributor-role-ontology/pages/editorsguide/pullrequest.html).
