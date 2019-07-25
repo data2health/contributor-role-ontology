@@ -10,7 +10,7 @@ _The editors guide is under development_
 
 - [How to make a good term request](editorsguide/howtomakeatermrequest.md)
 - CRO Editors Guide
-  - Setting up Protege
+  - [Setting up Protege](editorsguide/settingup.md)
   - Pre-edit checkliist
   - Creating a branch/Pull Requests
   - [Editing the ontology in Protege](editorsguide/CROeditorsguide.md)
