@@ -30,7 +30,9 @@ Name | Affiliation | GitHub
 [Violeta Ilik](https://vioil.github.io/) | Columbia University | [vioil](https://github.com/vioil) 
 [Muhammad Javed](http://openvivo.org/display/orcid0000-0001-9770-7640) | Cornell University | 
 [Dean Krafft](http://www.cs.cornell.edu/dean/) | Cornell University (retired) | 
-[Patty Smith]() | Northwestern University | 
+[Simon Porter](http://openvivo.org/display/orcid0000-0002-6151-8423) | Digital Science | 
+[Patty Smith]() | Northwestern University | [martinszomszor](https://github.com/martinszomszor)
+[Martin Szomszor](https://uk.linkedin.com/in/martinszomszor) | Digital Science |
 [Graham Triggs](http://openvivo.org/display/orcid0000-0001-8530-8917) | TIB: Hannover | [grahamtriggs](https://github.com/grahamtriggs)
 [Nicole Vasilevsky](https://www.ohsu.edu/people/nicole-vasilevsky/AFE02EDDEA27ECE3D94EFA42F7295044) | Oregon Health & Science University | [nicolevasilevsky](https://github.com/nicolevasilevsky)
 [Marijane White](https://www.ohsu.edu/people/marijane-white/37DF727DF6BE5A2DC7E2A37F35E3FD44) | Oregon Health & Science University | [marijane](https://github.com/marijane)
