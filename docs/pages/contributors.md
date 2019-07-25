@@ -9,7 +9,7 @@ The best way to contribute to the CRO is by addressing tickets or reporting issu
 Name | Affiliation | GitHub
 --- | --- | ---
 [Matthew Brush](https://www.ohsu.edu/people/matthew-brush/AFE03ED3F99667D53E7B5151AC2B075C) | Oregon Health & Science University | [mbrush](https://github.com/mbrush) 
-[Karen Gutzman]() | Northwestern University | [add handle](https://github.com/) 
+[Karen Gutzman](https://galter.northwestern.edu/About%20Us/karen-gutzman) | Northwestern University | [kglibrarian](https://github.com/kglibrarian) 
 [Melissa Haendel](https://www.ohsu.edu/people/melissa-haendel/AFE044BDE8046E5D6FBDA51F448BDE2A) | Oregon Health & Science University | [mellybelly](https://github.com/mellybelly) 
 [Kristi Holmes](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=29964) | Northwestern University | [kristiholmes](https://github.com/kristiholmes) 
 [Lisa O'Keefe](https://www.linkedin.com/in/lisaokeefe/) | Northwestern University | [LisaOKeefe1 ](https://github.com/LisaOKeefe1) 
@@ -22,10 +22,13 @@ Name | Affiliation | GitHub
 Name | Affiliation | GitHub
 --- | --- | ---
 [Michael Conlon](http://openvivo.org/display/orcid0000-0002-1304-8447) | University of Floria | [mconlon17](https://github.com/mconlon17)
+[Shahim Essaid](https://ohsu.pure.elsevier.com/en/persons/shahim-essaid) | Oregon Health & Science University | [ShahimEssaid](https://github.com/ShahimEssaid)
+[Paul Friedman](http://openvivo.org/display/orcid0000-0001-8523-3687) |Northwestern University |
 [Karen Gutzman](https://galter.northwestern.edu/About%20Us/karen-gutzman) | Northwestern University | [kglibrarian](https://github.com/kglibrarian) 
 [Melissa Haendel](https://www.ohsu.edu/people/melissa-haendel/AFE044BDE8046E5D6FBDA51F448BDE2A) | Oregon Health & Science University | [mellybelly](https://github.com/mellybelly) 
 [Kristi Holmes](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=29964) | Northwestern University | [kristiholmes](https://github.com/kristiholmes)  
 [Violeta Ilik](https://vioil.github.io/) | Columbia University | [vioil](https://github.com/vioil) 
+[Muhammad Javed](http://openvivo.org/display/orcid0000-0001-9770-7640) | Cornell University | 
 [Dean Krafft](http://www.cs.cornell.edu/dean/) | Cornell University (retired) | 
 [Patty Smith]() | Northwestern University | 
 [Graham Triggs](http://openvivo.org/display/orcid0000-0001-8530-8917) | TIB: Hannover | [grahamtriggs](https://github.com/grahamtriggs)
