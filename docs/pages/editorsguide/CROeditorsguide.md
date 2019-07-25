@@ -4,7 +4,7 @@
 
 ### Creating a new branch
 
-Edits to the CRO should be done on a branch via a Pull Request. For guidance on creating a branch and creating a pull request, go [here](editorsguide/pullrequest.md).
+Edits to the CRO should be done on a branch via a Pull Request. For guidance on creating a branch and creating a pull request, go [here](https://data2health.github.io/contributor-role-ontology/pages/editorsguide/pullrequest.html).
 
 1. Open the file cro-edit.owl in Protege. On the bottom left, you should see your branch name (not Git: master)
 
@@ -55,8 +55,7 @@ git add -u .
 git commit -m "This closes #68"
 git push
 
-## CHECKLIST
----------
+## Checklist
 
 Always synchronize the reasoner before committing. Did your changes
 introduce unsatisfiable classes? If so, investigate them.
