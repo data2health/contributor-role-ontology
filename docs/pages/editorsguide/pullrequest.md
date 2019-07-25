@@ -1,4 +1,4 @@
-### Creatng a new branch
+### Creating a new branch
 
 _this content is under development_
 
