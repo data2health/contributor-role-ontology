@@ -19,4 +19,4 @@ Once you have convinced yourself that the item you need is not already present i
 4. **References.** Please include a link to a published paper, website or other controlled vocabularly (provide the ID), so that other users of the CRO can find more information about your term.
 5. **Parent term.** If possible, please suggest where your new term should be placed within the existing ontology. It is sufficient to write the name(s) of the parent term(s) (i.e., you do not need to tell us the CRO ID, e.g., CRO:0000001)
 
-#### Back to [Editors Guide](https://github.com/data2health/contributor-role-ontology/blob/master/docs/pages/editors.md)
+#### Back to [Editors Guide](pages/editors.md))
