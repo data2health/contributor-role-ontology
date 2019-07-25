@@ -4,7 +4,7 @@
 
 The best way to contribute to the CRO is by addressing tickets or reporting issues on the GitHub tracker: [https://github.com/data2health/contributor-role-ontology/issues](https://github.com/data2health/contributor-role-ontology/issues).
 
-### Developers
+### Contributor Role Ontology Developers
 
 Name | Affiliation | GitHub
 --- | --- | ---
@@ -14,6 +14,20 @@ Name | Affiliation | GitHub
 [Kristi Holmes](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=29964) | Northwestern University | [kristiholmes](https://github.com/kristiholmes) 
 [Lisa O'Keefe](https://www.linkedin.com/in/lisaokeefe/) | Northwestern University | [LisaOKeefe1 ](https://github.com/LisaOKeefe1) 
 [Anne Thessan](https://tislab.org/athessen.html) | Oregon State University | [diatomsRcool](https://github.com/diatomsRcool) 
+[Nicole Vasilevsky](https://www.ohsu.edu/people/nicole-vasilevsky/AFE02EDDEA27ECE3D94EFA42F7295044) | Oregon Health & Science University | [nicolevasilevsky](https://github.com/nicolevasilevsky)
+[Marijane White](https://www.ohsu.edu/people/marijane-white/37DF727DF6BE5A2DC7E2A37F35E3FD44) | Oregon Health & Science University | [marijane](https://github.com/marijane)
+
+### Contribution Ontology Developers
+
+Name | Affiliation | GitHub
+--- | --- | ---
+[Michael Conlon](http://openvivo.org/display/orcid0000-0002-1304-8447) | University of Floria | [mconlon17](https://github.com/mconlon17)
+[Karen Gutzman](https://galter.northwestern.edu/About%20Us/karen-gutzman) | Northwestern University | [kglibrarian](https://github.com/kglibrarian) 
+[Melissa Haendel](https://www.ohsu.edu/people/melissa-haendel/AFE044BDE8046E5D6FBDA51F448BDE2A) | Oregon Health & Science University | [mellybelly](https://github.com/mellybelly) 
+[Kristi Holmes](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=29964) | Northwestern University | [kristiholmes](https://github.com/kristiholmes)  
+[Violeta Ilik](Columbia University) | Columbia University |
+[Dean Krafft](http://www.cs.cornell.edu/dean/) | Cornell University (retired) | 
+[Patti Smith]() | Northwestern University | 
 [Nicole Vasilevsky](https://www.ohsu.edu/people/nicole-vasilevsky/AFE02EDDEA27ECE3D94EFA42F7295044) | Oregon Health & Science University | [nicolevasilevsky](https://github.com/nicolevasilevsky)
 [Marijane White](https://www.ohsu.edu/people/marijane-white/37DF727DF6BE5A2DC7E2A37F35E3FD44) | Oregon Health & Science University | [marijane](https://github.com/marijane)
 
