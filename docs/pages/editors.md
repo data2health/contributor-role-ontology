@@ -19,5 +19,6 @@ _The editors guide is under development_
   - Obsoleting
   - MIREOTing
 
+_This editors guide was adoped from the [Human Phenotype Ontology](https://github.com/obophenotype/human-phenotype-ontology/wiki)._
 
 ##### Back to [home](https://data2health.github.io/contributor-role-ontology/)
