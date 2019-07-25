@@ -1,3 +1,5 @@
+## Creating a branch and Pull Request
+
 ### Updating the local copy of the ontology with ‘git pull’
 
 1. In the terminal, navigate to your local version of the ontology
