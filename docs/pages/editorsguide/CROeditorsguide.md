@@ -49,9 +49,11 @@ Edits to the CRO should be done on a branch via a Pull Request. For guidance on 
 This is the preferred way to commit a new term.  
 See the [GitHub help pages for this](https://help.github.com/articles/closing-issues-via-commit-messages/).
 To close and commit terms that relate to issue #68, for instance, create the terms and save them to file.
+~~~
 git add -u .
-git commit -m "This closes #68"
+git commit -m "This closes #68"  
 git push
+~~~
 
 ## Checklist
 
