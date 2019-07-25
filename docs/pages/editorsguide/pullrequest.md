@@ -1,4 +1,4 @@
-### Creating a new branch
+### Updating the local copy of the ontology with ‘git pull’
 
 1. In the terminal, navigate to your local version of the ontology
 ~~~~
@@ -42,11 +42,13 @@ Fast-forward
  create mode 100644 docs/pages/editorsguide/settingup.md
 ~~~
 
-
+### Creating a New Working Branch with ‘git checkout’
 
 ### Pull Request
 
 _this content is under development_
+
+_This content was adopted from the [Gene Ontology](https://go-ontology.readthedocs.io/en/latest/DailyWorkflow.html).
 
 #### Back to [Editors Guide](https://data2health.github.io/contributor-role-ontology/pages/editors.html)
 #### Back to [home](https://data2health.github.io/contributor-role-ontology/)
