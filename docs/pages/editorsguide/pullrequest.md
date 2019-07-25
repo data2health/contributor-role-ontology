@@ -95,11 +95,12 @@ Example:
 7. Wait for the Travis checks to complete (this can take a few minutes). If the Travis checks failed, go back to your working copy and correct the reported errrors.
 8. If you have admistrative rights, merge if the Travis checks are succesful and if you are done working on that branch, merge the pull request. Confirming the merge will close the ticket if you have used the word 'closes' or ‘fixes’ in your commit comment.  
 9. Delete your branch on the repository using the button on the right of the successful merge message.
-10. You may also delete the working branch on your local copy. Note that this step is optional. However, if you wish to delete branches on your local machine, in your terminal window:
+10. You may also delete the working branch on your local copy. _Note that this step is optional._ However, if you wish to delete branches on your local machine, in your terminal window:
 
 - Go back to the master branch by typing git checkout master.
-- Update your local copy of the repository by typing git pull origin master
-- Delete the branch by typing git branch -d workingbranchname. Example: git branch -d issue-26
+- Update your local copy of the repository by typing `git pull origin master`
+- Delete the branch by typing `git branch -d workingbranchname.` 
+Example: `git branch -d issue-26`
 
 _This content was adopted from the [Gene Ontology](https://go-ontology.readthedocs.io/en/latest/DailyWorkflow.html)._
 
