@@ -17,10 +17,9 @@ Edits to the CRO should be done on a branch via a Pull Request. For guidance on 
 1. Add subclass
 1. Add label (URI should be auto-generated)
 1. Under annotations, add definition, click OK
-1. Annotation on definition (see below)
-1. database_cross_reference
-1. dbxref: Your ORCID (if you do not have an ORCID, sign up here: [https://orcid.org/](https://orcid.org/))
-1. Under annotations, add synonyms, if necessary (has_exact_synonym, etc).
+1. Annotation on definition as 'definition source'
+1. hasDBxef, if applicable
+1. Under annotations, add synonyms, if necessary as an 'alternative term'.
 
 ### Save
 
@@ -41,7 +40,7 @@ Edits to the CRO should be done on a branch via a Pull Request. For guidance on 
 * Make sure the Protege reasoner (Elk) is active to investigate any unforeseen and unintended logical inferences
 * Most terms should have the following items added:
   * **Label**  
-  * **Definition**: This should be extended by definitioin source (e.g., a PubMed ID (PMID), another unique identifer to another source, a URL, or a refernece to a paper. _Note, there should be no spaces in the PMID._)  
+  * **Definition**: This should be extended by definitioin source (e.g., a PubMed ID (PMID), another unique identifer to another source, a URL, or a reference to a paper. _Note, there should be no spaces in the PMID._)  
   * **Comment**: _Optional._ A comment can be used to provide additional information about the term.  
   * **hasDBxref**: Indicate an item in another database that is equivalent to this CRO term. For instance, 8b73531f-db56-4914-9502-4cc4d4d8ed73. 
   * **alternative term**: If possible, add relevant alternative terms/synonyms.
