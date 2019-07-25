@@ -63,3 +63,4 @@ Installing ELK:
   * Go to Protege in **Applications** (Finder), right click, 'Show package contents' -> Java -> plugins
 
 #### Back to [Editors Guide](pages/editors.md)
+#### Back to [home](https://data2health.github.io/contributor-role-ontology/)
