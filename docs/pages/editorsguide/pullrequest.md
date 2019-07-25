@@ -84,28 +84,22 @@ Example:
 
 **TIP:** Once you have pushed your changes to the repository, they are available for everyone to see, so at this stage you can ask for feedback.
 
-5. Pull
-
-In your browser, return to the GO Ontology repository on GitHub.
-Navigate to the tab labeled as ‘Code’ geneontology/go-ontology/code. You will see your commit listed at the top of the page in a light yellow box. If you don’t see it, click on the ‘Branches’ link to reveal it in the list, and click on it.
-Click the green button ‘Compare & pull request’ on the right.
-You may now add comments and ask a colleague to review your pull request. If you want to have the ticket reviewed before closing it, you can select a reviewer for the ticket before you make the pull request by clicking on the ‘Reviewers’ list and entering a GitHub identifier (e.g. @superuser1). The reviewer will be notified when the pull request is submitted. Since the Pull Request is also a GitHub issue, the reviewer’s comments will show up in the dialog tab of the pull request, similarly to any other issue filed on the tracker.
-The diff for your file is at the bottom of the page. Examine it as a sanity check.
-Click on the green box ‘Pull request’ to generate a pull request.
-Wait for the Travis checks to complete (this can take a few minutes). If the Travis checks failed, go back to your working copy and correct the reported errrors.
-Merge If the Travis checks are succesful and if you are done working on that branch, merge the pull request. Confirming the merge will close the ticket if you have used the word ‘fixes’ in your commit comment. NOTE: Merge the branches only when the work is completed. If there is related work to be done as a follow up to the original request, create a new GitHub ticket and start the process from the beginning.
-
-Delete your branch on the repository using the button on the right of the successful merge message.
-
-You may also delete the working branch on your local copy. Note that this step is optional. However, if you wish to delete branches on your local machine, in your terminal window:
-
-Go back to the master branch by typing git checkout master.
-Update your local copy of the repository by typing git pull origin master
-Delete the branch by typing git branch -d workingbranchname. Example: git branch -d issue-13390
-
 ### Pull Request
 
-_this content is under development_
+1. In your browser, return to the [CRO repository on GitHub](https://github.com/data2health/contributor-role-ontology).
+2. You will see your commit listed at the top of the page in a light yellow box. If you don’t see it, refresh your browser.
+3. Click the green button ‘Compare & pull request’ on the right.
+4. You may now add comments and ask a colleague to review your pull request. If you want to have the ticket reviewed before closing it, you can select a reviewer for the ticket before you make the pull request by clicking on the ‘Reviewers’ list and entering a GitHub identifier (e.g. @marijane). The reviewer will be notified when the pull request is submitted. Since the Pull Request is also a GitHub issue, the reviewer’s comments will show up in the dialog tab of the pull request, similarly to any other issue filed on the tracker.
+5. The diff for your file is at the bottom of the page. Examine it as a sanity check.
+6. Click on the green box ‘Pull request’ to generate a pull request.
+7. Wait for the Travis checks to complete (this can take a few minutes). If the Travis checks failed, go back to your working copy and correct the reported errrors.
+8. If you have admistrative rights, merge if the Travis checks are succesful and if you are done working on that branch, merge the pull request. Confirming the merge will close the ticket if you have used the word 'closes' or ‘fixes’ in your commit comment.  
+9. Delete your branch on the repository using the button on the right of the successful merge message.
+10. You may also delete the working branch on your local copy. Note that this step is optional. However, if you wish to delete branches on your local machine, in your terminal window:
+
+- Go back to the master branch by typing git checkout master.
+- Update your local copy of the repository by typing git pull origin master
+- Delete the branch by typing git branch -d workingbranchname. Example: git branch -d issue-26
 
 _This content was adopted from the [Gene Ontology](https://go-ontology.readthedocs.io/en/latest/DailyWorkflow.html)._
 
