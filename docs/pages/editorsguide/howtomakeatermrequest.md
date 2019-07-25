@@ -22,4 +22,4 @@ Once you have convinced yourself that the item you need is not already present i
 5. **Parent term.** If possible, please suggest where your new term should be placed within the existing ontology. It is sufficient to write the name(s) of the parent term(s) (i.e., you do not need to tell us the CRO ID, e.g., CRO:0000001)
 
 #### Back to [Editors Guide](pages/editors.md)
-#### Back to [home]
+#### Back to [home](https://data2health.github.io/contributor-role-ontology/)
