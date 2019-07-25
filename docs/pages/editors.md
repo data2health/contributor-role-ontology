@@ -5,7 +5,7 @@
 
 CRO is edited in Protege and via GitHub Pull Requests.
 - [How to make a good term request](editorsguide/howtomakeatermrequest.md)
-- [Download CRO from GitHub](download.md)
+- [Download CRO from GitHub](editorsguide/download.md)
 - [Setting up Protege](editorsguide/settingup.md)
 - [Creating a branch/Pull Requests](editorsguide/pullrequest.md)
 - [Editing the ontology in Protege](editorsguide/CROeditorsguide.md)
