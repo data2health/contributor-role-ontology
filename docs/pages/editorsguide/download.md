@@ -1,3 +1,5 @@
+## Download CRO from GitHub
+
 1. In the [CRO GitHub repository](https://github.com/data2health/contributor-role-ontology), click the green **clone or download** button.
 2. If you have GitHub desktop, click **Open in Desktop**
 3. To clone using the terminal, copy the URL `https://github.com/data2health/contributor-role-ontology.git`
