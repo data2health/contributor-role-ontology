@@ -3,9 +3,6 @@
 
 ## Editors Guide
 
-_The editors guide is under development_
-
-### CRO Editors Guide
 CRO is edited in Protege and via GitHub Pull Requests.
 - [How to make a good term request](editorsguide/howtomakeatermrequest.md)
 - [Setting up Protege](editorsguide/settingup.md)
