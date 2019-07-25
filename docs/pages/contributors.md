@@ -2,7 +2,9 @@
 ---
 ## How to contribute
 
-The best way to contribute to the CRO is by addressing tickets or reporting issues on the GitHub tracker: [https://github.com/data2health/contributor-role-ontology/issues](https://github.com/data2health/contributor-role-ontology/issues).
+The best way to contribute to the CRO is by addressing tickets or reporting issues on the GitHub tracker: [https://github.com/data2health/contributor-role-ontology/issues](https://github.com/data2health/contributor-role-ontology/issues).  
+
+See guidelines on [How to Make a Good Term Request](editorsguide/howtomakeatermrequest.md)
 
 ### Contributor Role Ontology Developers
 
