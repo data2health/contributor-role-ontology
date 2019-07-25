@@ -61,3 +61,5 @@ Installing ELK:
 4) Paste these files in your Protege plugin directory. This is in one of two locations:  
   * ~/.Protege/plugins (note this is usually hidden from finder, but you can see it in the terminal) or
   * Go to Protege in **Applications** (Finder), right click, 'Show package contents' -> Java -> plugins
+
+#### Back to [Editors Guide](https://github.com/data2health/contributor-role-ontology/blob/master/docs/pages/editors.md)
