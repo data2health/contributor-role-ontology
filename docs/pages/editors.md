@@ -10,7 +10,7 @@ CRO is edited in Protege and via GitHub Pull Requests.
 - [Creating a branch/Pull Requests](editorsguide/pullrequest.md)
 - [Editing the ontology in Protege](editorsguide/CROeditorsguide.md)
 - [Obsoleting](editorsguide/obsoleting.md)
-<!--- [MIREOTing](editorsguide/mireoting.md)-->
+- [MIREOTing](editorsguide/mireoting.md)
 
 ### Additional Resources
 
