@@ -10,7 +10,7 @@ First, please look at the current CRO and check whether the term is already ther
 - Ontobee: [http://www.ontobee.org/ontology/CRO](http://www.ontobee.org/ontology/CRO)  
 
 ## Anatomy of an CRO term
-Once you have convinced yourself that the item you need is not already present in the HPO, please provide us with the following information
+Once you have convinced yourself that the item you need is not already present in CRO, please provide us with the following information
 
 1. **Label:** What is the name of the term? This should be the name most commonly used by the community.
 2. **Alternative term/Synonyms.** If you are aware of synonyms for you term, please include them in your term request.
