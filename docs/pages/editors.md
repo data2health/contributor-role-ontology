@@ -9,11 +9,10 @@ _The editors guide is under development_
 CRO is edited in Protege and via GitHub Pull Requests.
 - [How to make a good term request](editorsguide/howtomakeatermrequest.md)
 - [Setting up Protege](editorsguide/settingup.md)
-- Pre-edit checkliist
-- Creating a branch/Pull Requests
+- [Creating a branch/Pull Requests](branch.md)
 - [Editing the ontology in Protege](editorsguide/CROeditorsguide.md)
-- Obsoleting
-- MIREOTing
+- [Obsoleting](obsoleting.md)
+- [MIREOTing](mireoting.md)
 
 ### Additional Resources
 
