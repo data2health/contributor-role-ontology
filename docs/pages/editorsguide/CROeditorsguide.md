@@ -39,12 +39,12 @@ Edits to the CRO should be done on a branch via a Pull Request. For guidance on 
 
 * In general, the term should be announced on the [GitHub tracker](https://github.com/data2health/contributor-role-ontology/issues) prior to creation of new term
 * Make sure the Protege reasoner (Elk) is active to investigate any unforeseen and unintended logical inferences
-* Most terms should have the following items added
-  ** Label
-  ** Definition (english-language). This should be extended by database_cross_reference (e.g., PMID:123 to provide additional information. _Note, there should be no spaces in the PMID._)
-  ** _Optional_ Comment. A comment can be used to provide additional information about the term.
-  ** database_cross_reference. Indicate an item in another database that is equivalent to this CRO term. For instance, [add example]. We can add a label (e.g., "Single umbilical artery") by the "Annotations" button.
-  ** If possible, add relevant synonyms. Use "has_exact_synonym" for true synonyms (preferred). If needed, use has_related_synonym for words/phrases that are not 100% identical in meaning but are likely to be confused with the main term.
+* Most terms should have the following items added:
+  * Label  
+  * Definition (english-language). This should be extended by database_cross_reference (e.g., PMID:123 to provide additional information. _Note, there should be no spaces in the PMID._)  
+  * _Optional_ Comment. A comment can be used to provide additional information about the term.  
+  * database_cross_reference. Indicate an item in another database that is equivalent to this CRO term. For instance, [add example]. We can add a label (e.g., "Single umbilical artery") by the "Annotations" button.  
+  * If possible, add relevant synonyms. Use "has_exact_synonym" for true synonyms (preferred). If needed, use has_related_synonym for words/phrases that are not 100% identical in meaning but are likely to be confused with the main term.  
 
 ## Closing Issues with Commit Messages
 This is the preferred way to commit a new term.  
