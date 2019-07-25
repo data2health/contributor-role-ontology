@@ -2,9 +2,9 @@
 
 ## GETTING STARTED
 
-### Creatng a new branch
+### Creating a new branch
 
-Edits to the CRO should be done on a branch via a Pull Request. For guidance on creating a branch and creating a pull request, go [here](pages/editorsguide/pullrequest.md).
+Edits to the CRO should be done on a branch via a Pull Request. For guidance on creating a branch and creating a pull request, go [here](editorsguide/pullrequest.md).
 
 1. Open the file cro-edit.owl in Protege. On the bottom left, you should see your branch name (not Git: master)
 
