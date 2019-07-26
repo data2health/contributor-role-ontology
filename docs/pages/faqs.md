@@ -18,6 +18,6 @@ We welcome the participation of interested colleagues. We anticipate that the st
 The CRO is funded by the NIH Center for Data to Health, and is part of the [Architecting Attribution project](https://github.com/data2health/architecting_attribution), led by Kristi Holmes of Northwestern University and Dave Eichmann of University of Iowa.
 
 ### How do I cite CRO?
-Please cite: Kristi Holmes, Marijane White, Nicole Vasilevsky, Lisa O'Keefe, Melissa Haendel, [https://zenodo.org/record/2593739#.XTZWoZNKgl4](https://zenodo.org/record/2593739#.XTZWoZNKgl4)
+Please cite: Archetecting Attribution. (2019). Contributor Role Ontology (Version 1.0) [Collaborative data model]. Project retrieved from [https://github.com/data2health/contributor-role-ontology](https://github.com/data2health/contributor-role-ontology). Ontology retrieved from: [https://zenodo.org/record/2593739#.XTZWoZNKgl4](https://zenodo.org/record/2593739#.XTZWoZNKgl4)
 
 ##### Back to [home](https://data2health.github.io/contributor-role-ontology/)
