@@ -11,7 +11,7 @@ See guidelines on [How to Make a Good Term Request](editorsguide/howtomakeatermr
 Name | Affiliation | GitHub
 --- | --- | ---
 [Matthew Brush](https://www.ohsu.edu/people/matthew-brush/AFE03ED3F99667D53E7B5151AC2B075C) | Oregon Health & Science University | [mbrush](https://github.com/mbrush) 
-[Sara Gonzales]() | Northwestern University | 
+[Sara Gonzales]() | Northwestern University | [saragon02](https://github.com/saragon02)
 [Karen Gutzman](https://galter.northwestern.edu/About%20Us/karen-gutzman) | Northwestern University | [kglibrarian](https://github.com/kglibrarian) 
 [Melissa Haendel](https://www.ohsu.edu/people/melissa-haendel/AFE044BDE8046E5D6FBDA51F448BDE2A) | Oregon Health & Science University | [mellybelly](https://github.com/mellybelly) 
 [Kristi Holmes](https://www.feinberg.northwestern.edu/faculty-profiles/az/profile.html?xid=29964) | Northwestern University | [kristiholmes](https://github.com/kristiholmes) 
@@ -36,7 +36,6 @@ Name | Affiliation | GitHub
 [Muhammad Javed](http://openvivo.org/display/orcid0000-0001-9770-7640) | Cornell University | 
 [Dean Krafft](http://www.cs.cornell.edu/dean/) | Cornell University (retired) | 
 [Simon Porter](http://openvivo.org/display/orcid0000-0002-6151-8423) | Digital Science | [martinszomszor](https://github.com/martinszomszor)
-[Patty Smith]() | Northwestern University | 
 [Martin Szomszor](https://uk.linkedin.com/in/martinszomszor) | Digital Science |
 [Graham Triggs](http://openvivo.org/display/orcid0000-0001-8530-8917) | TIB: Hannover | [grahamtriggs](https://github.com/grahamtriggs)
 [Nicole Vasilevsky](https://www.ohsu.edu/people/nicole-vasilevsky/AFE02EDDEA27ECE3D94EFA42F7295044) | Oregon Health & Science University | [nicolevasilevsky](https://github.com/nicolevasilevsky)
