@@ -22,6 +22,7 @@ Name | Affiliation | GitHub
 [Marijane White](https://www.ohsu.edu/people/marijane-white/37DF727DF6BE5A2DC7E2A37F35E3FD44) | Oregon Health & Science University | [marijane](https://github.com/marijane)
 
 ### Contribution Ontology Developers
+_Early related work, describered in [OpenVIVO: Transparency in Scholarship](https://www.frontiersin.org/articles/10.3389/frma.2017.00012/full). (2018) Front. Res. Metr. Anal. 2:12. doi: 10.3389/frma.2017.00012_
 
 Name | Affiliation | GitHub
 --- | --- | ---
