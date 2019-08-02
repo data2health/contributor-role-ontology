@@ -132,7 +132,6 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/CRO_0000000> "https://orcid.org/0000-0001-5059-4132")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000000> "http://dictionary.casrai.org/Contributor_Roles")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CRO_0000000> "9dbb95f4-55ed-4e43-9301-a9f0e3e17afe")
-AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasSynonym> <http://purl.obolibrary.org/obo/CRO_0000000> credit:CREDIT_00000000)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000000> "contributor role"@en)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000001> (author role)
