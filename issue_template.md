@@ -2,15 +2,15 @@ For new term requests, please provide the following information:
 
 ## Preferred term label
 
-(e.g., Asplenia)
+(e.g., contributor role)
 
 ## Synonyms
 
-(e.g., Absent spleen)
+(e.g., contribution role)
 
 ## Textual definition
 
-the definition should be understandable even for non-specialists. Include a PubMed ID to refer to any relevant article that provides additional information about the suggested term.
+the definition should be understandable even for non-specialists. Include a reference (like to a PubMed ID) to refer to any relevant article that provides additional information about the suggested term.
 
 ## Suggested parent term
 
