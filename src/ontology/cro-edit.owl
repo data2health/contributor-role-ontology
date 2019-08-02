@@ -101,6 +101,7 @@ Declaration(Class(credit:CREDIT_00000006))
 Declaration(Class(credit:CREDIT_00000009))
 Declaration(Class(credit:CREDIT_00000013))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000234>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0000412>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0100001>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/creator>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/date>))
@@ -125,6 +126,13 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IAO_0100001> "ter
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000000> (contributor role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000111> <http://purl.obolibrary.org/obo/CRO_0000000> "contributor role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000114> <http://purl.obolibrary.org/obo/CRO_0000000> "http://purl.obolibrary.org/obo/IAO_0000120")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000000> "A high-level classification of the diverse roles performed in the work leading to a published research output in the sciences. Its purpose to provide transparency in contributions to scholarly published work, to enable improved systems of attribution, credit, and accountability.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000117> <http://purl.obolibrary.org/obo/CRO_0000000> "https://orcid.org/0000-0001-5059-4132")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000119> <http://purl.obolibrary.org/obo/CRO_0000000> "http://dictionary.casrai.org/Contributor_Roles")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> <http://purl.obolibrary.org/obo/CRO_0000000> "9dbb95f4-55ed-4e43-9301-a9f0e3e17afe")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasSynonym> <http://purl.obolibrary.org/obo/CRO_0000000> credit:CREDIT_0000000)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000000> "contributor role"@en)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000001> (author role)
@@ -786,58 +794,76 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000092> credit:CREDIT_00000009)
 # Class: credit:CREDIT_00000001 (conceptualization role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> credit:CREDIT_00000001 "research conceptualization role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> credit:CREDIT_00000001 "http://purl.org/credit/ontology")
 SubClassOf(credit:CREDIT_00000001 <http://purl.obolibrary.org/obo/CRO_0000000>)
 
 # Class: credit:CREDIT_00000002 (data curation role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> credit:CREDIT_00000002 "http://purl.org/credit/ontology")
 SubClassOf(credit:CREDIT_00000002 <http://purl.obolibrary.org/obo/CRO_0000015>)
 
 # Class: credit:CREDIT_00000003 (formal analysis role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> credit:CREDIT_00000003 "http://purl.org/credit/ontology")
 SubClassOf(credit:CREDIT_00000003 <http://purl.obolibrary.org/obo/CRO_0000000>)
 
 # Class: credit:CREDIT_00000004 (funding acquisition role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> credit:CREDIT_00000004 "http://purl.org/credit/ontology")
 SubClassOf(credit:CREDIT_00000004 <http://purl.obolibrary.org/obo/CRO_0000000>)
 
 # Class: credit:CREDIT_00000005 (investigation role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> credit:CREDIT_00000005 "http://purl.org/credit/ontology")
 SubClassOf(credit:CREDIT_00000005 <http://purl.obolibrary.org/obo/CRO_0000000>)
 
 # Class: credit:CREDIT_00000006 (methodology role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> credit:CREDIT_00000006 "http://purl.org/credit/ontology")
 SubClassOf(credit:CREDIT_00000006 <http://purl.obolibrary.org/obo/CRO_0000000>)
 
 # Class: credit:CREDIT_00000007 (project administration role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> credit:CREDIT_00000007 "http://purl.org/credit/ontology")
 SubClassOf(credit:CREDIT_00000007 <http://purl.obolibrary.org/obo/CRO_0000000>)
 
 # Class: credit:CREDIT_00000008 (resources role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> credit:CREDIT_00000008 "resource provision role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> credit:CREDIT_00000008 "http://purl.org/credit/ontology")
 SubClassOf(credit:CREDIT_00000008 <http://purl.obolibrary.org/obo/CRO_0000000>)
 
 # Class: credit:CREDIT_00000009 (software role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> credit:CREDIT_00000009 "http://purl.org/credit/ontology")
 SubClassOf(credit:CREDIT_00000009 <http://purl.obolibrary.org/obo/CRO_0000000>)
 
 # Class: credit:CREDIT_00000010 (supervision role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> credit:CREDIT_00000010 "supervisory role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> credit:CREDIT_00000010 "http://purl.org/credit/ontology")
 SubClassOf(credit:CREDIT_00000010 <http://purl.obolibrary.org/obo/CRO_0000000>)
 
 # Class: credit:CREDIT_00000011 (validation role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> credit:CREDIT_00000011 "http://purl.org/credit/ontology")
 SubClassOf(credit:CREDIT_00000011 <http://purl.obolibrary.org/obo/CRO_0000000>)
 
 # Class: credit:CREDIT_00000012 (visualization role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> credit:CREDIT_00000012 "http://purl.org/credit/ontology")
 SubClassOf(credit:CREDIT_00000012 <http://purl.obolibrary.org/obo/CRO_0000000>)
 
 # Class: credit:CREDIT_00000013 (writing original draft role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> credit:CREDIT_00000013 "original draft preparation role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> credit:CREDIT_00000013 "http://purl.org/credit/ontology")
 SubClassOf(credit:CREDIT_00000013 <http://purl.obolibrary.org/obo/CRO_0000001>)
+
+# Class: credit:CREDIT_00000014 (writing review and editing role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> credit:CREDIT_00000014 "http://purl.org/credit/ontology")
+SubClassOf(credit:CREDIT_00000014 <http://purl.obolibrary.org/obo/CRO_0000000>)
 
 
 )
