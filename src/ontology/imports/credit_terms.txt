@@ -1,0 +1,14 @@
+http://purl.org/credit/ontology#CREDIT_00000001
+http://purl.org/credit/ontology#CREDIT_00000002
+http://purl.org/credit/ontology#CREDIT_00000003
+http://purl.org/credit/ontology#CREDIT_00000004
+http://purl.org/credit/ontology#CREDIT_00000005
+http://purl.org/credit/ontology#CREDIT_00000006
+http://purl.org/credit/ontology#CREDIT_00000007
+http://purl.org/credit/ontology#CREDIT_00000008
+http://purl.org/credit/ontology#CREDIT_00000009
+http://purl.org/credit/ontology#CREDIT_00000010
+http://purl.org/credit/ontology#CREDIT_00000011
+http://purl.org/credit/ontology#CREDIT_00000012
+http://purl.org/credit/ontology#CREDIT_00000013
+http://purl.org/credit/ontology#CREDIT_00000014
