@@ -1,10 +1,11 @@
 format-version: 1.2
-data-version: releases/2019-02-22
+data-version: releases/2019-08-07
 remark: Contributor Role Ontology
 import: http://purl.obolibrary.org/obo/cro/imports/bfo_import.owl
 import: http://purl.obolibrary.org/obo/cro/imports/iao_import.owl
+import: http://purl.org/credit/ontology
 ontology: cro
-owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CRO_00000000>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CRO_0000070>))\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000001> (entity)\n\nSubClassOf(<http://purl.obolibrary.org/obo/BFO_0000001> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/CRO_00000000> (contributor role)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CRO_00000000> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/CRO_0000070> (relationship)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CRO_0000070> owl:Thing)\n\n\n)
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CRO_0000000>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CRO_0000070>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CRO_0000075>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CRO_0000077>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CRO_0000082>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CRO_0000086>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/CRO_0000088>))\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000001> (entity)\n\nSubClassOf(<http://purl.obolibrary.org/obo/BFO_0000001> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/CRO_0000000> (contributor role)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CRO_0000000> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/CRO_0000070> (relationship)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CRO_0000070> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/CRO_0000075> (educational training role)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CRO_0000075> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/CRO_0000077> (systems administration role)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CRO_0000077> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/CRO_0000082> (supervisory role)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CRO_0000082> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/CRO_0000086> (research conceptualization role)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CRO_0000086> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/CRO_0000088> (original draft preparation role)\n\nSubClassOf(<http://purl.obolibrary.org/obo/CRO_0000088> owl:Thing)\n\n\n)
 
 [Term]
 id: BFO:0000002
@@ -19,151 +20,86 @@ id: BFO:0000031
 is_a: BFO:0000002
 
 [Term]
-id: CREDIT:00000001
-name: conceptualization role
-def: "Ideas; formulation or evolution of overarching research goals and aims." []
-is_a: CRO:00000000 ! contributor role
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
-property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T19:54:15Z xsd:dateTime
-property_value: IAO:0000119 http://dictionary.casrai.org/Contributor_Roles/Conceptualization xsd:string
+id: CREDIT_00000001
+is_a: CRO:0000000 ! contributor role
+property_value: IAO:0000118 "research conceptualization role" xsd:string
+property_value: IAO:0000412 http://purl.org/credit/ontology xsd:string
 
 [Term]
-id: CREDIT:00000002
-name: data curation role
-def: "Management activities to annotate (produce metadata), scrub data and maintain research data (including software code, where it is necessary for interpreting the data itself) for initial use and later re-use." []
+id: CREDIT_00000002
 is_a: CRO:0000015 ! data role
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
-property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:11:44Z xsd:dateTime
-property_value: IAO:0000118 "curation role" xsd:string
-property_value: IAO:0000119 http://dictionary.casrai.org/Contributor_Roles/Data_curation xsd:string
+property_value: IAO:0000412 http://purl.org/credit/ontology xsd:string
 
 [Term]
-id: CREDIT:00000003
-name: formal analysis role
-def: "Preparation, creation and/or presentation of the published work, specifically visualization/data presentation." []
-is_a: CRO:0000015 ! data role
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
-property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:11:31Z xsd:dateTime
-property_value: IAO:0000118 "data analysis role" xsd:string
-property_value: IAO:0000118 "formal data analysis role" xsd:string
-property_value: IAO:0000119 http://dictionary.casrai.org/Contributor_Roles/Formal_analysis xsd:string
+id: CREDIT_00000003
+is_a: CRO:0000000 ! contributor role
+property_value: IAO:0000412 http://purl.org/credit/ontology xsd:string
 
 [Term]
-id: CREDIT:00000004
-name: funding acquisition role
-is_a: CRO:00000000 ! contributor role
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
-property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T19:55:54Z xsd:dateTime
-property_value: IAO:0000119 http://dictionary.casrai.org/Contributor_Roles/Funding_acquisition xsd:string
+id: CREDIT_00000004
+is_a: CRO:0000000 ! contributor role
 
 [Term]
-id: CREDIT:00000005
-name: investigation role
-def: "Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection." []
-is_a: CRO:00000000 ! contributor role
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
-property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:06:17Z xsd:dateTime
-property_value: IAO:0000118 "experimentation role" xsd:string
-property_value: IAO:0000118 "study investigation role" xsd:string
-property_value: IAO:0000119 http://dictionary.casrai.org/Contributor_Roles/Investigation xsd:string
+id: CREDIT_00000005
+is_a: CRO:0000000 ! contributor role
+property_value: IAO:0000412 http://purl.org/credit/ontology xsd:string
 
 [Term]
-id: CREDIT:00000006
-name: methodology role
-def: "Development or design of methodology; creation of models." []
-is_a: CRO:00000000 ! contributor role
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
-property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:04:19Z xsd:dateTime
-property_value: IAO:0000118 "methodology development role" xsd:string
-property_value: IAO:0000119 http://dictionary.casrai.org/Contributor_Roles/Methodology xsd:string
+id: CREDIT_00000006
+is_a: CRO:0000000 ! contributor role
+property_value: IAO:0000412 http://purl.org/credit/ontology xsd:string
 
 [Term]
-id: CREDIT:00000007
-name: project administration role
-def: "Management and coordination responsibility for the research activity planning and execution." []
-is_a: CRO:00000000 ! contributor role
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
-property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:04:49Z xsd:dateTime
-property_value: IAO:0000118 "project administrator role" xsd:string
-property_value: IAO:0000118 "project management role" xsd:string
-property_value: IAO:0000119 http://dictionary.casrai.org/Contributor_Roles/Project_administration xsd:string
+id: CREDIT_00000007
+is_a: CRO:0000000 ! contributor role
 
 [Term]
-id: CREDIT:00000008
-name: resources role
-def: "Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools." []
-is_a: CRO:00000000 ! contributor role
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
-property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:06:06Z xsd:dateTime
-property_value: IAO:0000118 "resource provider role" xsd:string
-property_value: IAO:0000119 http://dictionary.casrai.org/Contributor_Roles/Resources xsd:string
+id: CREDIT_00000008
+is_a: CRO:0000000 ! contributor role
 
 [Term]
-id: CREDIT:00000009
-name: software role
-def: "Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components." []
-is_a: CRO:00000000 ! contributor role
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
-property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:06:12Z xsd:dateTime
-property_value: IAO:0000118 "software developer role" xsd:string
-property_value: IAO:0000119 http://dictionary.casrai.org/Contributor_Roles/Software xsd:string
+id: CREDIT_00000009
+is_a: CRO:0000000 ! contributor role
+property_value: IAO:0000412 http://purl.org/credit/ontology xsd:string
 
 [Term]
-id: CREDIT:00000010
-name: supervision role
-def: "Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team." []
-is_a: CRO:00000000 ! contributor role
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
-property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:06:22Z xsd:dateTime
-property_value: IAO:0000119 http://dictionary.casrai.org/Contributor_Roles/Supervision xsd:string
+id: CREDIT_00000010
+is_a: CRO:0000000 ! contributor role
 
 [Term]
-id: CREDIT:00000011
-name: validation role
-def: "Verification, whether as a part of the activity or separate, of the overall replication/reproducibility of results/experiments and other research outputs." []
-is_a: CRO:00000000 ! contributor role
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
-property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:06:30Z xsd:dateTime
-property_value: IAO:0000119 http://dictionary.casrai.org/Contributor_Roles/Validation xsd:string
+id: CREDIT_00000011
+is_a: CRO:0000000 ! contributor role
 
 [Term]
-id: CREDIT:00000012
-name: visualization role
-def: "Preparation, creation and/or presentation of the published work, specifically visualization/data presentation." []
-is_a: CRO:0000015 ! data role
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
-property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:12:30Z xsd:dateTime
-property_value: IAO:0000118 "data visualization role" xsd:string
+id: CREDIT_00000012
+is_a: CRO:0000000 ! contributor role
 
 [Term]
-id: CREDIT:00000013
-name: writing original draft role
-def: "Preparation, creation and/or presentation of the published work, specifically writing the initial draft." []
+id: CREDIT_00000013
 is_a: CRO:0000001 ! author role
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
-property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T19:50:19Z xsd:dateTime
-property_value: IAO:0000119 http://dictionary.casrai.org/Contributor_Roles/Writing_%E2%80%93_original_draft xsd:string
+property_value: IAO:0000118 "original draft preparation role" xsd:string
+property_value: IAO:0000412 http://purl.org/credit/ontology xsd:string
 
 [Term]
-id: CREDIT:00000014
-name: writing review and editing role
-def: "Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision – including pre- or post-publication stages." []
-is_a: CRO:0000001 ! author role
-property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
-property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T19:48:16Z xsd:dateTime
-property_value: IAO:0000118 "editing and proofreading role" xsd:string
-property_value: IAO:0000118 "review and editing" xsd:string
-property_value: IAO:0000119 http://dictionary.casrai.org/Contributor_Roles/Writing_%E2%80%93_review_%26_editing xsd:string
+id: CREDIT_00000014
+is_a: CRO:0000000 ! contributor role
 
 [Term]
-id: CRO:00000000
+id: CRO:0000000
 name: contributor role
+def: "A high-level classification of the diverse roles performed in the work leading to a published research output in the sciences. Its purpose to provide transparency in contributions to scholarly published work, to enable improved systems of attribution, credit, and accountability." []
+xref: 9dbb95f4-55ed-4e43-9301-a9f0e3e17afe
+property_value: hasSynonym "CREDIT_00000000"
+property_value: IAO:0000111 "contributor role" xsd:string
+property_value: IAO:0000114 http://purl.obolibrary.org/obo/IAO_0000120 xsd:string
+property_value: IAO:0000117 https://orcid.org/0000-0001-5059-4132 xsd:string
+property_value: IAO:0000119 http://dictionary.casrai.org/Contributor_Roles xsd:string
 
 [Term]
 id: CRO:0000001
 name: author role
-def: "Contributions to the published research object." []
-is_a: CRO:00000000 ! contributor role
+def: "Creation and/or presentation of a published research object, such as books, journal articles, and other publications like technical documentation, web sites, code, ontologies, or data models." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://orcid.org/0000-0002-1048-5019"}
+is_a: CRO:0000000 ! contributor role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T19:47:01Z xsd:dateTime
 property_value: IAO:0000118 "writer role" xsd:string
@@ -171,11 +107,10 @@ property_value: IAO:0000118 "writer role" xsd:string
 [Term]
 id: CRO:0000003
 name: figure development role
-def: "Preparation, creation and/or presentation of the published work, specifically visualization/data presentation." []
+def: "Preparation, creation and/or presentation of figures for a manuscript, presentation or other use." [] {http://purl.obolibrary.org/obo/IAO_0000119="http://dictionary.casrai.org/Contributor_Roles/Visualization"}
 is_a: CRO:0000001 ! author role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T19:49:22Z xsd:dateTime
-property_value: IAO:0000119 http://dictionary.casrai.org/Contributor_Roles/Visualization xsd:string
 
 [Term]
 id: CRO:0000004
@@ -189,7 +124,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T19:49:51Z xsd:da
 id: CRO:0000006
 name: background and literature search role
 def: "Includes literature searches and contributions to review activities (systematic reviews, scoping reviews, etc.)" []
-is_a: CRO:00000000 ! contributor role
+is_a: CRO:0000000 ! contributor role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T19:51:01Z xsd:dateTime
 
@@ -197,7 +132,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T19:51:01Z xsd:da
 id: CRO:0000007
 name: communication role
 def: "Coordination of research dissemination through popular media and the press, as well as community outreach and liaising of project directly to the community." []
-is_a: CRO:00000000 ! contributor role
+is_a: CRO:0000000 ! contributor role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T19:51:26Z xsd:dateTime
 property_value: IAO:0000116 "Similar to vivo:OutreachProviderRole?" xsd:string
@@ -206,6 +141,7 @@ property_value: IAO:0000118 "outreach role" xsd:string
 [Term]
 id: CRO:0000008
 name: website development role
+def: "Creation or refinement of a website, a set of related web pages served from a single web domain." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.wikidata.org/wiki/Q35127"}
 is_a: CRO:0000007 ! communication role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T19:51:53Z xsd:dateTime
@@ -213,6 +149,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T19:51:53Z xsd:da
 [Term]
 id: CRO:0000009
 name: networking facilitation role
+def: "A communication role that encompasses facilitate co-operation between people or organizations." [] {http://purl.obolibrary.org/obo/IAO_0000119="(2009) The functions and roles of network facilitators. In: Franz HW., Sarcina R. (eds) Building Leadership in Project and Network Management. Springer, Berlin, Heidelberg"}
 is_a: CRO:0000007 ! communication role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T19:52:02Z xsd:dateTime
@@ -220,6 +157,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T19:52:02Z xsd:da
 [Term]
 id: CRO:0000010
 name: marketing role
+def: "A communication role that involves the activity, set of institutions, and processes for creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society at large." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.ama.org/the-definition-of-marketing/"}
 is_a: CRO:0000007 ! communication role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T19:52:12Z xsd:dateTime
@@ -227,6 +165,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T19:52:12Z xsd:da
 [Term]
 id: CRO:0000011
 name: documentation role
+def: "A communication role in which one records the details of an event, a process, a workflow, etc." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://dictionary.cambridge.org/us/dictionary/english/document"}
 is_a: CRO:0000007 ! communication role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T19:52:17Z xsd:dateTime
@@ -234,39 +173,41 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T19:52:17Z xsd:da
 [Term]
 id: CRO:0000012
 name: graphic design role
+def: "A communication role that utilizes the art or profession of using design elements (such as typography and images) to convey information, create visualizations, or create an effect." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.merriam-webster.com/dictionary/graphic%20design"}
 is_a: CRO:0000007 ! communication role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T19:52:27Z xsd:dateTime
 
 [Term]
 id: CRO:0000014
-name: technical writing role
+name: software documentation role
 def: "Creation of software documentation." []
-is_a: CREDIT:00000009 ! software role
+is_a: CREDIT_00000009
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:26:05Z xsd:dateTime
 property_value: IAO:0000118 "software documentation role" xsd:string
-property_value: IAO:0000118 "technical documentation role" xsd:string
-property_value: IAO:0000118 "technical writing and documentation" xsd:string
 
 [Term]
 id: CRO:0000015
 name: data role
-is_a: CRO:00000000 ! contributor role
+def: "A role that encompasses effective and efficient operation and usage of data, including, but not limited to management, handling, or manipulation." []
+is_a: CRO:0000000 ! contributor role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T19:55:34Z xsd:dateTime
 
 [Term]
 id: CRO:0000016
 name: educational role
-is_a: CRO:00000000 ! contributor role
+def: "A role in which a person participates in the transfer of knowledge and skills, through teaching, development of educational materials or curriculum, through program development or other means." []
+is_a: CRO:0000000 ! contributor role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T19:55:45Z xsd:dateTime
 
 [Term]
 id: CRO:0000018
 name: information technology systems role
-is_a: CRO:00000000 ! contributor role
+def: "A role that involves the development, management, and use of computer-based information systems." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.wikidata.org/wiki/Q11661"}
+is_a: CRO:0000000 ! contributor role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T19:56:05Z xsd:dateTime
 
@@ -274,14 +215,15 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T19:56:05Z xsd:da
 id: CRO:0000019
 name: software testing role
 def: "Verification that software meets requirements; validation that software meets users' needs, identification of software bugs, assessment of software performance and usability." []
-is_a: CREDIT:00000009 ! software role
+is_a: CREDIT_00000009
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:26:00Z xsd:dateTime
 property_value: IAO:0000118 "Software Quality Assurance Role" xsd:string
 
 [Term]
 id: CRO:0000020
-name: intellectual property advisor role
+name: intellectual property role
+def: "A role related to creations of the mind, such as inventions; literary and artistic works; designs; and symbols, names and images used in commerce. from." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.wipo.int/about-ip/en/"}
 is_a: CRO:0000078 ! infrastructure role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T19:56:34Z xsd:dateTime
@@ -289,15 +231,16 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T19:56:34Z xsd:da
 [Term]
 id: CRO:0000022
 name: policy development role
-is_a: CRO:00000000 ! contributor role
+def: "Policy development generally involves research, analysis, consultation and synthesis of information to produce recommendations for action by an individual or an organization. It should also involve an evaluation of options against a set of criteria used to assess each option." []
+is_a: CRO:0000000 ! contributor role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:04:29Z xsd:dateTime
 
 [Term]
 id: CRO:0000023
 name: preservation role
-def: "Coordination of the deposit of the manuscript, data, and any secondary materials to appropriate repositories; ensure that outputs comply with OA mandates." []
-is_a: CRO:00000000 ! contributor role
+def: "Set of activities aimed at prolonging the life of a record." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.wikidata.org/wiki/Q830393"}
+is_a: CRO:0000000 ! contributor role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:04:39Z xsd:dateTime
 
@@ -305,43 +248,63 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:04:39Z xsd:da
 id: CRO:0000025
 name: regulatory administration role
 def: "Manage regulatory and compliance issues for the research project." []
-is_a: CRO:00000000 ! contributor role
+is_a: CRO:0000000 ! contributor role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:05:56Z xsd:dateTime
 
 [Term]
 id: CRO:0000026
-name: research instrumentation role
-is_a: CRO:00000000 ! contributor role
+name: instrumentation role
+def: "A person that is responsible for usage of instrumentation, such as equipment or devices, or instruments like a survey or questionnaire." []
+is_a: CRO:0000000 ! contributor role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:06:00Z xsd:dateTime
+
+[Term]
+id: CRO:0000027
+name: curator role
+def: "Management activities to annotate, maintain, research, and preserve physical objects to maximize their use for research and education now and into the future." []
+is_a: CRO:0000000 ! contributor role
+property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
+property_value: IAO:0000234 https://orcid.org/0000-0002-2908-3327 xsd:string
+
+[Term]
+id: CRO:0000028
+name: collection role
+def: "Activities to obtain physical objects for research purposes or to add to a collection." []
+is_a: CRO:0000000 ! contributor role
+property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
+property_value: IAO:0000234 https://orcid.org/0000-0002-2908-3327 xsd:string
 
 [Term]
 id: CRO:0000031
 name: team management role
 def: "Coordination of diverse team members, often across different disciplines and locations." []
-is_a: CRO:00000000 ! contributor role
+is_a: CRO:0000078 ! infrastructure role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:06:26Z xsd:dateTime
 
 [Term]
 id: CRO:0000033
 name: data aggregation role
+def: "The compiling of information with intent to prepare combined datasets for data processing." [] {http://purl.obolibrary.org/obo/IAO_0000119="Stanley, Jay; Steinhardt, Barry (January 2003). \"Bigger Monster, Weaker Chains: The Growth of an American Surveillance Society\". American Civil Liberties Union."}
 is_a: CRO:0000015 ! data role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:11:23Z xsd:dateTime
 
 [Term]
 id: CRO:0000035
-name: statistical data analysis role
-is_a: CREDIT:00000003 ! formal analysis role
+name: statistical analysis role
+def: "Statistical aspects of research, including data collection, organization, analysis, interpretation and presentation of data from surveys and experiments" [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Statistics"}
+is_a: CREDIT_00000003
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:11:35Z xsd:dateTime
-property_value: IAO:0000118 "statistical analysis role" xsd:string
+property_value: IAO:0000118 "statistical data analysis role" xsd:string
 
 [Term]
 id: CRO:0000036
 name: data collection role
+def: "The process of gathering and measuring data, information or any variables of interest in a standardized and established manner that enables the collector to answer or test hypothesis and evaluate outcomes of the particular collection." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.techopedia.com/definition/30318/data-collection"}
 is_a: CRO:0000015 ! data role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:11:40Z xsd:dateTime
@@ -349,13 +312,15 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:11:40Z xsd:da
 [Term]
 id: CRO:0000038
 name: metadata application role
-is_a: CREDIT:00000002 ! data curation role
+def: "The annotation of data with descriptive information that describes the data (metadata), with the goal of making the data more usuable or reusable for future use." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://whatis.techtarget.com/definition/metadata-management"}
+is_a: CREDIT_00000002
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:11:50Z xsd:dateTime
 
 [Term]
 id: CRO:0000039
 name: data entry role
+def: "The process of inputting data into a computerized form." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.dictionary.com/browse/data-entry"}
 is_a: CRO:0000015 ! data role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:11:54Z xsd:dateTime
@@ -363,6 +328,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:11:54Z xsd:da
 [Term]
 id: CRO:0000040
 name: data integration role
+def: "The process of combining data from different sources to provide a standardized or unified view." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.wikidata.org/wiki/Q386824"}
 is_a: CRO:0000015 ! data role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:12:00Z xsd:dateTime
@@ -370,6 +336,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:12:00Z xsd:da
 [Term]
 id: CRO:0000041
 name: data modeling role
+def: "The process of creating a data model for an information system by applying certain formal techniques." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.wikidata.org/wiki/Q367664"}
 is_a: CRO:0000015 ! data role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:12:07Z xsd:dateTime
@@ -377,6 +344,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:12:07Z xsd:da
 [Term]
 id: CRO:0000042
 name: data quality assurance role
+def: "A procedure intended to verify the efficiency and reliability of data." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.techopedia.com/definition/14653/data-quality"}
 is_a: CRO:0000015 ! data role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:12:14Z xsd:dateTime
@@ -385,14 +353,16 @@ property_value: IAO:0000118 "Data Scrubbing Role" xsd:string
 [Term]
 id: CRO:0000043
 name: data standards developer role
-def: "Development of ontology, terminology, code lists, etc." []
+def: "The process of creating data standards, which are the rules by which data are described and recorded in order to share, exchange, and understand data. Examples include development of an ontology, terminology, code lists, etc." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.usgs.gov/products/data-and-tools/data-management/data-standards"}
 is_a: CRO:0000015 ! data role
+is_a: CRO:0000073 ! standards development role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:12:25Z xsd:dateTime
 
 [Term]
 id: CRO:0000045
 name: educational material development role
+def: "An educational role in which a person develops educational or training materials that are intended to transfer knowledge, for use in a classroom, indpendent learning or other settings." []
 is_a: CRO:0000016 ! educational role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:15:18Z xsd:dateTime
@@ -400,6 +370,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:15:18Z xsd:da
 [Term]
 id: CRO:0000046
 name: educational program development role
+def: "An educational role in which a person participates in the development of an educational program, designed for learners to achieve a set of compentencies around a given topic or area of focus." []
 is_a: CRO:0000016 ! educational role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:15:23Z xsd:dateTime
@@ -407,16 +378,19 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:15:23Z xsd:da
 [Term]
 id: CRO:0000047
 name: educational instruction role
+def: "An educational role in which knowledge and skills is transferred through teaching." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.wikidata.org/wiki/Q8434"}
 is_a: CRO:0000016 ! educational role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:15:29Z xsd:dateTime
 property_value: IAO:0000116 "This may be equivalent to vivo:Teacher Role." xsd:string
+property_value: IAO:0000118 "educational training role" xsd:string
 property_value: IAO:0000118 "instruction role" xsd:string
 property_value: IAO:0000118 "teaching role" xsd:string
 
 [Term]
 id: CRO:0000048
 name: hardware systems role
+def: "An information technology systems role that specifically focuses on the computer hardware, the physical components of a computer system." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.wikidata.org/wiki/Q3966"}
 is_a: CRO:0000018 ! information technology systems role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:17:16Z xsd:dateTime
@@ -424,6 +398,8 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:17:16Z xsd:da
 [Term]
 id: CRO:0000049
 name: software systems role
+def: "An information technology systems role that specifically focuses on the computer software, the non-tangible executable component of a computer." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.wikidata.org/wiki/Q7397"}
+is_a: CREDIT_00000009
 is_a: CRO:0000018 ! information technology systems role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:17:20Z xsd:dateTime
@@ -431,6 +407,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:17:20Z xsd:da
 [Term]
 id: CRO:0000050
 name: database administrator role
+def: "A role usually within the Information Technology department, charged with the creation, maintenance, backups, querying, tuning, user rights assignment and security of an organization's databases." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.techopedia.com/definition/1187/database-administrator-dba"}
 is_a: CRO:0000049 ! software systems role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:17:25Z xsd:dateTime
@@ -439,14 +416,18 @@ property_value: IAO:0000118 "database administration role" xsd:string
 [Term]
 id: CRO:0000051
 name: system administrator role
+def: "A software systems role that involves maintenance and operation of a computer system and/or network." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.wikidata.org/wiki/Q327353"}
 is_a: CRO:0000049 ! software systems role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:17:32Z xsd:dateTime
+property_value: IAO:0000118 "sysadmin role" xsd:string
+property_value: IAO:0000118 "systems administration role" xsd:string
 
 [Term]
 id: CRO:0000052
 name: guideline development role
-is_a: CREDIT:00000006 ! methodology role
+def: "A methodology role that involves development of information that suggests how something should be done." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://dictionary.cambridge.org/us/dictionary/english/guideline"}
+is_a: CREDIT_00000006
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:19:52Z xsd:dateTime
 property_value: IAO:0000118 "Best Practices Role" xsd:string
@@ -454,7 +435,8 @@ property_value: IAO:0000118 "Best Practices Role" xsd:string
 [Term]
 id: CRO:0000053
 name: protocol creation role
-is_a: CREDIT:00000006 ! methodology role
+def: "A methodology role that involves creation of a detailed plan of a scientific or medical experiment, treatment, or procedure." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.merriam-webster.com/dictionary/protocol"}
+is_a: CREDIT_00000006
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:19:56Z xsd:dateTime
 property_value: IAO:0000118 "protocol development role" xsd:string
@@ -462,7 +444,9 @@ property_value: IAO:0000118 "protocol development role" xsd:string
 [Term]
 id: CRO:0000054
 name: standard operating procedure development role
-is_a: CREDIT:00000006 ! methodology role
+def: "A methodology role that involves the development or creation of an established or prescribed methods to be followed routinely for the performance of designated operations or in designated situations." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.merriam-webster.com/dictionary/standard%20operating%20procedure"}
+is_a: CREDIT_00000006
+is_a: CRO:0000073 ! standards development role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:20:02Z xsd:dateTime
 
@@ -470,21 +454,23 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:20:02Z xsd:da
 id: CRO:0000055
 name: study design role
 def: "Detailed design of study components including data collection, analysis, and dissemination." []
-is_a: CREDIT:00000006 ! methodology role
+is_a: CREDIT_00000006
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:20:06Z xsd:dateTime
 
 [Term]
 id: CRO:0000056
 name: technique development role
-is_a: CREDIT:00000006 ! methodology role
+def: "A methodology role that involves the creation or refinement of a manner or method by which an activity is performed." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.wikidata.org/wiki/Q2695280"}
+is_a: CREDIT_00000006
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:20:11Z xsd:dateTime
 
 [Term]
 id: CRO:0000057
 name: device development role
-is_a: CRO:0000026 ! research instrumentation role
+def: "A role charged with conceptualization, design, development and marketing of complex equipment." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://searchcio.techtarget.com/definition/product-development-or-new-product-development-NPD"}
+is_a: CRO:0000026 ! instrumentation role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:23:39Z xsd:dateTime
 property_value: IAO:0000118 "instrument development role" xsd:string
@@ -492,7 +478,8 @@ property_value: IAO:0000118 "instrument development role" xsd:string
 [Term]
 id: CRO:0000058
 name: equipment technician role
-is_a: CRO:0000026 ! research instrumentation role
+def: "A person that is responsible for operating equipment or instrumentation and/or that ensures equipment is well-maintained, properly configured, and safely functional." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Biomedical_equipment_technician"}
+is_a: CRO:0000026 ! instrumentation role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:23:44Z xsd:dateTime
 property_value: IAO:0000118 "instrument technician role" xsd:string
@@ -500,7 +487,8 @@ property_value: IAO:0000118 "instrument technician role" xsd:string
 [Term]
 id: CRO:0000059
 name: survey and questionnaire role
-is_a: CRO:0000026 ! research instrumentation role
+def: "Creation or refinement of a survey or questionnaire, a list of questions aimed at extracting specific data from a particular group of people." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.wikidata.org/wiki/Q7257997"}
+is_a: CRO:0000026 ! instrumentation role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:23:49Z xsd:dateTime
 
@@ -508,7 +496,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:23:49Z xsd:da
 id: CRO:0000060
 name: code review role
 def: "Examination of software code to identify build-breaking changes prior to acceptance into a codebase." []
-is_a: CREDIT:00000009 ! software role
+is_a: CREDIT_00000009
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:25:30Z xsd:dateTime
 property_value: IAO:0000118 "software code review role" xsd:string
@@ -516,8 +504,8 @@ property_value: IAO:0000118 "software code review role" xsd:string
 [Term]
 id: CRO:0000061
 name: computer programming role
-def: "Requirements analysis, algorithm development, and implementation of software in a computer programming language." []
-is_a: CREDIT:00000009 ! software role
+def: "Algorithm development and implementation of software in a computer programming language." []
+is_a: CREDIT_00000009
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:25:35Z xsd:dateTime
 
@@ -525,15 +513,15 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:25:35Z xsd:da
 id: CRO:0000062
 name: software architecture role
 def: "Creation of high-level structures of a software system." []
-is_a: CREDIT:00000009 ! software role
+is_a: CREDIT_00000009
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:25:40Z xsd:dateTime
 
 [Term]
 id: CRO:0000063
 name: software design role
-def: "Creation of low-level software component and algorithm design." []
-is_a: CREDIT:00000009 ! software role
+def: "Creation of low-level software component and algorithm design." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Low-level_design"}
+is_a: CREDIT_00000009
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:25:45Z xsd:dateTime
 
@@ -541,21 +529,22 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:25:45Z xsd:da
 id: CRO:0000064
 name: software engineering role
 def: "Systematic application of scientific and technological knowledge, methods, and experience to the design, implementation, testing, and documentation of software." []
-is_a: CREDIT:00000009 ! software role
+is_a: CREDIT_00000009
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:25:49Z xsd:dateTime
 
 [Term]
 id: CRO:0000065
-name: software project management role
-def: "Planning, management, and monitoring of software projects." []
-is_a: CREDIT:00000009 ! software role
+name: project management role
+def: "Planning, management, and monitoring of projects." []
+is_a: CRO:0000078 ! infrastructure role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-14T20:25:55Z xsd:dateTime
 
 [Term]
 id: CRO:0000067
 name: archivist role
+def: "A professional who assesses, collects, organizes, preserves, maintains control over, and provides access to information determined to have long-term value." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.wikidata.org/wiki/Q635734"}
 is_a: CRO:0000023 ! preservation role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-15T16:25:54Z xsd:dateTime
@@ -563,6 +552,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-09-15T16:25:54Z xsd:da
 [Term]
 id: CRO:0000068
 name: conservator role
+def: "A person responsible for the preservation of artistic and cultural artifacts." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.wikidata.org/wiki/Q446966"}
 is_a: CRO:0000023 ! preservation role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-15T16:26:00Z xsd:dateTime
@@ -570,6 +560,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-09-15T16:26:00Z xsd:da
 [Term]
 id: CRO:0000069
 name: digital preservation role
+def: "A role that includes the formal endeavor to ensure that digital information of continuing value remains accessible, trustworthy, and usable." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.wikidata.org/wiki/Q632897"}
 is_a: CRO:0000023 ! preservation role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-09-15T16:26:05Z xsd:dateTime
@@ -599,7 +590,8 @@ property_value: IAO:0000118 "data manipulation role" xsd:string
 [Term]
 id: CRO:0000073
 name: standards development role
-is_a: CRO:00000000 ! contributor role
+def: "The process of creating standards, which aare an established norm or requirement in regard to technical systems. It is usually a formal document that establishes uniform engineering or technical criteria, methods, processes, and practices." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Technical_standard"}
+is_a: CRO:0000000 ! contributor role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-10-01T20:33:58Z xsd:dateTime
 property_value: IAO:0000118 "standard development role" xsd:string
@@ -615,15 +607,17 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-10-01T20:35:43Z xsd:da
 [Term]
 id: CRO:0000075
 name: educational training role
-is_a: CRO:0000016 ! educational role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-10-01T20:42:52Z xsd:dateTime
 property_value: IAO:0000118 "formal training role" xsd:string
+is_obsolete: true
+replaced_by: CRO:0000047
 
 [Term]
 id: CRO:0000076
 name: IT hardware systems design and implementation role
-is_a: CRO:00000000 ! contributor role
+def: "A role that includes the design and implementation of the physical components of a computer system." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.wikidata.org/wiki/Q3966"}
+is_a: CRO:0000000 ! contributor role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-10-01T20:43:37Z xsd:dateTime
 property_value: IAO:0000118 "information technology hardware systems design and implementation role" xsd:string
@@ -631,20 +625,23 @@ property_value: IAO:0000118 "information technology hardware systems design and 
 [Term]
 id: CRO:0000077
 name: systems administration role
-is_a: CRO:0000076 ! IT hardware systems design and implementation role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-10-01T20:44:21Z xsd:dateTime
+is_obsolete: true
+replaced_by: CRO:0000051
 
 [Term]
 id: CRO:0000078
 name: infrastructure role
-is_a: CRO:00000000 ! contributor role
+def: "Contribution to the basic, underlying framework or features of a system or organization." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.dictionary.com/browse/infrastructure"}
+is_a: CRO:0000000 ! contributor role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-10-01T20:48:11Z xsd:dateTime
 
 [Term]
 id: CRO:0000079
-name: program evaluation role
+name: evaluation role
+def: "Evaluation is a systematic method for collecting, analyzing, and using information to answer questions about projects, policies and programs, particularly about their effectiveness and efficiency." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Program_evaluation"}
 is_a: CRO:0000078 ! infrastructure role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-10-01T20:48:24Z xsd:dateTime
@@ -652,14 +649,15 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-10-01T20:48:24Z xsd:da
 [Term]
 id: CRO:0000080
 name: program administration role
-def: "Management and coordination responsibility for the research activity planning and execution." []
+def: "An infrastructure role that is accountable for management and coordination of a program, to help achieve the program goals." []
 is_a: CRO:0000078 ! infrastructure role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-10-01T20:48:37Z xsd:dateTime
 
 [Term]
 id: CRO:0000081
-name: research coordination role
+name: coordination role
+def: "The organization of the different elements needed to implement a study." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://learn.nursing.jhu.edu/face-to-face/courses/research-coordinator/index.html"}
 is_a: CRO:0000078 ! infrastructure role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-10-01T20:49:10Z xsd:dateTime
@@ -668,13 +666,15 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-10-01T20:49:10Z xsd:da
 id: CRO:0000082
 name: supervisory role
 def: "Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team." []
-is_a: CRO:0000078 ! infrastructure role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-10-01T20:49:54Z xsd:dateTime
+is_obsolete: true
+replaced_by: CREDIT_00000010
 
 [Term]
 id: CRO:0000083
 name: community engagement role
+def: "A communication role which involves the dynamic relational process that facilitates communication, interaction, involvement, and exchange between an organization and a community for a range of social and organizational outcomes." [] {http://purl.obolibrary.org/obo/IAO_0000119="Johnston, K. A. (2018). Toward a theory of social engagement. In K. A. Johnston & M. Taylor (Eds.), The Handbook of Communication Engagement (pp. 19-32). Hoboken, NJ: Wiley."}
 is_a: CRO:0000007 ! communication role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-10-01T20:55:22Z xsd:dateTime
@@ -682,6 +682,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-10-01T20:55:22Z xsd:da
 [Term]
 id: CRO:0000084
 name: outreach materials development role
+def: "A communication role that involves development or production of materials, such as brochures, websites, flyers, presentations, etc., for the purposes of promotion of a entity, like a project, group or organization." []
 is_a: CRO:0000007 ! communication role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-10-01T20:56:18Z xsd:dateTime
@@ -689,6 +690,7 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-10-01T20:56:18Z xsd:da
 [Term]
 id: CRO:0000085
 name: participant recruitment role
+def: "Role that involves identifying eligible participants, explaining the study to potential participants, recruiting an adequate sample based on study goals and design, obtaining informed consent/maintaining ethical standards, and retaining participants until study completion." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://healthit.ahrq.gov/ahrq-funded-projects/emerging-lessons/participant-recruitment-research"}
 is_a: CRO:0000007 ! communication role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-10-01T20:57:17Z xsd:dateTime
@@ -696,15 +698,17 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-10-01T20:57:17Z xsd:da
 [Term]
 id: CRO:0000086
 name: research conceptualization role
-is_a: CREDIT:00000001 ! conceptualization role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-10-01T20:57:53Z xsd:dateTime
 property_value: IAO:0000118 "Ideas; formulation or evolution of overarching research goals and aims." xsd:string
+is_obsolete: true
+replaced_by: CREDIT_00000001
 
 [Term]
 id: CRO:0000087
-name: research technician role
-is_a: CREDIT:00000005 ! investigation role
+name: technician role
+def: "One who is proficient in the relevant skill and technique, with a relatively practical understanding of the theoretical principles." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://en.wikipedia.org/wiki/Technician"}
+is_a: CREDIT_00000005
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-10-01T20:58:59Z xsd:dateTime
 
@@ -712,13 +716,15 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-10-01T20:58:59Z xsd:da
 id: CRO:0000088
 name: original draft preparation role
 def: "Creation and/or presentation of the published work, specifically writing the initial draft (including substantive translation)." []
-is_a: CRO:0000001 ! author role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-10-01T21:03:36Z xsd:dateTime
+is_obsolete: true
+replaced_by: CREDIT_00000013
 
 [Term]
 id: CRO:0000089
 name: lay synthesis of research output role
+def: "A role in which one provides a summary of a research output, such as a journal article, that is understandable by a lay person or non-expert audience." []
 is_a: CRO:0000001 ! author role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-10-01T21:04:14Z xsd:dateTime
@@ -726,9 +732,24 @@ property_value: http://purl.org/dc/elements/1.1/date 2018-10-01T21:04:14Z xsd:da
 [Term]
 id: CRO:0000090
 name: website maintenance role
+def: "A method or steps that maintain, update content, clean up, or repair a website." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.wikidata.org/wiki/Q17634596"}
 is_a: CRO:0000007 ! communication role
 property_value: http://purl.org/dc/elements/1.1/creator http://orcid.org/0000-0001-5208-3432
 property_value: http://purl.org/dc/elements/1.1/date 2018-10-01T21:13:13Z xsd:dateTime
+
+[Term]
+id: CRO:0000091
+name: technical writing role
+def: "A documentation role that involves preparation of instruction manuals, journal articles, and other supporting documents to communicate complex and technical information more easily." [] {http://purl.obolibrary.org/obo/IAO_0000119="https://www.truity.com/career-profile/technical-writer"}
+is_a: CRO:0000011 ! documentation role
+created_by: http://orcid.org/0000-0001-5208-3432
+
+[Term]
+id: CRO:0000092
+name: requirements analysis role
+def: "The tasks that go into determining the needs or conditions to meet for a new or altered software product or project, taking account of the possibly conflicting requirements of the various stakeholders, analyzing, documenting, validating and managing software or system requirements." [] {http://purl.obolibrary.org/obo/IAO_0000119="Kotonya, G. and Sommerville, I. 1998. Requirements Engineering: Processes and Techniques Chichester, UK: John Wiley and Sons."}
+is_a: CREDIT_00000009
+created_by: http://orcid.org/0000-0001-5208-3432
 
 [Term]
 id: IAO:0000027

@@ -3,6 +3,7 @@
      xml:base="http://purl.obolibrary.org/obo/cro.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -10,7 +11,8 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cro.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cro/releases/2019-02-22/cro.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cro/releases/2019-08-07/cro.owl"/>
+        <owl:imports rdf:resource="http://purl.org/credit/ontology"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cro/imports/iao_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cro/imports/bfo_import.owl"/>
         <rdfs:comment>Contributor Role Ontology</rdfs:comment>
@@ -29,6 +31,28 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000234 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000234">
+        <rdfs:label>ontology term requester</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001">
+        <rdfs:label>term replaced by</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/creator -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
@@ -38,6 +62,18 @@
     <!-- http://purl.org/dc/elements/1.1/date -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
     
 
 
@@ -84,203 +120,17 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CREDIT_00000001 -->
+    <!-- http://purl.obolibrary.org/obo/CRO_0000000 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CREDIT_00000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_00000000"/>
-        <obo:IAO_0000115>Ideas; formulation or evolution of overarching research goals and aims.</obo:IAO_0000115>
-        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Conceptualization</obo:IAO_0000119>
-        <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T19:54:15Z</dc:date>
-        <rdfs:label>conceptualization role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CREDIT_00000002 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CREDIT_00000002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000015"/>
-        <obo:IAO_0000115>Management activities to annotate (produce metadata), scrub data and maintain research data (including software code, where it is necessary for interpreting the data itself) for initial use and later re-use.</obo:IAO_0000115>
-        <obo:IAO_0000118>curation role</obo:IAO_0000118>
-        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Data_curation</obo:IAO_0000119>
-        <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:11:44Z</dc:date>
-        <rdfs:label>data curation role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CREDIT_00000003 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CREDIT_00000003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000015"/>
-        <obo:IAO_0000115>Preparation, creation and/or presentation of the published work, specifically visualization/data presentation.</obo:IAO_0000115>
-        <obo:IAO_0000118>data analysis role</obo:IAO_0000118>
-        <obo:IAO_0000118>formal data analysis role</obo:IAO_0000118>
-        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Formal_analysis</obo:IAO_0000119>
-        <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:11:31Z</dc:date>
-        <rdfs:label>formal analysis role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CREDIT_00000004 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CREDIT_00000004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_00000000"/>
-        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Funding_acquisition</obo:IAO_0000119>
-        <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T19:55:54Z</dc:date>
-        <rdfs:label>funding acquisition role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CREDIT_00000005 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CREDIT_00000005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_00000000"/>
-        <obo:IAO_0000115>Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection.</obo:IAO_0000115>
-        <obo:IAO_0000118>experimentation role</obo:IAO_0000118>
-        <obo:IAO_0000118>study investigation role</obo:IAO_0000118>
-        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Investigation</obo:IAO_0000119>
-        <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:06:17Z</dc:date>
-        <rdfs:label>investigation role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CREDIT_00000006 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CREDIT_00000006">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_00000000"/>
-        <obo:IAO_0000115>Development or design of methodology; creation of models.</obo:IAO_0000115>
-        <obo:IAO_0000118>methodology development role</obo:IAO_0000118>
-        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Methodology</obo:IAO_0000119>
-        <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:04:19Z</dc:date>
-        <rdfs:label>methodology role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CREDIT_00000007 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CREDIT_00000007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_00000000"/>
-        <obo:IAO_0000115>Management and coordination responsibility for the research activity planning and execution.</obo:IAO_0000115>
-        <obo:IAO_0000118>project administrator role</obo:IAO_0000118>
-        <obo:IAO_0000118>project management role</obo:IAO_0000118>
-        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Project_administration</obo:IAO_0000119>
-        <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:04:49Z</dc:date>
-        <rdfs:label>project administration role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CREDIT_00000008 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CREDIT_00000008">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_00000000"/>
-        <obo:IAO_0000115>Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools.</obo:IAO_0000115>
-        <obo:IAO_0000118>resource provider role</obo:IAO_0000118>
-        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Resources</obo:IAO_0000119>
-        <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:06:06Z</dc:date>
-        <rdfs:label>resources role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CREDIT_00000009 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CREDIT_00000009">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_00000000"/>
-        <obo:IAO_0000115>Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components.</obo:IAO_0000115>
-        <obo:IAO_0000118>software developer role</obo:IAO_0000118>
-        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Software</obo:IAO_0000119>
-        <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:06:12Z</dc:date>
-        <rdfs:label>software role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CREDIT_00000010 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CREDIT_00000010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_00000000"/>
-        <obo:IAO_0000115>Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team.</obo:IAO_0000115>
-        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Supervision</obo:IAO_0000119>
-        <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:06:22Z</dc:date>
-        <rdfs:label>supervision role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CREDIT_00000011 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CREDIT_00000011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_00000000"/>
-        <obo:IAO_0000115>Verification, whether as a part of the activity or separate, of the overall replication/reproducibility of results/experiments and other research outputs.</obo:IAO_0000115>
-        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Validation</obo:IAO_0000119>
-        <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:06:30Z</dc:date>
-        <rdfs:label>validation role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CREDIT_00000012 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CREDIT_00000012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000015"/>
-        <obo:IAO_0000115>Preparation, creation and/or presentation of the published work, specifically visualization/data presentation.</obo:IAO_0000115>
-        <obo:IAO_0000118>data visualization role</obo:IAO_0000118>
-        <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:12:30Z</dc:date>
-        <rdfs:label>visualization role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CREDIT_00000013 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CREDIT_00000013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000001"/>
-        <obo:IAO_0000115>Preparation, creation and/or presentation of the published work, specifically writing the initial draft.</obo:IAO_0000115>
-        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Writing_%E2%80%93_original_draft</obo:IAO_0000119>
-        <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T19:50:19Z</dc:date>
-        <rdfs:label>writing original draft role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CREDIT_00000014 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CREDIT_00000014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000001"/>
-        <obo:IAO_0000115>Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision – including pre- or post-publication stages.</obo:IAO_0000115>
-        <obo:IAO_0000118>editing and proofreading role</obo:IAO_0000118>
-        <obo:IAO_0000118>review and editing</obo:IAO_0000118>
-        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Writing_%E2%80%93_review_%26_editing</obo:IAO_0000119>
-        <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T19:48:16Z</dc:date>
-        <rdfs:label>writing review and editing role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CRO_00000000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_00000000">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000000">
         <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <obo:IAO_0000111>contributor role</obo:IAO_0000111>
+        <obo:IAO_0000114>http://purl.obolibrary.org/obo/IAO_0000120</obo:IAO_0000114>
+        <obo:IAO_0000115>A high-level classification of the diverse roles performed in the work leading to a published research output in the sciences. Its purpose to provide transparency in contributions to scholarly published work, to enable improved systems of attribution, credit, and accountability.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-5059-4132</obo:IAO_0000117>
+        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles</obo:IAO_0000119>
+        <oboInOwl:hasDbXref>9dbb95f4-55ed-4e43-9301-a9f0e3e17afe</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym rdf:resource="http://purl.org/credit/ontology#CREDIT_00000000"/>
         <rdfs:label xml:lang="en">contributor role</rdfs:label>
     </owl:Class>
     
@@ -289,13 +139,19 @@
     <!-- http://purl.obolibrary.org/obo/CRO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_00000000"/>
-        <obo:IAO_0000115>Contributions to the published research object.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000115>Creation and/or presentation of a published research object, such as books, journal articles, and other publications like technical documentation, web sites, code, ontologies, or data models.</obo:IAO_0000115>
         <obo:IAO_0000118>writer role</obo:IAO_0000118>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T19:47:01Z</dc:date>
         <rdfs:label>author role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000001"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Creation and/or presentation of a published research object, such as books, journal articles, and other publications like technical documentation, web sites, code, ontologies, or data models.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://orcid.org/0000-0002-1048-5019</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -303,12 +159,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000001"/>
-        <obo:IAO_0000115>Preparation, creation and/or presentation of the published work, specifically visualization/data presentation.</obo:IAO_0000115>
-        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Visualization</obo:IAO_0000119>
+        <obo:IAO_0000115>Preparation, creation and/or presentation of figures for a manuscript, presentation or other use.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T19:49:22Z</dc:date>
         <rdfs:label>figure development role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000003"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Preparation, creation and/or presentation of figures for a manuscript, presentation or other use.</owl:annotatedTarget>
+        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Visualization</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -327,7 +188,7 @@
     <!-- http://purl.obolibrary.org/obo/CRO_0000006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000006">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
         <obo:IAO_0000115>Includes literature searches and contributions to review activities (systematic reviews, scoping reviews, etc.)</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T19:51:01Z</dc:date>
@@ -339,7 +200,7 @@
     <!-- http://purl.obolibrary.org/obo/CRO_0000007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
         <obo:IAO_0000115>Coordination of research dissemination through popular media and the press, as well as community outreach and liaising of project directly to the community.</obo:IAO_0000115>
         <obo:IAO_0000116>Similar to vivo:OutreachProviderRole?</obo:IAO_0000116>
         <obo:IAO_0000118>outreach role</obo:IAO_0000118>
@@ -354,10 +215,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000007"/>
+        <obo:IAO_0000115>Creation or refinement of a website, a set of related web pages served from a single web domain.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T19:51:53Z</dc:date>
         <rdfs:label>website development role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000008"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Creation or refinement of a website, a set of related web pages served from a single web domain.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.wikidata.org/wiki/Q35127</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -365,10 +233,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000007"/>
+        <obo:IAO_0000115>A communication role that encompasses facilitate co-operation between people or organizations.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T19:52:02Z</dc:date>
         <rdfs:label>networking facilitation role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000009"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A communication role that encompasses facilitate co-operation between people or organizations.</owl:annotatedTarget>
+        <obo:IAO_0000119>(2009) The functions and roles of network facilitators. In: Franz HW., Sarcina R. (eds) Building Leadership in Project and Network Management. Springer, Berlin, Heidelberg</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -376,10 +251,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000007"/>
+        <obo:IAO_0000115>A communication role that involves the activity, set of institutions, and processes for creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society at large.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T19:52:12Z</dc:date>
         <rdfs:label>marketing role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000010"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A communication role that involves the activity, set of institutions, and processes for creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society at large.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.ama.org/the-definition-of-marketing/</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -387,10 +269,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000007"/>
+        <obo:IAO_0000115>A communication role in which one records the details of an event, a process, a workflow, etc.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T19:52:17Z</dc:date>
         <rdfs:label>documentation role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000011"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A communication role in which one records the details of an event, a process, a workflow, etc.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://dictionary.cambridge.org/us/dictionary/english/document</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -398,24 +287,29 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000012">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000007"/>
+        <obo:IAO_0000115>A communication role that utilizes the art or profession of using design elements (such as typography and images) to convey information, create visualizations, or create an effect.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T19:52:27Z</dc:date>
         <rdfs:label>graphic design role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000012"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A communication role that utilizes the art or profession of using design elements (such as typography and images) to convey information, create visualizations, or create an effect.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.merriam-webster.com/dictionary/graphic%20design</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CRO_0000014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CREDIT_00000009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/credit/ontology#CREDIT_00000009"/>
         <obo:IAO_0000115>Creation of software documentation.</obo:IAO_0000115>
         <obo:IAO_0000118>software documentation role</obo:IAO_0000118>
-        <obo:IAO_0000118>technical documentation role</obo:IAO_0000118>
-        <obo:IAO_0000118>technical writing and documentation</obo:IAO_0000118>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:26:05Z</dc:date>
-        <rdfs:label>technical writing role</rdfs:label>
+        <rdfs:label>software documentation role</rdfs:label>
     </owl:Class>
     
 
@@ -423,7 +317,8 @@
     <!-- http://purl.obolibrary.org/obo/CRO_0000015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000115>A role that encompasses effective and efficient operation and usage of data, including, but not limited to management, handling, or manipulation.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T19:55:34Z</dc:date>
         <rdfs:label>data role</rdfs:label>
@@ -434,7 +329,8 @@
     <!-- http://purl.obolibrary.org/obo/CRO_0000016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000115>A role in which a person participates in the transfer of knowledge and skills, through teaching, development of educational materials or curriculum, through program development or other means.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T19:55:45Z</dc:date>
         <rdfs:label>educational role</rdfs:label>
@@ -445,18 +341,25 @@
     <!-- http://purl.obolibrary.org/obo/CRO_0000018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000018">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000115>A role that involves the development, management, and use of computer-based information systems.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T19:56:05Z</dc:date>
         <rdfs:label>information technology systems role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000018"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A role that involves the development, management, and use of computer-based information systems.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.wikidata.org/wiki/Q11661</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CRO_0000019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CREDIT_00000009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/credit/ontology#CREDIT_00000009"/>
         <obo:IAO_0000115>Verification that software meets requirements; validation that software meets users&apos; needs, identification of software bugs, assessment of software performance and usability.</obo:IAO_0000115>
         <obo:IAO_0000118>Software Quality Assurance Role</obo:IAO_0000118>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
@@ -470,17 +373,25 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000078"/>
+        <obo:IAO_0000115>A role related to creations of the mind, such as inventions; literary and artistic works; designs; and symbols, names and images used in commerce. from.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T19:56:34Z</dc:date>
-        <rdfs:label>intellectual property advisor role</rdfs:label>
+        <rdfs:label>intellectual property role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000020"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A role related to creations of the mind, such as inventions; literary and artistic works; designs; and symbols, names and images used in commerce. from.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.wipo.int/about-ip/en/</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CRO_0000022 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000022">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000115>Policy development generally involves research, analysis, consultation and synthesis of information to produce recommendations for action by an individual or an organization. It should also involve an evaluation of options against a set of criteria used to assess each option.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:04:29Z</dc:date>
         <rdfs:label>policy development role</rdfs:label>
@@ -491,19 +402,25 @@
     <!-- http://purl.obolibrary.org/obo/CRO_0000023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000023">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_00000000"/>
-        <obo:IAO_0000115>Coordination of the deposit of the manuscript, data, and any secondary materials to appropriate repositories; ensure that outputs comply with OA mandates.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000115>Set of activities aimed at prolonging the life of a record.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:04:39Z</dc:date>
         <rdfs:label>preservation role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000023"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Set of activities aimed at prolonging the life of a record.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.wikidata.org/wiki/Q830393</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CRO_0000025 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000025">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
         <obo:IAO_0000115>Manage regulatory and compliance issues for the research project.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:05:56Z</dc:date>
@@ -515,10 +432,35 @@
     <!-- http://purl.obolibrary.org/obo/CRO_0000026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000026">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000115>A person that is responsible for usage of instrumentation, such as equipment or devices, or instruments like a survey or questionnaire.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:06:00Z</dc:date>
-        <rdfs:label>research instrumentation role</rdfs:label>
+        <rdfs:label>instrumentation role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CRO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000115>Management activities to annotate, maintain, research, and preserve physical objects to maximize their use for research and education now and into the future.</obo:IAO_0000115>
+        <obo:IAO_0000234>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000234>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
+        <rdfs:label>curator role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CRO_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000115>Activities to obtain physical objects for research purposes or to add to a collection.</obo:IAO_0000115>
+        <obo:IAO_0000234>https://orcid.org/0000-0002-2908-3327</obo:IAO_0000234>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
+        <rdfs:label>collection role</rdfs:label>
     </owl:Class>
     
 
@@ -526,7 +468,7 @@
     <!-- http://purl.obolibrary.org/obo/CRO_0000031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000031">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000078"/>
         <obo:IAO_0000115>Coordination of diverse team members, often across different disciplines and locations.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:06:26Z</dc:date>
@@ -539,22 +481,36 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000015"/>
+        <obo:IAO_0000115>The compiling of information with intent to prepare combined datasets for data processing.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:11:23Z</dc:date>
         <rdfs:label>data aggregation role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000033"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The compiling of information with intent to prepare combined datasets for data processing.</owl:annotatedTarget>
+        <obo:IAO_0000119>Stanley, Jay; Steinhardt, Barry (January 2003). &quot;Bigger Monster, Weaker Chains: The Growth of an American Surveillance Society&quot;. American Civil Liberties Union.</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CRO_0000035 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000035">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CREDIT_00000003"/>
-        <obo:IAO_0000118>statistical analysis role</obo:IAO_0000118>
+        <rdfs:subClassOf rdf:resource="http://purl.org/credit/ontology#CREDIT_00000003"/>
+        <obo:IAO_0000115>Statistical aspects of research, including data collection, organization, analysis, interpretation and presentation of data from surveys and experiments</obo:IAO_0000115>
+        <obo:IAO_0000118>statistical data analysis role</obo:IAO_0000118>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:11:35Z</dc:date>
-        <rdfs:label>statistical data analysis role</rdfs:label>
+        <rdfs:label>statistical analysis role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000035"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Statistical aspects of research, including data collection, organization, analysis, interpretation and presentation of data from surveys and experiments</owl:annotatedTarget>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Statistics</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -562,21 +518,35 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000015"/>
+        <obo:IAO_0000115>The process of gathering and measuring data, information or any variables of interest in a standardized and established manner that enables the collector to answer or test hypothesis and evaluate outcomes of the particular collection.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:11:40Z</dc:date>
         <rdfs:label>data collection role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000036"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The process of gathering and measuring data, information or any variables of interest in a standardized and established manner that enables the collector to answer or test hypothesis and evaluate outcomes of the particular collection.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.techopedia.com/definition/30318/data-collection</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CRO_0000038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000038">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CREDIT_00000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/credit/ontology#CREDIT_00000002"/>
+        <obo:IAO_0000115>The annotation of data with descriptive information that describes the data (metadata), with the goal of making the data more usuable or reusable for future use.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:11:50Z</dc:date>
         <rdfs:label>metadata application role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000038"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The annotation of data with descriptive information that describes the data (metadata), with the goal of making the data more usuable or reusable for future use.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://whatis.techtarget.com/definition/metadata-management</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -584,10 +554,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000015"/>
+        <obo:IAO_0000115>The process of inputting data into a computerized form.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:11:54Z</dc:date>
         <rdfs:label>data entry role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000039"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The process of inputting data into a computerized form.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.dictionary.com/browse/data-entry</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -595,10 +572,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000015"/>
+        <obo:IAO_0000115>The process of combining data from different sources to provide a standardized or unified view.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:12:00Z</dc:date>
         <rdfs:label>data integration role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000040"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The process of combining data from different sources to provide a standardized or unified view.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.wikidata.org/wiki/Q386824</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -606,10 +590,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000015"/>
+        <obo:IAO_0000115>The process of creating a data model for an information system by applying certain formal techniques.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:12:07Z</dc:date>
         <rdfs:label>data modeling role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000041"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The process of creating a data model for an information system by applying certain formal techniques.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.wikidata.org/wiki/Q367664</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -617,11 +608,18 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000042">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000015"/>
+        <obo:IAO_0000115>A procedure intended to verify the efficiency and reliability of data.</obo:IAO_0000115>
         <obo:IAO_0000118>Data Scrubbing Role</obo:IAO_0000118>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:12:14Z</dc:date>
         <rdfs:label>data quality assurance role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000042"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A procedure intended to verify the efficiency and reliability of data.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.techopedia.com/definition/14653/data-quality</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -629,11 +627,18 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000043">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000015"/>
-        <obo:IAO_0000115>Development of ontology, terminology, code lists, etc.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000073"/>
+        <obo:IAO_0000115>The process of creating data standards, which are the rules by which data are described and recorded in order to share, exchange, and understand data. Examples include development of an ontology, terminology, code lists, etc.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:12:25Z</dc:date>
         <rdfs:label>data standards developer role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000043"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The process of creating data standards, which are the rules by which data are described and recorded in order to share, exchange, and understand data. Examples include development of an ontology, terminology, code lists, etc.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.usgs.gov/products/data-and-tools/data-management/data-standards</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -641,6 +646,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000045">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000016"/>
+        <obo:IAO_0000115>An educational role in which a person develops educational or training materials that are intended to transfer knowledge, for use in a classroom, indpendent learning or other settings.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:15:18Z</dc:date>
         <rdfs:label>educational material development role</rdfs:label>
@@ -652,6 +658,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000046">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000016"/>
+        <obo:IAO_0000115>An educational role in which a person participates in the development of an educational program, designed for learners to achieve a set of compentencies around a given topic or area of focus.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:15:23Z</dc:date>
         <rdfs:label>educational program development role</rdfs:label>
@@ -663,13 +670,21 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000016"/>
+        <obo:IAO_0000115>An educational role in which knowledge and skills is transferred through teaching.</obo:IAO_0000115>
         <obo:IAO_0000116>This may be equivalent to vivo:Teacher Role.</obo:IAO_0000116>
+        <obo:IAO_0000118>educational training role</obo:IAO_0000118>
         <obo:IAO_0000118>instruction role</obo:IAO_0000118>
         <obo:IAO_0000118>teaching role</obo:IAO_0000118>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:15:29Z</dc:date>
         <rdfs:label>educational instruction role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000047"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An educational role in which knowledge and skills is transferred through teaching.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.wikidata.org/wiki/Q8434</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -677,10 +692,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000018"/>
+        <obo:IAO_0000115>An information technology systems role that specifically focuses on the computer hardware, the physical components of a computer system.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:17:16Z</dc:date>
         <rdfs:label>hardware systems role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000048"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An information technology systems role that specifically focuses on the computer hardware, the physical components of a computer system.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.wikidata.org/wiki/Q3966</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -688,10 +710,18 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000049">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000018"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/credit/ontology#CREDIT_00000009"/>
+        <obo:IAO_0000115>An information technology systems role that specifically focuses on the computer software, the non-tangible executable component of a computer.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:17:20Z</dc:date>
         <rdfs:label>software systems role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000049"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An information technology systems role that specifically focuses on the computer software, the non-tangible executable component of a computer.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.wikidata.org/wiki/Q7397</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -699,11 +729,18 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000050">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000049"/>
+        <obo:IAO_0000115>A role usually within the Information Technology department, charged with the creation, maintenance, backups, querying, tuning, user rights assignment and security of an organization&apos;s databases.</obo:IAO_0000115>
         <obo:IAO_0000118>database administration role</obo:IAO_0000118>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:17:25Z</dc:date>
         <rdfs:label>database administrator role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000050"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A role usually within the Information Technology department, charged with the creation, maintenance, backups, querying, tuning, user rights assignment and security of an organization&apos;s databases.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.techopedia.com/definition/1187/database-administrator-dba</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -711,52 +748,83 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000051">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000049"/>
+        <obo:IAO_0000115>A software systems role that involves maintenance and operation of a computer system and/or network.</obo:IAO_0000115>
+        <obo:IAO_0000118>sysadmin role</obo:IAO_0000118>
+        <obo:IAO_0000118>systems administration role</obo:IAO_0000118>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:17:32Z</dc:date>
         <rdfs:label>system administrator role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000051"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A software systems role that involves maintenance and operation of a computer system and/or network.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.wikidata.org/wiki/Q327353</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CRO_0000052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000052">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CREDIT_00000006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/credit/ontology#CREDIT_00000006"/>
+        <obo:IAO_0000115>A methodology role that involves development of information that suggests how something should be done.</obo:IAO_0000115>
         <obo:IAO_0000118>Best Practices Role</obo:IAO_0000118>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:19:52Z</dc:date>
         <rdfs:label>guideline development role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000052"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A methodology role that involves development of information that suggests how something should be done.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://dictionary.cambridge.org/us/dictionary/english/guideline</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CRO_0000053 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000053">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CREDIT_00000006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/credit/ontology#CREDIT_00000006"/>
+        <obo:IAO_0000115>A methodology role that involves creation of a detailed plan of a scientific or medical experiment, treatment, or procedure.</obo:IAO_0000115>
         <obo:IAO_0000118>protocol development role</obo:IAO_0000118>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:19:56Z</dc:date>
         <rdfs:label>protocol creation role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000053"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A methodology role that involves creation of a detailed plan of a scientific or medical experiment, treatment, or procedure.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.merriam-webster.com/dictionary/protocol</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CRO_0000054 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000054">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CREDIT_00000006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000073"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/credit/ontology#CREDIT_00000006"/>
+        <obo:IAO_0000115>A methodology role that involves the development or creation of an established or prescribed methods to be followed routinely for the performance of designated operations or in designated situations.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:20:02Z</dc:date>
         <rdfs:label>standard operating procedure development role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000054"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A methodology role that involves the development or creation of an established or prescribed methods to be followed routinely for the performance of designated operations or in designated situations.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.merriam-webster.com/dictionary/standard%20operating%20procedure</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CRO_0000055 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000055">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CREDIT_00000006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/credit/ontology#CREDIT_00000006"/>
         <obo:IAO_0000115>Detailed design of study components including data collection, analysis, and dissemination.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:20:06Z</dc:date>
@@ -768,11 +836,18 @@
     <!-- http://purl.obolibrary.org/obo/CRO_0000056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000056">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CREDIT_00000006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/credit/ontology#CREDIT_00000006"/>
+        <obo:IAO_0000115>A methodology role that involves the creation or refinement of a manner or method by which an activity is performed.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:20:11Z</dc:date>
         <rdfs:label>technique development role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000056"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A methodology role that involves the creation or refinement of a manner or method by which an activity is performed.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.wikidata.org/wiki/Q2695280</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -780,11 +855,18 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000057">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000026"/>
+        <obo:IAO_0000115>A role charged with conceptualization, design, development and marketing of complex equipment.</obo:IAO_0000115>
         <obo:IAO_0000118>instrument development role</obo:IAO_0000118>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:23:39Z</dc:date>
         <rdfs:label>device development role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000057"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A role charged with conceptualization, design, development and marketing of complex equipment.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://searchcio.techtarget.com/definition/product-development-or-new-product-development-NPD</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -792,11 +874,18 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000058">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000026"/>
+        <obo:IAO_0000115>A person that is responsible for operating equipment or instrumentation and/or that ensures equipment is well-maintained, properly configured, and safely functional.</obo:IAO_0000115>
         <obo:IAO_0000118>instrument technician role</obo:IAO_0000118>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:23:44Z</dc:date>
         <rdfs:label>equipment technician role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000058"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A person that is responsible for operating equipment or instrumentation and/or that ensures equipment is well-maintained, properly configured, and safely functional.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Biomedical_equipment_technician</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -804,17 +893,24 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000059">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000026"/>
+        <obo:IAO_0000115>Creation or refinement of a survey or questionnaire, a list of questions aimed at extracting specific data from a particular group of people.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:23:49Z</dc:date>
         <rdfs:label>survey and questionnaire role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000059"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Creation or refinement of a survey or questionnaire, a list of questions aimed at extracting specific data from a particular group of people.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.wikidata.org/wiki/Q7257997</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CRO_0000060 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000060">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CREDIT_00000009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/credit/ontology#CREDIT_00000009"/>
         <obo:IAO_0000115>Examination of software code to identify build-breaking changes prior to acceptance into a codebase.</obo:IAO_0000115>
         <obo:IAO_0000118>software code review role</obo:IAO_0000118>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
@@ -827,8 +923,8 @@
     <!-- http://purl.obolibrary.org/obo/CRO_0000061 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000061">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CREDIT_00000009"/>
-        <obo:IAO_0000115>Requirements analysis, algorithm development, and implementation of software in a computer programming language.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.org/credit/ontology#CREDIT_00000009"/>
+        <obo:IAO_0000115>Algorithm development and implementation of software in a computer programming language.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:25:35Z</dc:date>
         <rdfs:label>computer programming role</rdfs:label>
@@ -839,7 +935,7 @@
     <!-- http://purl.obolibrary.org/obo/CRO_0000062 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000062">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CREDIT_00000009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/credit/ontology#CREDIT_00000009"/>
         <obo:IAO_0000115>Creation of high-level structures of a software system.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:25:40Z</dc:date>
@@ -851,19 +947,25 @@
     <!-- http://purl.obolibrary.org/obo/CRO_0000063 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000063">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CREDIT_00000009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/credit/ontology#CREDIT_00000009"/>
         <obo:IAO_0000115>Creation of low-level software component and algorithm design.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:25:45Z</dc:date>
         <rdfs:label>software design role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000063"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Creation of low-level software component and algorithm design.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Low-level_design</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CRO_0000064 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000064">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CREDIT_00000009"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/credit/ontology#CREDIT_00000009"/>
         <obo:IAO_0000115>Systematic application of scientific and technological knowledge, methods, and experience to the design, implementation, testing, and documentation of software.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:25:49Z</dc:date>
@@ -875,11 +977,11 @@
     <!-- http://purl.obolibrary.org/obo/CRO_0000065 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000065">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CREDIT_00000009"/>
-        <obo:IAO_0000115>Planning, management, and monitoring of software projects.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000078"/>
+        <obo:IAO_0000115>Planning, management, and monitoring of projects.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-14T20:25:55Z</dc:date>
-        <rdfs:label>software project management role</rdfs:label>
+        <rdfs:label>project management role</rdfs:label>
     </owl:Class>
     
 
@@ -888,10 +990,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000067">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000023"/>
+        <obo:IAO_0000115>A professional who assesses, collects, organizes, preserves, maintains control over, and provides access to information determined to have long-term value.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-15T16:25:54Z</dc:date>
         <rdfs:label>archivist role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000067"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A professional who assesses, collects, organizes, preserves, maintains control over, and provides access to information determined to have long-term value.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.wikidata.org/wiki/Q635734</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -899,10 +1008,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000068">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000023"/>
+        <obo:IAO_0000115>A person responsible for the preservation of artistic and cultural artifacts.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-15T16:26:00Z</dc:date>
         <rdfs:label>conservator role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000068"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A person responsible for the preservation of artistic and cultural artifacts.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.wikidata.org/wiki/Q446966</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -910,10 +1026,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000069">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000023"/>
+        <obo:IAO_0000115>A role that includes the formal endeavor to ensure that digital information of continuing value remains accessible, trustworthy, and usable.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-15T16:26:05Z</dc:date>
         <rdfs:label>digital preservation role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000069"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A role that includes the formal endeavor to ensure that digital information of continuing value remains accessible, trustworthy, and usable.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.wikidata.org/wiki/Q632897</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -955,12 +1078,19 @@
     <!-- http://purl.obolibrary.org/obo/CRO_0000073 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000073">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000115>The process of creating standards, which aare an established norm or requirement in regard to technical systems. It is usually a formal document that establishes uniform engineering or technical criteria, methods, processes, and practices.</obo:IAO_0000115>
         <obo:IAO_0000118>standard development role</obo:IAO_0000118>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-01T20:33:58Z</dc:date>
         <rdfs:label>standards development role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000073"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The process of creating standards, which aare an established norm or requirement in regard to technical systems. It is usually a formal document that establishes uniform engineering or technical criteria, methods, processes, and practices.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Technical_standard</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -979,11 +1109,13 @@
     <!-- http://purl.obolibrary.org/obo/CRO_0000075 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000075">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000016"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000118>formal training role</obo:IAO_0000118>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CRO_0000047"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-01T20:42:52Z</dc:date>
         <rdfs:label>educational training role</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -991,22 +1123,31 @@
     <!-- http://purl.obolibrary.org/obo/CRO_0000076 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000076">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000115>A role that includes the design and implementation of the physical components of a computer system.</obo:IAO_0000115>
         <obo:IAO_0000118>information technology hardware systems design and implementation role</obo:IAO_0000118>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-01T20:43:37Z</dc:date>
         <rdfs:label>IT hardware systems design and implementation role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000076"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A role that includes the design and implementation of the physical components of a computer system.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.wikidata.org/wiki/Q3966</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CRO_0000077 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000077">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000076"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/CRO_0000051"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-01T20:44:21Z</dc:date>
         <rdfs:label>systems administration role</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1014,11 +1155,18 @@
     <!-- http://purl.obolibrary.org/obo/CRO_0000078 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000078">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000115>Contribution to the basic, underlying framework or features of a system or organization.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-01T20:48:11Z</dc:date>
         <rdfs:label>infrastructure role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000078"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Contribution to the basic, underlying framework or features of a system or organization.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.dictionary.com/browse/infrastructure</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -1026,10 +1174,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000079">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000078"/>
+        <obo:IAO_0000115>Evaluation is a systematic method for collecting, analyzing, and using information to answer questions about projects, policies and programs, particularly about their effectiveness and efficiency.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-01T20:48:24Z</dc:date>
-        <rdfs:label>program evaluation role</rdfs:label>
+        <rdfs:label>evaluation role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000079"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Evaluation is a systematic method for collecting, analyzing, and using information to answer questions about projects, policies and programs, particularly about their effectiveness and efficiency.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Program_evaluation</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -1037,7 +1192,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000080">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000078"/>
-        <obo:IAO_0000115>Management and coordination responsibility for the research activity planning and execution.</obo:IAO_0000115>
+        <obo:IAO_0000115>An infrastructure role that is accountable for management and coordination of a program, to help achieve the program goals.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-01T20:48:37Z</dc:date>
         <rdfs:label>program administration role</rdfs:label>
@@ -1049,21 +1204,30 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000081">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000078"/>
+        <obo:IAO_0000115>The organization of the different elements needed to implement a study.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-01T20:49:10Z</dc:date>
-        <rdfs:label>research coordination role</rdfs:label>
+        <rdfs:label>coordination role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000081"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The organization of the different elements needed to implement a study.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://learn.nursing.jhu.edu/face-to-face/courses/research-coordinator/index.html</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CRO_0000082 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000082">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000078"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000115>Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team.</obo:IAO_0000115>
+        <obo:IAO_0100001 rdf:resource="http://purl.org/credit/ontology#CREDIT_00000010"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-01T20:49:54Z</dc:date>
         <rdfs:label>supervisory role</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1072,10 +1236,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000083">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000007"/>
+        <obo:IAO_0000115>A communication role which involves the dynamic relational process that facilitates communication, interaction, involvement, and exchange between an organization and a community for a range of social and organizational outcomes.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-01T20:55:22Z</dc:date>
         <rdfs:label>community engagement role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000083"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A communication role which involves the dynamic relational process that facilitates communication, interaction, involvement, and exchange between an organization and a community for a range of social and organizational outcomes.</owl:annotatedTarget>
+        <obo:IAO_0000119>Johnston, K. A. (2018). Toward a theory of social engagement. In K. A. Johnston &amp; M. Taylor (Eds.), The Handbook of Communication Engagement (pp. 19-32). Hoboken, NJ: Wiley.</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -1083,6 +1254,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000084">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000007"/>
+        <obo:IAO_0000115>A communication role that involves development or production of materials, such as brochures, websites, flyers, presentations, etc., for the purposes of promotion of a entity, like a project, group or organization.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-01T20:56:18Z</dc:date>
         <rdfs:label>outreach materials development role</rdfs:label>
@@ -1094,21 +1266,30 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000085">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000007"/>
+        <obo:IAO_0000115>Role that involves identifying eligible participants, explaining the study to potential participants, recruiting an adequate sample based on study goals and design, obtaining informed consent/maintaining ethical standards, and retaining participants until study completion.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-01T20:57:17Z</dc:date>
         <rdfs:label>participant recruitment role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000085"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Role that involves identifying eligible participants, explaining the study to potential participants, recruiting an adequate sample based on study goals and design, obtaining informed consent/maintaining ethical standards, and retaining participants until study completion.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://healthit.ahrq.gov/ahrq-funded-projects/emerging-lessons/participant-recruitment-research</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CRO_0000086 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000086">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CREDIT_00000001"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000118>Ideas; formulation or evolution of overarching research goals and aims.</obo:IAO_0000118>
+        <obo:IAO_0100001 rdf:resource="http://purl.org/credit/ontology#CREDIT_00000001"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-01T20:57:53Z</dc:date>
         <rdfs:label>research conceptualization role</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1116,22 +1297,31 @@
     <!-- http://purl.obolibrary.org/obo/CRO_0000087 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000087">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CREDIT_00000005"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/credit/ontology#CREDIT_00000005"/>
+        <obo:IAO_0000115>One who is proficient in the relevant skill and technique, with a relatively practical understanding of the theoretical principles.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-01T20:58:59Z</dc:date>
-        <rdfs:label>research technician role</rdfs:label>
+        <rdfs:label>technician role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000087"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>One who is proficient in the relevant skill and technique, with a relatively practical understanding of the theoretical principles.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Technician</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CRO_0000088 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000088">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000001"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
         <obo:IAO_0000115>Creation and/or presentation of the published work, specifically writing the initial draft (including substantive translation).</obo:IAO_0000115>
+        <obo:IAO_0100001 rdf:resource="http://purl.org/credit/ontology#CREDIT_00000013"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-01T21:03:36Z</dc:date>
         <rdfs:label>original draft preparation role</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -1140,6 +1330,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000089">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000001"/>
+        <obo:IAO_0000115>A role in which one provides a summary of a research output, such as a journal article, that is understandable by a lay person or non-expert audience.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-01T21:04:14Z</dc:date>
         <rdfs:label>lay synthesis of research output role</rdfs:label>
@@ -1151,10 +1342,51 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000090">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000007"/>
+        <obo:IAO_0000115>A method or steps that maintain, update content, clean up, or repair a website.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-10-01T21:13:13Z</dc:date>
         <rdfs:label>website maintenance role</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000090"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A method or steps that maintain, update content, clean up, or repair a website.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.wikidata.org/wiki/Q17634596</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CRO_0000091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000011"/>
+        <obo:IAO_0000115>A documentation role that involves preparation of instruction manuals, journal articles, and other supporting documents to communicate complex and technical information more easily.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
+        <rdfs:label>technical writing role</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000091"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A documentation role that involves preparation of instruction manuals, journal articles, and other supporting documents to communicate complex and technical information more easily.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.truity.com/career-profile/technical-writer</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CRO_0000092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000092">
+        <rdfs:subClassOf rdf:resource="http://purl.org/credit/ontology#CREDIT_00000009"/>
+        <obo:IAO_0000115>The tasks that go into determining the needs or conditions to meet for a new or altered software product or project, taking account of the possibly conflicting requirements of the various stakeholders, analyzing, documenting, validating and managing software or system requirements.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
+        <rdfs:label>requirements analysis role</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CRO_0000092"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The tasks that go into determining the needs or conditions to meet for a new or altered software product or project, taking account of the possibly conflicting requirements of the various stakeholders, analyzing, documenting, validating and managing software or system requirements.</owl:annotatedTarget>
+        <obo:IAO_0000119>Kotonya, G. and Sommerville, I. 1998. Requirements Engineering: Processes and Techniques Chichester, UK: John Wiley and Sons.</obo:IAO_0000119>
+    </owl:Axiom>
     
 
 
@@ -1202,6 +1434,136 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000409">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/credit/ontology#CREDIT_00000001 -->
+
+    <owl:Class rdf:about="http://purl.org/credit/ontology#CREDIT_00000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000118>research conceptualization role</obo:IAO_0000118>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/credit/ontology#CREDIT_00000002 -->
+
+    <owl:Class rdf:about="http://purl.org/credit/ontology#CREDIT_00000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000015"/>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/credit/ontology#CREDIT_00000003 -->
+
+    <owl:Class rdf:about="http://purl.org/credit/ontology#CREDIT_00000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/credit/ontology#CREDIT_00000004 -->
+
+    <rdf:Description rdf:about="http://purl.org/credit/ontology#CREDIT_00000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/credit/ontology#CREDIT_00000005 -->
+
+    <owl:Class rdf:about="http://purl.org/credit/ontology#CREDIT_00000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/credit/ontology#CREDIT_00000006 -->
+
+    <owl:Class rdf:about="http://purl.org/credit/ontology#CREDIT_00000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/credit/ontology#CREDIT_00000007 -->
+
+    <rdf:Description rdf:about="http://purl.org/credit/ontology#CREDIT_00000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/credit/ontology#CREDIT_00000008 -->
+
+    <rdf:Description rdf:about="http://purl.org/credit/ontology#CREDIT_00000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000118>resource provision role</obo:IAO_0000118>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/credit/ontology#CREDIT_00000009 -->
+
+    <owl:Class rdf:about="http://purl.org/credit/ontology#CREDIT_00000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/credit/ontology#CREDIT_00000010 -->
+
+    <rdf:Description rdf:about="http://purl.org/credit/ontology#CREDIT_00000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000118>supervisory role</obo:IAO_0000118>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/credit/ontology#CREDIT_00000011 -->
+
+    <rdf:Description rdf:about="http://purl.org/credit/ontology#CREDIT_00000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/credit/ontology#CREDIT_00000012 -->
+
+    <rdf:Description rdf:about="http://purl.org/credit/ontology#CREDIT_00000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/credit/ontology#CREDIT_00000013 -->
+
+    <owl:Class rdf:about="http://purl.org/credit/ontology#CREDIT_00000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000001"/>
+        <obo:IAO_0000118>original draft preparation role</obo:IAO_0000118>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/credit/ontology#CREDIT_00000014 -->
+
+    <rdf:Description rdf:about="http://purl.org/credit/ontology#CREDIT_00000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
     </rdf:Description>
     
 
