@@ -184,15 +184,34 @@ We also have the outstanding issue of how to aim different definitions to differ
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232">
+        <obo:IAO_0000111 xml:lang="en">curator note</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">An administrative note of use for a curator but of no use for a user</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <rdfs:label xml:lang="en">curator note</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000234 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000234">
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115>The name of the person, project, or organization that motivated inclusion of an ontology term by requesting its addition.</obo:IAO_0000115>
+        <obo:IAO_0000117>Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000119>Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000119>
+        <rdfs:comment>The &apos;term requester&apos; can credit the person, organization or project who request the ontology term.</rdfs:comment>
         <rdfs:label>ontology term requester</rdfs:label>
+        <rdfs:label xml:lang="en">ontology term requester</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
     
 
 
@@ -251,7 +270,14 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001">
+        <obo:IAO_0000111 xml:lang="en">term replaced by</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">Add as annotation triples in the granting ontology</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Use on obsolete terms, relating the term to another term that can be used as a substitute</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000119>
         <rdfs:label>term replaced by</rdfs:label>
+        <rdfs:label xml:lang="en">term replaced by</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -283,9 +309,21 @@ We also have the outstanding issue of how to aim different definitions to differ
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
     
 
 
@@ -628,6 +666,13 @@ Some currently missing phenomena that should be considered &quot;about&quot; are
     <!-- http://purl.obolibrary.org/obo/CRO_0000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CRO_0000000">
+        <obo:IAO_0000111>contributor role</obo:IAO_0000111>
+        <obo:IAO_0000114>http://purl.obolibrary.org/obo/IAO_0000120</obo:IAO_0000114>
+        <obo:IAO_0000115>A high-level classification of the diverse roles performed in the work leading to a published research output in the sciences. Its purpose to provide transparency in contributions to scholarly published work, to enable improved systems of attribution, credit, and accountability.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-5059-4132</obo:IAO_0000117>
+        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles</obo:IAO_0000119>
+        <oboInOwl:hasDbXref>9dbb95f4-55ed-4e43-9301-a9f0e3e17afe</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonym rdf:resource="http://purl.org/credit/ontology#CREDIT_00000000"/>
         <rdfs:label xml:lang="en">contributor role</rdfs:label>
     </owl:Class>
     
@@ -2069,7 +2114,16 @@ Previous. An information content entity is a non-realizable information entity t
     <!-- http://purl.org/credit/ontology#CREDIT_00000001 -->
 
     <owl:Class rdf:about="http://purl.org/credit/ontology#CREDIT_00000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000111>conceptualization role</obo:IAO_0000111>
+        <obo:IAO_0000114>http://purl.obolibrary.org/obo/IAO_0000120</obo:IAO_0000114>
+        <obo:IAO_0000115>Ideas; formulation or evolution of overarching research goals and aims.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-5059-4132</obo:IAO_0000117>
         <obo:IAO_0000118>research conceptualization role</obo:IAO_0000118>
+        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Conceptualization</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>8b73531f-db56-4914-9502-4cc4d4d8ed73</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">conceptualization role</rdfs:label>
     </owl:Class>
     
 
@@ -2078,31 +2132,177 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.org/credit/ontology#CREDIT_00000002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000015"/>
+        <obo:IAO_0000111>data curation role</obo:IAO_0000111>
+        <obo:IAO_0000114>http://purl.obolibrary.org/obo/IAO_0000120</obo:IAO_0000114>
+        <obo:IAO_0000115>Management activities to annotate (produce metadata), scrub data and maintain research data (including software code, where it is necessary for interpreting the data itself) for initial use and later re-use.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-5059-4132</obo:IAO_0000117>
+        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Data_curation</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>f93e0f44-f2a4-4ea1-824a-4e0853b05c9d</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">data curation role</rdfs:label>
     </owl:Class>
     
 
 
     <!-- http://purl.org/credit/ontology#CREDIT_00000003 -->
 
-    <owl:Class rdf:about="http://purl.org/credit/ontology#CREDIT_00000003"/>
+    <owl:Class rdf:about="http://purl.org/credit/ontology#CREDIT_00000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000111>formal analysis role</obo:IAO_0000111>
+        <obo:IAO_0000114>http://purl.obolibrary.org/obo/IAO_0000120</obo:IAO_0000114>
+        <obo:IAO_0000115>Application of statistical, mathematical, computational, or other formal techniques to analyse or synthesize study data.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-5059-4132</obo:IAO_0000117>
+        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Formal_analysis</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>95394cbd-4dc8-4735-b589-7e5f9e622b3f</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">formal analysis role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/credit/ontology#CREDIT_00000004 -->
+
+    <owl:Class rdf:about="http://purl.org/credit/ontology#CREDIT_00000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000111>funding acquisition role</obo:IAO_0000111>
+        <obo:IAO_0000114>http://purl.obolibrary.org/obo/IAO_0000120</obo:IAO_0000114>
+        <obo:IAO_0000115>Acquisition of the financial support for the project leading to this publication.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-5059-4132</obo:IAO_0000117>
+        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Funding_acquisition</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>34ff6d68-132f-4438-a1f4-fba61ccf364</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">funding acquisition role</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.org/credit/ontology#CREDIT_00000005 -->
 
-    <owl:Class rdf:about="http://purl.org/credit/ontology#CREDIT_00000005"/>
+    <owl:Class rdf:about="http://purl.org/credit/ontology#CREDIT_00000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000111>investigation role</obo:IAO_0000111>
+        <obo:IAO_0000114>http://purl.obolibrary.org/obo/IAO_0000120</obo:IAO_0000114>
+        <obo:IAO_0000115>Conducting a research and investigation process, specifically performing the experiments, or data/evidence collection.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-5059-4132</obo:IAO_0000117>
+        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Investigation</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>2451924d-425e-4778-9f4c-36c848ca70c2</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">investigation role</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.org/credit/ontology#CREDIT_00000006 -->
 
-    <owl:Class rdf:about="http://purl.org/credit/ontology#CREDIT_00000006"/>
+    <owl:Class rdf:about="http://purl.org/credit/ontology#CREDIT_00000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000111>methodology role</obo:IAO_0000111>
+        <obo:IAO_0000114>http://purl.obolibrary.org/obo/IAO_0000120</obo:IAO_0000114>
+        <obo:IAO_0000115>Development or design of methodology; creation of models.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-5059-4132</obo:IAO_0000117>
+        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Methodology</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>f21e2be9-4e38-4ab7-8691-d6f72d5d5843</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">methodology role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/credit/ontology#CREDIT_00000007 -->
+
+    <owl:Class rdf:about="http://purl.org/credit/ontology#CREDIT_00000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000111>project administration role</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115>Management and coordination responsibility for the research activity planning and execution.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-5059-4132</obo:IAO_0000117>
+        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Project_administration</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>a693fe76-ea33-49ad-9dcc-5e4f3ac5f938</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">project administration role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/credit/ontology#CREDIT_00000008 -->
+
+    <owl:Class rdf:about="http://purl.org/credit/ontology#CREDIT_00000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000111>resources role</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115>Provision of study materials, reagents, materials, patients, laboratory samples, animals, instrumentation, computing resources, or other analysis tools.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-5059-4132</obo:IAO_0000117>
+        <obo:IAO_0000118>resource provision role</obo:IAO_0000118>
+        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Resources</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>ebd781f0-bf79-492c-ac21-b31b9c3c990c</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">resources role</rdfs:label>
+    </owl:Class>
     
 
 
     <!-- http://purl.org/credit/ontology#CREDIT_00000009 -->
 
-    <owl:Class rdf:about="http://purl.org/credit/ontology#CREDIT_00000009"/>
+    <owl:Class rdf:about="http://purl.org/credit/ontology#CREDIT_00000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000111>software role</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115>Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms; testing of existing code components.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-5059-4132</obo:IAO_0000117>
+        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Software</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>f89c5233-01b0-4778-93e9-cc7d107aa2c8</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">software role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/credit/ontology#CREDIT_00000010 -->
+
+    <owl:Class rdf:about="http://purl.org/credit/ontology#CREDIT_00000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000111>supervision role</obo:IAO_0000111>
+        <obo:IAO_0000114>http://purl.obolibrary.org/obo/IAO_0000120</obo:IAO_0000114>
+        <obo:IAO_0000115>Oversight and leadership responsibility for the research activity planning and execution, including mentorship external to the core team.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-5059-4132</obo:IAO_0000117>
+        <obo:IAO_0000118>supervisory role</obo:IAO_0000118>
+        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Supervision</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>0c8ca7d4-06ad-4527-9cea-a8801fcb8746</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">supervision role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/credit/ontology#CREDIT_00000011 -->
+
+    <owl:Class rdf:about="http://purl.org/credit/ontology#CREDIT_00000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000111>validation role</obo:IAO_0000111>
+        <obo:IAO_0000114>http://purl.obolibrary.org/obo/IAO_0000120</obo:IAO_0000114>
+        <obo:IAO_0000115>Verification, whether as a part of the activity or separate, of the overall replication/reproducibility of results/experiments and other research outputs.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-5059-4132</obo:IAO_0000117>
+        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Validation</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>4b1bf348-faf2-4fc4-bd66-4cd3a84b9d44</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">validation role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/credit/ontology#CREDIT_00000012 -->
+
+    <owl:Class rdf:about="http://purl.org/credit/ontology#CREDIT_00000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000111>visualization role</obo:IAO_0000111>
+        <obo:IAO_0000114>http://purl.obolibrary.org/obo/IAO_0000120</obo:IAO_0000114>
+        <obo:IAO_0000115>Preparation, creation and/or presentation of the published work, specifically visualization/data presentation.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-5059-4132</obo:IAO_0000117>
+        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Visualization</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>76b9d56a-e430-4e0a-84c9-59c11be343ae</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">visualization role</rdfs:label>
+    </owl:Class>
     
 
 
@@ -2110,7 +2310,31 @@ Previous. An information content entity is a non-realizable information entity t
 
     <owl:Class rdf:about="http://purl.org/credit/ontology#CREDIT_00000013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000001"/>
+        <obo:IAO_0000111>writing original draft role</obo:IAO_0000111>
+        <obo:IAO_0000114>http://purl.obolibrary.org/obo/IAO_0000123</obo:IAO_0000114>
+        <obo:IAO_0000115>Preparation, creation and/or presentation of the published work, specifically writing the initial draft (including substantive translation).</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-5059-4132</obo:IAO_0000117>
         <obo:IAO_0000118>original draft preparation role</obo:IAO_0000118>
+        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Writing_%E2%80%93_original_draft</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>43ebbd94-98b4-42f1-866b-c930cef228ca</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">writing original draft role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/credit/ontology#CREDIT_00000014 -->
+
+    <owl:Class rdf:about="http://purl.org/credit/ontology#CREDIT_00000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CRO_0000000"/>
+        <obo:IAO_0000111>writing review and editing role</obo:IAO_0000111>
+        <obo:IAO_0000114>http://purl.obolibrary.org/obo/IAO_0000123</obo:IAO_0000114>
+        <obo:IAO_0000115>Preparation, creation and/or presentation of the published work by those from the original research group, specifically critical review, commentary or revision – including pre- or post-publication stages.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-5059-4132</obo:IAO_0000117>
+        <obo:IAO_0000119>http://dictionary.casrai.org/Contributor_Roles/Writing_%E2%80%93_review_%26_editing</obo:IAO_0000119>
+        <obo:IAO_0000412>http://purl.org/credit/ontology</obo:IAO_0000412>
+        <oboInOwl:hasDbXref>d3aead86-f2a2-47f7-bb99-79de6421164d</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">writing review and editing role</rdfs:label>
     </owl:Class>
     
 
@@ -2386,23 +2610,6 @@ This interpretation is *not* the same as an at-all-times relation
     <!-- http://purl.obolibrary.org/obo/iao.owl -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/iao.owl"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description rdf:about="http://purl.org/credit/ontology#CREDIT_00000008">
-        <obo:IAO_0000118>resource provision role</obo:IAO_0000118>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://purl.org/credit/ontology#CREDIT_00000010">
-        <obo:IAO_0000118>supervisory role</obo:IAO_0000118>
-    </rdf:Description>
     
 
 
