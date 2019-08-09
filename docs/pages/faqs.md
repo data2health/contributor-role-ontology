@@ -2,9 +2,6 @@
 ---
 ## FAQs
 
-### How does the Contributor Role Ontology (CRO) relate to the Contribution Ontology?
-The CRO replaces the former Contribution Ontology.
-
 ### How often is CRO released?
 CRO is released on an ad hoc basis. See the latest release [here](https://github.com/data2health/contributor-role-ontology/releases).
 
