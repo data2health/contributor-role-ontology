@@ -11,8 +11,8 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cro.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cro/releases/2019-08-07/cro.owl"/>
-        <owl:imports rdf:resource="http://purl.org/credit/ontology"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/cro/releases/2019-08-16/cro.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cro/imports/credit_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cro/imports/iao_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cro/imports/bfo_import.owl"/>
         <rdfs:comment>Contributor Role Ontology</rdfs:comment>
