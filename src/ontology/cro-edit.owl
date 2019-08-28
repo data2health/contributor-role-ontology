@@ -96,6 +96,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000091>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000092>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000093>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000094>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000096>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000097>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000098>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000099>))
@@ -815,6 +816,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CRO_0000094> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000094> "primary collector role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000094> <http://purl.obolibrary.org/obo/CRO_0000093>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000096> (acquisition role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000096> "Selecting, ordering, and receiving materials or physical objects for research, scholarly, library or archival collections.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/CRO_0000096> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CRO_0000096> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000096> "acquisition role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000096> <http://purl.obolibrary.org/obo/CRO_0000028>)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000097> (funding source role)
 
