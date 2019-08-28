@@ -1,4 +1,4 @@
-Prefix(:=<http://purl.obolibrary.org/obo/cro.owl#>)
+Prefix(:=<http://purl.obolibrary.org/obo/cro.owl/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -9,8 +9,8 @@ Prefix(credit:=<http://purl.org/credit/ontology#>)
 
 Ontology(<http://purl.obolibrary.org/obo/cro.owl>
 Import(<http://purl.obolibrary.org/obo/cro/imports/bfo_import.owl>)
-Import(<http://purl.obolibrary.org/obo/cro/imports/iao_import.owl>)
 Import(<http://purl.obolibrary.org/obo/cro/imports/credit_import.owl>)
+Import(<http://purl.obolibrary.org/obo/cro/imports/iao_import.owl>)
 Annotation(rdfs:comment "Contributor Role Ontology")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000000>))
@@ -106,6 +106,7 @@ Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/IAO_0100001>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/creator>))
 Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/date>))
 Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#created_by>))
+Declaration(AnnotationProperty(<http://www.geneontology.org/formats/oboInOwl#hasSynonym>))
 ############################
 #   Annotation Properties
 ############################
@@ -310,7 +311,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000027> <http://purl.obolibrary.
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000028> (collection role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000028> "Activities to obtain physical objects for research purposes or to add to a collection.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000028> "Activities to obtain physical objects for research or scholarly purposes or to add to a collection.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/CRO_0000028> "https://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000028> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000028> "collection role")
