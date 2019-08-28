@@ -93,6 +93,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000089>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000090>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000091>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000092>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000093>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000094>))
 Declaration(Class(credit:CREDIT_00000001))
 Declaration(Class(credit:CREDIT_00000002))
 Declaration(Class(credit:CREDIT_00000003))
@@ -791,6 +793,22 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Kot
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CRO_0000092> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000092> "requirements analysis role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000092> credit:CREDIT_00000009)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000093> (specimen collection role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000093> "Obtaining a material entity for potential use as an input during an investigation.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/CRO_0000093> "https://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CRO_0000093> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000093> "specimen collection role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000093> <http://purl.obolibrary.org/obo/CRO_0000028>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000094> (primary collector role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000094> "In botany, this is the collector listed first for a particular specimen. Each specimen has one primary collector. The primary collector assigns a number to that specimen from his/her own number series.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/CRO_0000094> "http://orcid.org/0000-0002-2908-3327")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CRO_0000094> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000094> "primary collector role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000094> <http://purl.obolibrary.org/obo/CRO_0000093>)
 
 # Class: credit:CREDIT_00000001 (conceptualization role)
 
