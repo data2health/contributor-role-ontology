@@ -96,6 +96,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000091>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000092>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000093>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000094>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000097>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000098>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000099>))
 Declaration(Class(credit:CREDIT_00000001))
 Declaration(Class(credit:CREDIT_00000002))
@@ -812,12 +814,26 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <h
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000094> "primary collector role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000094> <http://purl.obolibrary.org/obo/CRO_0000093>)
 
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.lexico.com/en/definition/funder") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000097> "The person or organization that provides money for a particular purpose, such as a grant to perform research.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000097> "funder role")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CRO_0000097> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000097> "funding source role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000097> <http://purl.obolibrary.org/obo/CRO_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000098> (discovery role)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://dictionary.cambridge.org/us/dictionary/english/discovery") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000098> "The person or organization that is responsible for a new or novel discovery, i.e., the process of finding information, a place, or an object, especially for the first time, or the thing that is found. For example, a researcher discovering a new gene mutation that contributes to a disease.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CRO_0000098> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000098> "discovery role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000098> <http://purl.obolibrary.org/obo/CRO_0000000>)
+
 # Class: <http://purl.obolibrary.org/obo/CRO_0000099> (patient advocate role)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/patient-advocate") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000099> "A person or organization who helps guide a patient through the healthcare system. This includes help going through the screening, diagnosis, treatment (including clinical trials), and follow-up of a medical condition, such as cancer.")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CRO_0000099> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000099> "patient advocate role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000099> <http://purl.obolibrary.org/obo/CRO_0000000>)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000097> (funding source role)
 
 # Class: credit:CREDIT_00000001 (conceptualization role)
 
@@ -832,11 +848,13 @@ SubClassOf(credit:CREDIT_00000002 <http://purl.obolibrary.org/obo/CRO_0000015>)
 
 # Class: credit:CREDIT_00000003 (formal analysis role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> credit:CREDIT_00000003 "data analysis role")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> credit:CREDIT_00000003 "http://purl.org/credit/ontology")
 SubClassOf(credit:CREDIT_00000003 <http://purl.obolibrary.org/obo/CRO_0000000>)
 
 # Class: credit:CREDIT_00000004 (funding acquisition role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> credit:CREDIT_00000004 "grant acquisition role")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> credit:CREDIT_00000004 "http://purl.org/credit/ontology")
 SubClassOf(credit:CREDIT_00000004 <http://purl.obolibrary.org/obo/CRO_0000000>)
 
