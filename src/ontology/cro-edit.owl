@@ -97,6 +97,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000092>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000093>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000094>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000097>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000098>))
 Declaration(Class(credit:CREDIT_00000001))
 Declaration(Class(credit:CREDIT_00000002))
 Declaration(Class(credit:CREDIT_00000003))
@@ -819,6 +820,13 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CRO_0000097> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000097> "funding source role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000097> <http://purl.obolibrary.org/obo/CRO_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000098> (discovery role)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://dictionary.cambridge.org/us/dictionary/english/discovery") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000098> "The person or organization that is responsible for a new or novel discovery, i.e., the process of finding information, a place, or an object, especially for the first time, or the thing that is found. For example, a researcher discovering a new gene mutation that contributes to a disease.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CRO_0000098> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000098> "discovery role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000098> <http://purl.obolibrary.org/obo/CRO_0000000>)
 
 # Class: credit:CREDIT_00000001 (conceptualization role)
 
