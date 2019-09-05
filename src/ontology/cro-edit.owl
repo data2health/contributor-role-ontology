@@ -99,6 +99,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000094>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000097>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000098>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000099>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000100>))
 Declaration(Class(credit:CREDIT_00000001))
 Declaration(Class(credit:CREDIT_00000002))
 Declaration(Class(credit:CREDIT_00000003))
@@ -814,6 +815,8 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <h
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000094> "primary collector role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000094> <http://purl.obolibrary.org/obo/CRO_0000093>)
 
+# Class: <http://purl.obolibrary.org/obo/CRO_0000097> (funding source role)
+
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.lexico.com/en/definition/funder") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000097> "The person or organization that provides money for a particular purpose, such as a grant to perform research.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000097> "funder role")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CRO_0000097> <http://orcid.org/0000-0001-5208-3432>)
@@ -833,7 +836,17 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "htt
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CRO_0000099> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000099> "patient advocate role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000099> <http://purl.obolibrary.org/obo/CRO_0000000>)
-# Class: <http://purl.obolibrary.org/obo/CRO_0000097> (funding source role)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000100> (presenter role)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.wikidata.org/wiki/Q603773") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000100> "Oral presentation intended to present information or teach people about a particular subject, such as a talk or poster presentation at a conference.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000100> "lecture role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000100> "lecturer role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000100> "presentation role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000100> "speaker role")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CRO_0000100> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000100> "presenter role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000100> <http://purl.obolibrary.org/obo/CRO_0000000>)
 
 # Class: credit:CREDIT_00000001 (conceptualization role)
 
