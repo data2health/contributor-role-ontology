@@ -100,6 +100,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000097>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000098>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000099>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000100>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000101>))
 Declaration(Class(credit:CREDIT_00000001))
 Declaration(Class(credit:CREDIT_00000002))
 Declaration(Class(credit:CREDIT_00000003))
@@ -847,6 +848,15 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CRO_0000100> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000100> "presenter role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000100> <http://purl.obolibrary.org/obo/CRO_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000101> (peer review role)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.lexico.com/en/definition/peer_review") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000101> "Evaluation of scientific, academic, or professional work, such as manuscripts or grants by others working in the same field.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000101> "grant review role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000101> "manuscript review role")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CRO_0000101> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000101> "peer review role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000101> <http://purl.obolibrary.org/obo/CRO_0000000>)
 
 # Class: credit:CREDIT_00000001 (conceptualization role)
 
