@@ -687,12 +687,12 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000078> "infrastructure role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000078> <http://purl.obolibrary.org/obo/CRO_0000000>)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000079> (evaluation role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000079> (project, policy or program evaluation role)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Program_evaluation") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000079> "Evaluation is a systematic method for collecting, analyzing, and using information to answer questions about projects, policies and programs, particularly about their effectiveness and efficiency.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000079> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000079> "2018-10-01T20:48:24Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000079> "evaluation role")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000079> "project, policy or program evaluation role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000079> <http://purl.obolibrary.org/obo/CRO_0000078>)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000080> (program administration role)
@@ -876,6 +876,18 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <h
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/CRO_0000105> "An agent submitting an artifact may or may not also have contributed to its creation. If they did, and additional ‘creator role’ can be applied.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000105> "submitter role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000105> <http://purl.obolibrary.org/obo/CRO_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000106> (evaluator role)
+
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://orcid.org/0000-0002-1048-5019") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000106> "A role that is realized through the review and evaluation of an artifact - generally to assess its quality, completeness, relevance, or other characteristics.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000106> "reviewer role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000106> "assessor role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/CRO_0000106> "https://orcid.org/0000-0002-1048-5019")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CRO_0000106> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/CRO_0000106> "Evaluating an artifact does not involve modification of the assessed artifact - however the suggestion of alterations can be a separate outcome of an evaluation. If the artifact is modified by the agent during or subsequent to the evaluation, a 'modifier role' should additionally be applied.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000106> "evaluator role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000106> <http://purl.obolibrary.org/obo/CRO_0000000>)
+
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000101> (peer review role)
 
