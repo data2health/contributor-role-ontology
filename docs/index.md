@@ -1,4 +1,4 @@
-The Contribution Role Ontology (CRO) provides contribution roles for use in crediting persons or organizations. 
+The Contributor Role Ontology (CRO) provides contribution roles for use in crediting persons or organizations. 
 
 - [About](pages/about.md)
 - [Users](pages/users.md)
