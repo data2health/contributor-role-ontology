@@ -975,6 +975,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000110> credit:CREDIT_00000005)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000111> (librarian role)
 
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://en.wikipedia.org/wiki/Librarian") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000111> "A person who deals with provision and maintenance of information in many formats, including: books; electronic resources; magazines; newspapers; audio and video recordings; maps; manuscripts; photographs and other graphic material; bibliographic databases; and web-based and digital resources. A librarian may also provide other information services, including: information literacy instruction; computer provision and training; coordination with community groups to host public programs; assistive technology for people with disabilities; and assistance locating community resources. Librarians often work in a library, but can also work in other physical settings or virtual environments.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/CRO_0000111> "https://orcid.org/0000-0001-8420-5254")
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CRO_0000111> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000111> "librarian role")
