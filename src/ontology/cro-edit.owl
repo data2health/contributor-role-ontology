@@ -713,13 +713,14 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000079> "project, policy or program evaluation role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000079> <http://purl.obolibrary.org/obo/CRO_0000078>)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000080> (program administration role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000080> (obsolete program administration role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000080> "An infrastructure role that is accountable for management and coordination of a program, to help achieve the program goals.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/CRO_0000080> credit:CREDIT_00000007)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000080> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000080> "2018-10-01T20:48:37Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000080> "program administration role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000080> <http://purl.obolibrary.org/obo/CRO_0000078>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000080> "obsolete program administration role")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/CRO_0000080> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000081> (coordination role)
 
@@ -993,6 +994,7 @@ SubClassOf(credit:CREDIT_00000006 <http://purl.obolibrary.org/obo/CRO_0000000>)
 
 # Class: credit:CREDIT_00000007 (project administration role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> credit:CREDIT_00000007 "program administration role")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> credit:CREDIT_00000007 "http://purl.org/credit/ontology")
 SubClassOf(credit:CREDIT_00000007 <http://purl.obolibrary.org/obo/CRO_0000000>)
 
