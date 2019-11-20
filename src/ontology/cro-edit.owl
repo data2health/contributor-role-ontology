@@ -103,6 +103,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000098>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000099>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000100>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000101>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000102>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000103>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000104>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000105>))
@@ -203,21 +204,21 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000008> "website development role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000008> <http://purl.obolibrary.org/obo/CRO_0000007>)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000009> (networking facilitation role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000009> (obsolete networking facilitation role)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "(2009) The functions and roles of network facilitators. In: Franz HW., Sarcina R. (eds) Building Leadership in Project and Network Management. Springer, Berlin, Heidelberg") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000009> "A communication role that encompasses facilitate co-operation between people or organizations.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000009> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000009> "2018-09-14T19:52:02Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000009> "networking facilitation role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000009> <http://purl.obolibrary.org/obo/CRO_0000007>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000009> "obsolete networking facilitation role")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/CRO_0000009> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000010> (marketing role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000010> (obsolete marketing role)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.ama.org/the-definition-of-marketing/") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000010> "A communication role that involves the activity, set of institutions, and processes for creating, communicating, delivering, and exchanging offerings that have value for customers, clients, partners, and society at large.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000010> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000010> "2018-09-14T19:52:12Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000010> "marketing role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000010> <http://purl.obolibrary.org/obo/CRO_0000007>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000010> "obsolete marketing role")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/CRO_0000010> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000011> (documentation role)
 
@@ -233,7 +234,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "htt
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000012> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000012> "2018-09-14T19:52:27Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000012> "graphic design role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000012> <http://purl.obolibrary.org/obo/CRO_0000007>)
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000012> credit:CREDIT_00000012)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000014> (software documentation role)
 
@@ -882,6 +883,14 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CRO_0000101> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000101> "peer review role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000101> <http://purl.obolibrary.org/obo/CRO_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000102> (advisory role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000102> "A role that involves giving advice in a particular field.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/CRO_0000102> "https://orcid.org/0000-0001-8420-5254")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CRO_0000102> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.lexico.com/en/definition/adviser") rdfs:label <http://purl.obolibrary.org/obo/CRO_0000102> "advisory role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000102> <http://purl.obolibrary.org/obo/CRO_0000000>)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000103> (modifier role)
 
