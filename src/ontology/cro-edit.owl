@@ -166,7 +166,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "htt
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000003> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000003> "2018-09-14T19:49:22Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000003> "figure development role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000003> <http://purl.obolibrary.org/obo/CRO_0000001>)
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000003> credit:CREDIT_00000012)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000004> (translator role)
 
@@ -778,12 +778,13 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000088> "original draft preparation role")
 AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/CRO_0000088> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000089> (lay synthesis of research output role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000089> (lay summary role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000089> "A role in which one provides a summary of a research output, such as a journal article, that is understandable by a lay person or non-expert audience.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000089> "lay synthesis of research output role")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000089> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000089> "2018-10-01T21:04:14Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000089> "lay synthesis of research output role")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000089> "lay summary role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000089> <http://purl.obolibrary.org/obo/CRO_0000001>)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000090> (website maintenance role)
