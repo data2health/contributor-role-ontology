@@ -109,6 +109,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000104>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000105>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000106>))
 Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000107>))
+Declaration(Class(<http://purl.obolibrary.org/obo/CRO_0000108>))
 Declaration(Class(credit:CREDIT_00000001))
 Declaration(Class(credit:CREDIT_00000002))
 Declaration(Class(credit:CREDIT_00000003))
@@ -255,12 +256,13 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000015> "data role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000015> <http://purl.obolibrary.org/obo/CRO_0000000>)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000016> (educational role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000016> (education and training role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000016> "A role in which a person participates in the transfer of knowledge and skills, through teaching, development of educational materials or curriculum, through program development or other means.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000016> "educational role")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000016> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000016> "2018-09-14T19:55:45Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000016> "educational role")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000016> "education and training role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000016> <http://purl.obolibrary.org/obo/CRO_0000000>)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000018> (information technology systems role)
@@ -413,50 +415,52 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000042> "data quality assurance role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000042> <http://purl.obolibrary.org/obo/CRO_0000015>)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000043> (data standards developer role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000043> (obsolete data standards developer role)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.usgs.gov/products/data-and-tools/data-management/data-standards") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000043> "The process of creating data standards, which are the rules by which data are described and recorded in order to share, exchange, and understand data. Examples include development of an ontology, terminology, code lists, etc.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000043> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000043> "2018-09-14T20:12:25Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000043> "data standards developer role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000043> <http://purl.obolibrary.org/obo/CRO_0000015>)
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000043> <http://purl.obolibrary.org/obo/CRO_0000073>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000043> "obsolete data standards developer role")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/CRO_0000043> "true"^^xsd:boolean)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000045> (educational material development role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000045> (training material role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000045> "An educational role in which a person develops educational or training materials that are intended to transfer knowledge, for use in a classroom, indpendent learning or other settings.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000045> "educational material development role")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000045> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000045> "2018-09-14T20:15:18Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000045> "educational material development role")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000045> "training material role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000045> <http://purl.obolibrary.org/obo/CRO_0000016>)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000046> (educational program development role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000046> (training program development role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000046> "An educational role in which a person participates in the development of an educational program, designed for learners to achieve a set of compentencies around a given topic or area of focus.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000046> "educational program development role")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000046> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000046> "2018-09-14T20:15:23Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000046> "educational program development role")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000046> "training program development role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000046> <http://purl.obolibrary.org/obo/CRO_0000016>)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000047> (educational instruction role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000047> (instruction role)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.wikidata.org/wiki/Q8434") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000047> "An educational role in which knowledge and skills are transferred through teaching.")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000116> <http://purl.obolibrary.org/obo/CRO_0000047> "This may be equivalent to vivo:Teacher Role.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000047> "educational instruction role")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000047> "educational training role")
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000047> "instruction role")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000047> "teaching role")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000047> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000047> "2018-09-14T20:15:29Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000047> "educational instruction role")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000047> "instruction role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000047> <http://purl.obolibrary.org/obo/CRO_0000016>)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000048> (hardware systems role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000048> (hardware role)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.wikidata.org/wiki/Q3966") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000048> "An information technology systems role that specifically focuses on the computer hardware, the physical components of a computer system.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000048> "hardware systems role")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000048> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000048> "2018-09-14T20:17:16Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000048> "hardware systems role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000048> <http://purl.obolibrary.org/obo/CRO_0000018>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000048> "hardware role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000048> <http://purl.obolibrary.org/obo/CRO_0000000>)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000049> (software systems role)
 
@@ -946,6 +950,14 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <h
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/CRO_0000107> "This is a generic role to be used when a more specific term suitable for the contribution scenario is not available or warranted. For example, the 'author role' term describes creator roles for published works, and should be used to describe creation of things like books or journal articles.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000107> "creator role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000107> <http://purl.obolibrary.org/obo/CRO_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/CRO_0000108> (database role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000108> "A role that involves creation, maintenance or administration of a database.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/CRO_0000108> "https://orcid.org/0000-0001-8420-5254")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CRO_0000108> <http://orcid.org/0000-0001-5208-3432>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000108> "database role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000108> <http://purl.obolibrary.org/obo/CRO_0000015>)
 
 # Class: credit:CREDIT_00000001 (conceptualization role)
 
