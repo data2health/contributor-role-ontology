@@ -196,12 +196,14 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000007> "marketing and communication role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000007> <http://purl.obolibrary.org/obo/CRO_0000000>)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000008> (website development role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000008> (website role)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.wikidata.org/wiki/Q35127") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000008> "Creation or refinement of a website, a set of related web pages served from a single web domain.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000008> "website development role")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000008> "website maintenance role")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000008> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000008> "2018-09-14T19:51:53Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000008> "website development role")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000008> "website role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000008> <http://purl.obolibrary.org/obo/CRO_0000007>)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000009> (obsolete networking facilitation role)
@@ -342,13 +344,14 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000031> "team management role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000031> <http://purl.obolibrary.org/obo/CRO_0000078>)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000033> (data aggregation role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000033> (obsolete data aggregation role)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "Stanley, Jay; Steinhardt, Barry (January 2003). \"Bigger Monster, Weaker Chains: The Growth of an American Surveillance Society\". American Civil Liberties Union.") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000033> "The compiling of information with intent to prepare combined datasets for data processing.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/CRO_0000033> <http://purl.obolibrary.org/obo/CRO_0000036>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000033> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000033> "2018-09-14T20:11:23Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000033> "data aggregation role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000033> <http://purl.obolibrary.org/obo/CRO_0000015>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000033> "obsolete data aggregation role")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/CRO_0000033> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000035> (statistical analysis role)
 
@@ -362,18 +365,20 @@ SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000035> credit:CREDIT_00000003)
 # Class: <http://purl.obolibrary.org/obo/CRO_0000036> (data collection role)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.techopedia.com/definition/30318/data-collection") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000036> "The process of gathering and measuring data, information or any variables of interest in a standardized and established manner that enables the collector to answer or test hypothesis and evaluate outcomes of the particular collection.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000036> "data aggregation role")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000036> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000036> "2018-09-14T20:11:40Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000036> "data collection role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000036> <http://purl.obolibrary.org/obo/CRO_0000015>)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000038> (metadata application role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000038> (metadata role)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://whatis.techtarget.com/definition/metadata-management") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000038> "The annotation of data with descriptive information that describes the data (metadata), with the goal of making the data more usuable or reusable for future use.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/CRO_0000038> "metadata application role")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000038> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000038> "2018-09-14T20:11:50Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000038> "metadata application role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000038> credit:CREDIT_00000002)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000038> "metadata role")
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000038> <http://purl.obolibrary.org/obo/CRO_0000015>)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000039> (data entry role)
 
@@ -746,13 +751,13 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000084> "outreach materials development role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000084> <http://purl.obolibrary.org/obo/CRO_0000007>)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000085> (participant recruitment role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000085> (obsolete participant recruitment role)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://healthit.ahrq.gov/ahrq-funded-projects/emerging-lessons/participant-recruitment-research") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000085> "Role that involves identifying eligible participants, explaining the study to potential participants, recruiting an adequate sample based on study goals and design, obtaining informed consent/maintaining ethical standards, and retaining participants until study completion.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000085> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000085> "2018-10-01T20:57:17Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000085> "participant recruitment role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000085> <http://purl.obolibrary.org/obo/CRO_0000007>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000085> "obsolete participant recruitment role")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/CRO_0000085> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000086> (research conceptualization role)
 
@@ -789,13 +794,14 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000089> "lay summary role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000089> <http://purl.obolibrary.org/obo/CRO_0000001>)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000090> (website maintenance role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000090> (obsolete website maintenance role)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.wikidata.org/wiki/Q17634596") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000090> "A method or steps that maintain, update content, clean up, or repair a website.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/CRO_0000090> <http://purl.obolibrary.org/obo/CRO_0000008>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000090> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000090> "2018-10-01T21:13:13Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000090> "website maintenance role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000090> <http://purl.obolibrary.org/obo/CRO_0000007>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000090> "obsolete website maintenance role")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/CRO_0000090> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000091> (technical writing role)
 
@@ -939,7 +945,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CRO_0000107> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/CRO_0000107> "This is a generic role to be used when a more specific term suitable for the contribution scenario is not available or warranted. For example, the 'author role' term describes creator roles for published works, and should be used to describe creation of things like books or journal articles.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000107> "creator role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000107> <http://purl.obolibrary.org/obo/CRO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000107> <http://purl.obolibrary.org/obo/CRO_0000023>)
 
 # Class: credit:CREDIT_00000001 (conceptualization role)
 
