@@ -1055,7 +1055,7 @@ SubClassOf(credit:CREDIT_00000013 <http://purl.obolibrary.org/obo/CRO_0000001>)
 # Class: credit:CREDIT_00000014 (writing review and editing role)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> credit:CREDIT_00000014 "http://purl.org/credit/ontology")
-SubClassOf(credit:CREDIT_00000014 <http://purl.obolibrary.org/obo/CRO_0000000>)
+SubClassOf(credit:CREDIT_00000014 <http://purl.obolibrary.org/obo/CRO_0000001>)
 
 
 )
