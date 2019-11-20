@@ -265,13 +265,13 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000016> "education and training role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000016> <http://purl.obolibrary.org/obo/CRO_0000000>)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000018> (information technology systems role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000018> (obsolete information technology systems role)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.wikidata.org/wiki/Q11661") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000018> "A role that involves the development, management, and use of computer-based information systems.")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000018> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000018> "2018-09-14T19:56:05Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000018> "information technology systems role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000018> <http://purl.obolibrary.org/obo/CRO_0000000>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000018> "obsolete information technology systems role")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/CRO_0000018> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000019> (software testing role)
 
@@ -468,7 +468,6 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "htt
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000049> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000049> "2018-09-14T20:17:20Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000049> "software systems role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000049> <http://purl.obolibrary.org/obo/CRO_0000018>)
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000049> credit:CREDIT_00000009)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000050> (database administrator role)
