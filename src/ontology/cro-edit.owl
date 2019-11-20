@@ -561,7 +561,7 @@ AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "htt
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000059> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000059> "2018-09-14T20:23:49Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000059> "survey and questionnaire role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000059> <http://purl.obolibrary.org/obo/CRO_0000078>)
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000059> <http://purl.obolibrary.org/obo/CRO_0000106>)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000060> (code review role)
 
@@ -947,7 +947,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/CRO_0000106> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/CRO_0000106> "Evaluating an artifact does not involve modification of the assessed artifact - however the suggestion of alterations can be a separate outcome of an evaluation. If the artifact is modified by the agent during or subsequent to the evaluation, a 'modifier role' should additionally be applied.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000106> "evaluator role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000106> <http://purl.obolibrary.org/obo/CRO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000106> <http://purl.obolibrary.org/obo/CRO_0000078>)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000107> (creator role)
 
