@@ -331,7 +331,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000234> <http://purl.obolibrary.org/obo/CRO_0000027> "https://orcid.org/0000-0002-2908-3327")
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000027> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000027> "curator role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000027> <http://purl.obolibrary.org/obo/CRO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000027> <http://purl.obolibrary.org/obo/CRO_0000023>)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000028> (collection role)
 
