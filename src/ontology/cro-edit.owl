@@ -465,13 +465,14 @@ AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibra
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000048> "hardware role")
 SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000048> <http://purl.obolibrary.org/obo/CRO_0000000>)
 
-# Class: <http://purl.obolibrary.org/obo/CRO_0000049> (software systems role)
+# Class: <http://purl.obolibrary.org/obo/CRO_0000049> (obsolete software systems role)
 
 AnnotationAssertion(Annotation(<http://purl.obolibrary.org/obo/IAO_0000119> "https://www.wikidata.org/wiki/Q7397") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/CRO_0000049> "An information technology systems role that specifically focuses on the computer software, the non-tangible executable component of a computer.")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0100001> <http://purl.obolibrary.org/obo/CRO_0000049> credit:CREDIT_00000009)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000049> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000049> "2018-09-14T20:17:20Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000049> "software systems role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000049> credit:CREDIT_00000009)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000049> "obsolete software systems role")
+AnnotationAssertion(owl:deprecated <http://purl.obolibrary.org/obo/CRO_0000049> "true"^^xsd:boolean)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000050> (database administrator role)
 
@@ -480,7 +481,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000050> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000050> "2018-09-14T20:17:25Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000050> "database administrator role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000050> <http://purl.obolibrary.org/obo/CRO_0000049>)
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000050> credit:CREDIT_00000009)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000051> (system administrator role)
 
@@ -490,7 +491,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.ob
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/creator> <http://purl.obolibrary.org/obo/CRO_0000051> <http://orcid.org/0000-0001-5208-3432>)
 AnnotationAssertion(<http://purl.org/dc/elements/1.1/date> <http://purl.obolibrary.org/obo/CRO_0000051> "2018-09-14T20:17:32Z"^^xsd:dateTime)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/CRO_0000051> "system administrator role")
-SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000051> <http://purl.obolibrary.org/obo/CRO_0000049>)
+SubClassOf(<http://purl.obolibrary.org/obo/CRO_0000051> credit:CREDIT_00000009)
 
 # Class: <http://purl.obolibrary.org/obo/CRO_0000052> (standards role)
 
@@ -1028,6 +1029,7 @@ SubClassOf(credit:CREDIT_00000008 <http://purl.obolibrary.org/obo/CRO_0000000>)
 
 # Class: credit:CREDIT_00000009 (software role)
 
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> credit:CREDIT_00000009 "software systems role")
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000412> credit:CREDIT_00000009 "http://purl.org/credit/ontology")
 SubClassOf(credit:CREDIT_00000009 <http://purl.obolibrary.org/obo/CRO_0000000>)
 
