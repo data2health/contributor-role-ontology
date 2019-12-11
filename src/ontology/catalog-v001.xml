@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.org/credit/releases/2019-04-11/credit.owl" uri="http://purl.org/credit/ontology#"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1565917799941" name="http://purl.obolibrary.org/obo/bfo.owl" uri="mirror/bfo.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1565917799941" name="duplicate:http://purl.obolibrary.org/obo/cro.owl" uri="cro.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1565917799941" name="duplicate:http://purl.obolibrary.org/obo/cro.owl" uri="ed_definitions_merged.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1565917799941" name="http://purl.obolibrary.org/obo/cro/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1565917799941" name="http://purl.obolibrary.org/obo/cro/imports/credit_import.owl" uri="imports/credit_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1565917799941" name="http://purl.obolibrary.org/obo/cro/imports/iao_import.owl" uri="imports/iao_import.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1565917799941" name="http://purl.obolibrary.org/obo/iao.owl" uri="mirror/iao.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1565917799941" name="http://purl.org/credit/ontology" uri="mirror/credit.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1576041076343" name="http://purl.obolibrary.org/obo/bfo.owl" uri="mirror/bfo.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1576041076343" name="duplicate:http://purl.obolibrary.org/obo/cro.owl" uri="cro.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1576041076343" name="duplicate:http://purl.obolibrary.org/obo/cro.owl" uri="ed_definitions_merged.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1576041076343" name="http://purl.obolibrary.org/obo/cro/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1576041076343" name="http://purl.obolibrary.org/obo/cro/imports/credit_import.owl" uri="imports/credit_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1576041076343" name="http://purl.obolibrary.org/obo/cro/imports/iao_import.owl" uri="imports/iao_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1576041076343" name="http://purl.obolibrary.org/obo/iao.owl" uri="mirror/iao.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1576041076343" name="http://www.w3.org/2002/07/owl" uri="mirror/credit.owl"/>
     </group>
 </catalog>
