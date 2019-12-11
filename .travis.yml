@@ -19,6 +19,7 @@ branches:
   only:
     - master
     - test-travis
+    - testbuild
 
 ### Add your own lists here
 ### See https://github.com/INCATools/ontology-starter-kit/issues/35
