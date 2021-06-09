@@ -3,7 +3,7 @@
 
 # Contributor Role Ontology
 
-The Contributor Role Ontology (CRO) is an extension of the [CASRAI Contributor Roles Taxonomy (CRediT)](http://dictionary.casrai.org/Contributor_Roles) and replaces the former [Contribution Ontology](https://github.com/openrif/contribution-ontology).
+The Contributor Role Ontology (CRO) is an extension of the [CASRAI Contributor Roles Taxonomy (CRediT)](https://casrai.org/credit/) and replaces the former [Contribution Ontology](https://github.com/openrif/contribution-ontology).
 
 ## Versions
 
